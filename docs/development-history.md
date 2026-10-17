@@ -2,7 +2,7 @@
 
 ## 最新便携版
 
-[下载 Windows NVIDIA 便携测试版 2](https://github.com/guangjiaohuoqiubumingzhong/majang/releases/tag/v0.1.0-portable-test2)。下载两个 ZIP 分片及 `Merge-Package.cmd`，放在同一目录，双击脚本合并并校验，再完整解压并运行 `Majan/Majan.exe`。无需另装 Python；需要 Windows x64、兼容 CUDA 12.x 的 NVIDIA 显卡和驱动。测试版先保持游戏窗口可见；独立程序的后台遮挡采集仍有兼容限制。
+[下载 Windows NVIDIA 便携测试版 2](https://github.com/guangjiaohuoqiubumingzhong/MahjongSoul-Vision-Advisor/releases/tag/v0.1.0-portable-test2)。下载两个 ZIP 分片及 `Merge-Package.cmd`，放在同一目录，双击脚本合并并校验，再完整解压并运行 `Majan/Majan.exe`。无需另装 Python；需要 Windows x64、兼容 CUDA 12.x 的 NVIDIA 显卡和驱动。测试版先保持游戏窗口可见；独立程序的后台遮挡采集仍有兼容限制。
 
 本仓库保存应用、脚本、测试、配置、识别资源和模型来源清单。大模型和 CUDA 运行库随便携版提供；原始截图数据集、运行日志和开发环境不放入源码仓库。源码重建与数据范围见 [SOURCE-CONTENTS.md](../SOURCE-CONTENTS.md)。
 

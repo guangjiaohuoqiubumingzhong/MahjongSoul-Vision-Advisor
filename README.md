@@ -1,8 +1,8 @@
-# Majan 雀魂助手
+# MahjongSoul-Vision-Advisor · 雀魂视觉出牌助手
 
-根据雀魂游戏窗口截图识别手牌与公开信息，在独立面板中显示当前行动建议和 Top 5 候选操作。
+基于图像识别分析雀魂游戏画面，识别手牌与公开牌面，并提供出牌及行动建议。
 
-**[下载 Windows NVIDIA 便携测试版 2](https://github.com/guangjiaohuoqiubumingzhong/majang/releases/tag/v0.1.0-portable-test2)**
+**[下载 Windows NVIDIA 便携测试版 2](https://github.com/guangjiaohuoqiubumingzhong/MahjongSoul-Vision-Advisor/releases/tag/v0.1.0-portable-test2)**
 
 ## 实机演示
 
@@ -42,7 +42,7 @@
 
 ## 下载与使用
 
-1. 在 [下载页面](https://github.com/guangjiaohuoqiubumingzhong/majang/releases/tag/v0.1.0-portable-test2) 下载 `.zip.001`、`.zip.002` 和 `Merge-Package.cmd`，放到同一个文件夹。
+1. 在 [下载页面](https://github.com/guangjiaohuoqiubumingzhong/MahjongSoul-Vision-Advisor/releases/tag/v0.1.0-portable-test2) 下载 `.zip.001`、`.zip.002` 和 `Merge-Package.cmd`，放到同一个文件夹。
 2. 双击 `Merge-Package.cmd`，等待合并与校验完成，再完整解压生成的 ZIP。
 3. 双击 `Majan/Majan.exe`，打开雀魂 Steam 客户端，选择游戏窗口和画面大小，再点击“开始自动建议”。
 
