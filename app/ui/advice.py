@@ -16,6 +16,7 @@ from app.advice import ScreenshotAdvice, load_screenshot, save_advice, format_ad
 from app.capture.frames import WindowCapture
 from app.capture.window import CaptureError, windows
 from app.capture.layout import CLIENT_PRESETS, arrange_client, position_panel
+from app.failure_archive import RecognitionFailureArchive
 from app.vision.config import load_config, write_json
 from app.vision.trigger import TimerEdge
 from .tile_text import tile_name, parse_tiles
@@ -405,6 +406,7 @@ class AdvicePanel:
             capture=WindowCapture(hwnd,self.config)
             capture.window_content_fallback=True
             directory=self.output/(datetime.now(timezone.utc).strftime("run-%Y%m%dT%H%M%S-")+str(generation))
+            failures=RecognitionFailureArchive(self.output.parent/'recognition-errors',directory.name)
             edge=initial_edge or TimerEdge(); action_index=0; waiting_published=False; last_capture_issue=None
             while not stop.is_set():
                 try:
@@ -450,6 +452,7 @@ class AdvicePanel:
                         # Show the first reading at once; recapturing takes up
                         # to a few seconds and the player may act meanwhile.
                         current=same_action()
+                        attempts=[]
                         if stop.is_set():break
                         if current and result.get("status")=="needs_confirmation" and recapture_gaps(result):
                             # Not a request to review yet: arrows, highlights and
@@ -457,9 +460,14 @@ class AdvicePanel:
                             self.publish(generation,{**result,"status":"confirming_frame",
                                                      "reason":"画面还在变化（"+"、".join(recapture_reasons(result))+"），正在补截确认……"},frame.pixels)
                         if current and result.get("status")=="needs_confirmation" and recapture_gaps(result):
+                            attempts.append((frame,deepcopy(result)))
+                            def process_retry(shot):
+                                retry=timing.process(service,shot)
+                                attempts.append((shot,deepcopy(retry)))
+                                return retry
                             frame,result,_=recapture_until_complete(
                                 frame,result,grab=lambda:timing.grab(capture),
-                                process=lambda shot:timing.process(service,shot),
+                                process=process_retry,
                                 timer_active=same_action,wait=stop.wait,
                                 deadline=timing.started+ADVICE_RESPONSE_SECONDS-.25)
                             current=same_action()
@@ -476,6 +484,17 @@ class AdvicePanel:
                         # Showing a checked current result must not wait for PNG
                         # encoding, overlays and evidence files to reach disk.
                         self.publish(generation,result,frame.pixels)
+                        if current and len(attempts)>1 and result.get('status')=='needs_confirmation':
+                            try:
+                                archived=failures.save(attempts,frame,result,config=self.config,
+                                                      action_index=action_index,action_serial=ticket)
+                                result['failure_archive']=str(archived.resolve())
+                                result['reason']=(result.get('reason') or '识别尚不完整。')+f' 错误截图已自动保存（{len(attempts)} 张）。'
+                            except Exception as exc:
+                                # Evidence IO must not interrupt later automatic actions.
+                                result['failure_archive_error']=str(exc)
+                                result['reason']=(result.get('reason') or '识别尚不完整。')+f' 错误截图保存失败：{exc}'
+                            self.publish(generation,result,frame.pixels)
                         image_path=frame.save(directory/f'action-{action_index:04d}')
                         if result.get('observation') is not None:
                             result["observation"]["frame"]=deepcopy(frame.metadata)

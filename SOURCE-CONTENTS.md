@@ -1,6 +1,6 @@
 # 雀魂视觉出牌助手 · 源码与便携版
 
-当前发布：`v0.1.0-portable-test2`（2026-10-17）。
+当前发布：`v0.1.0-portable-test3`（2026-10-17），包含自动保存识别错误的功能。验证记录见 [便携测试版 3](reports/portable-release-test3/README.md)。
 
 源码仓库包含 `app`、`scripts`、`packaging`、`tests`、`configs`、`docs`、`patches`、`tools`、识别模板、传统分类器、模型来源与校验清单、固定事件测试数据，以及界面验证截图和说明。
 
@@ -17,7 +17,7 @@
 ## 构建本次便携版
 
 ```powershell
-./scripts/build_portable.ps1 -Version '0.1.0-portable-test2' -StageDirectory '.tools/portable-stage-test2' -OutputDirectory 'dist/Majan-portable-test2'
+./scripts/build_portable.ps1 -Version '0.1.0-portable-test3' -StageDirectory '.tools/portable-stage-test3' -OutputDirectory 'dist/Majan-portable-test3'
 ```
 
 请选择尚不存在的暂存和输出目录；旧版构建保留。第三方许可证和对应源码位于便携包的 `licenses` 目录。

@@ -321,8 +321,9 @@ def test_live_worker_captures_once_per_digit_appearance(tmp_path,monkeypatch,che
     panel.publish=lambda g,r,p:published.append(r)
     panel.live_worker(1,stop,123)
     # An incomplete board is recaptured (0.4 s apart) while the timer is still on;
-    # only the kept frame is saved.
-    recaptures=sum(r.get('recaptures',0) for r in published)
+    # The ordinary action log keeps the selected frame; failed retry batches
+    # have a separate archive and may publish a second persistence notice.
+    recaptures=max((r.get('recaptures',0) for r in published),default=0)
     assert recaptures==(3 if incomplete else 0)
     assert len(captured)==len(analyses)==expected_frames+recaptures
     assert waits.count(.3)==expected_delays and waits.count(.4)==recaptures

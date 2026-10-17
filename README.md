@@ -2,7 +2,9 @@
 
 基于图像识别分析雀魂游戏画面，识别手牌与公开牌面，并提供出牌及行动建议。
 
-**[下载 Windows NVIDIA 便携测试版 2](https://github.com/guangjiaohuoqiubumingzhong/MahjongSoul-Vision-Advisor/releases/tag/v0.1.0-portable-test2)**
+**[下载 Windows NVIDIA 便携测试版 3](https://github.com/guangjiaohuoqiubumingzhong/MahjongSoul-Vision-Advisor/releases/tag/v0.1.0-portable-test3)**
+
+本次更新：自动补截后仍无法确认局面时，保存初始图、全部补截图和诊断信息，便于后续核对。便携版保存到 `userdata/recognition-errors/`，详见[自动保存识别错误](docs/screenshot-advice.md#自动保存识别错误)。
 
 ## 实机演示
 
@@ -42,7 +44,7 @@
 
 ## 下载与使用
 
-1. 在 [下载页面](https://github.com/guangjiaohuoqiubumingzhong/MahjongSoul-Vision-Advisor/releases/tag/v0.1.0-portable-test2) 下载 `.zip.001`、`.zip.002` 和 `Merge-Package.cmd`，放到同一个文件夹。
+1. 在 [下载页面](https://github.com/guangjiaohuoqiubumingzhong/MahjongSoul-Vision-Advisor/releases/tag/v0.1.0-portable-test3) 下载 `.zip.001`、`.zip.002` 和 `Merge-Package.cmd`，放到同一个文件夹。
 2. 双击 `Merge-Package.cmd`，等待合并与校验完成，再完整解压生成的 ZIP。
 3. 双击 `Majan/Majan.exe`，打开雀魂 Steam 客户端，选择游戏窗口和画面大小，再点击“开始自动建议”。
 

@@ -1,0 +1,111 @@
+{
+  "scope": "User failure and its existing captured continuation, manually checked right river only; not an independent blind set.",
+  "cases": [
+    {
+      "id": "user",
+      "path": "data/fixtures/short-riichi-river/user-client-1920.png",
+      "source": "C:\\Users\\16BITS~1\\AppData\\Local\\Temp\\codex-clipboard-b601acb2-e4dc-471f-8b87-a295e544ac51.png",
+      "crop": [
+        1,
+        31,
+        1920,
+        1080
+      ],
+      "labels": [
+        "3m",
+        "3p",
+        "2s",
+        "5p",
+        "W",
+        "8s",
+        "1p",
+        "2p",
+        "2p",
+        "9s"
+      ],
+      "sha256": "e88136417f68824cf632e92487e9af40a10a61ff4d9bb669bd4976e6016ddd1e",
+      "horizontal_slots": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "manual",
+      "path": "data/fixtures/short-riichi-river/manual-1920.png",
+      "source": "reports\\screenshot-advice\\manual-20261017T052450-4\\00000001.png",
+      "labels": [
+        "3m",
+        "3p",
+        "2s",
+        "5p",
+        "W",
+        "8s",
+        "1p",
+        "2p",
+        "2p",
+        "9s"
+      ],
+      "sha256": "f96dc5b1c22b991966e3a4a9c69249c0566d403d6cfc4269f0b2669102239052",
+      "horizontal_slots": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "next-discard",
+      "path": "data/fixtures/short-riichi-river/next-discard-1920.png",
+      "source": "reports\\screenshot-advice\\run-20261017T052459-9\\action-0001\\00000163.png",
+      "labels": [
+        "3m",
+        "3p",
+        "2s",
+        "5p",
+        "W",
+        "8s",
+        "1p",
+        "2p",
+        "2p",
+        "9s",
+        "P"
+      ],
+      "sha256": "28584c0211a94b8022683c63faca69ed1c1cacebd7272ada5a3619318a17f9f8",
+      "horizontal_slots": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "later",
+      "path": "data/fixtures/short-riichi-river/later-1920.png",
+      "source": "reports\\screenshot-advice\\run-20261017T052459-9\\action-0005\\00000510.png",
+      "labels": [
+        "3m",
+        "3p",
+        "2s",
+        "5p",
+        "W",
+        "8s",
+        "1p",
+        "2p",
+        "2p",
+        "9s",
+        "P",
+        "1m",
+        "1p"
+      ],
+      "sha256": "a853a4370548210efabf58c5e03be825940e724c218597de133bdc72bc09edaa",
+      "horizontal_slots": [
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  ]
+}

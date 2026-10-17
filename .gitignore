@@ -15,3 +15,4 @@ data/screenshots/
 *.pyc
 *.log
 reports/profiles/*.json
+reports/recognition-errors/
