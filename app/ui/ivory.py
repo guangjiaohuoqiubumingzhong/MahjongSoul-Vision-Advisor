@@ -1,4 +1,6 @@
 """Compact ivory/forest desktop components, drawn locally with no theme assets."""
+from functools import lru_cache
+import math
 import re
 import tkinter as tk
 from tkinter import font, ttk
@@ -18,6 +20,58 @@ GOLD = '#C6AA76'
 RED = '#B1362D'
 UI = 'Microsoft YaHei UI'
 SERIF = 'Noto Serif SC'
+
+
+# Centres and relative radii referenced against the existing Mahjong Soul
+# default-skin crops (88 x 142). Fit each complete glyph with a uniform scale:
+# the displayed tile is wider, but the pips must remain circular.
+PIN_PATTERNS = {
+    1: ([(44,81)],39),
+    2: ([(44,53.5),(44,108.5)],22.5),
+    3: ([(24,47.5),(44,80),(65,113)],15.5),
+    4: ([(27,49.5),(61,49.5),(27,114.5),(61,114.5)],15.5),
+    5: ([(26,49),(62,49),(44,81),(26,113),(62,113)],15.5),
+    6: ([(29,44),(59,44),(29,88),(59,88),(29,117),(59,117)],14),
+    7: ([(21,41),(44,55),(66,70),(30,93),(58,93),(30,120),(58,120)],13),
+    8: ([(x,y) for y in (41,67,93,120) for x in (31,57)],12),
+    9: ([(x,y) for y in (45,81,117) for x in (19,44,69)],12),
+}
+PIN_RED_DOTS = {3:{1},5:{2},6:{2,3,4,5},7:{3,4,5,6},9:{3,4,5}}
+
+
+def pin_dots(number,width,height):
+    """Centre the game-style groups inside the existing ivory tile face."""
+    points,radius=PIN_PATTERNS[number]
+    left,right=min(x for x,y in points)-radius,max(x for x,y in points)+radius
+    top,bottom=min(y for x,y in points)-radius,max(y for x,y in points)+radius
+    scale=min(width*.78/(right-left),(height-3)*.82/(bottom-top))
+    cx,cy=(left+right)/2,(top+bottom)/2
+    return [(width/2+(px-cx)*scale,(height-3)/2+(py-cy)*scale,radius*scale)
+            for px,py in points]
+
+
+@lru_cache(maxsize=64)
+def pin_face(number,width,height,red=False):
+    """Style A double rings, antialiased at the current game-style positions."""
+    scale=5
+    image=Image.new('RGBA',(width*scale,height*scale))
+    draw=ImageDraw.Draw(image)
+    face='#FFFEF9';blue='#245B71';crimson='#B83A36'
+    def circle(cx,cy,radius,color):
+        draw.ellipse(tuple(v*scale for v in (cx-radius,cy-radius,cx+radius,cy+radius)),fill=color)
+    for index,(px,py,r) in enumerate(pin_dots(number,width,height)):
+        color=crimson if red or index in PIN_RED_DOTS.get(number,set()) else blue
+        circle(px,py,r,color)
+        circle(px,py,r*.72,face)
+        circle(px,py,r*.43,color)
+        circle(px,py,r*.19,face)
+        if number==1:
+            for petal in range(8):
+                angle=petal*math.pi/4
+                circle(px+math.cos(angle)*r*.49,py+math.sin(angle)*r*.49,r*.13,face)
+            circle(px,py,r*.27,crimson)
+            circle(px,py,r*.10,'#FFF2D8')
+    return image.resize((width,height),Image.Resampling.LANCZOS)
 
 
 def rounded(canvas, bounds, radius=10, **kwargs):
@@ -47,20 +101,12 @@ def tile(canvas, x, y, width, height, value=None):
     if value[0].isdigit() and value[1:2] in 'mps':
         number, suit = int(value[0]), value[1]
         if suit == 'p':
-            patterns = {
-                1:[(0,0)], 2:[(0,-.5),(0,.5)], 3:[(-.5,-.6),(0,0),(.5,.6)],
-                4:[(-.5,-.5),(.5,-.5),(-.5,.5),(.5,.5)],
-                5:[(-.5,-.6),(.5,-.6),(0,0),(-.5,.6),(.5,.6)],
-                6:[(a,b) for b in (-.65,0,.65) for a in (-.5,.5)],
-                7:[(-.5,-.7),(0,-.45),(.5,-.2),(-.5,.25),(.5,.25),(-.5,.7),(.5,.7)],
-                8:[(a,b) for b in (-.75,-.25,.25,.75) for a in (-.5,.5)],
-                9:[(a,b) for b in (-.65,0,.65) for a in (-.6,0,.6)]}
-            r = width*.092
-            for a,b in patterns[number]:
-                px,py = cx+a*width*.59, cy+b*height*.52
-                color = RED if value.endswith('r') or (a == 0 and number in (1,3,5,7)) else INK
-                canvas.create_oval(px-r,py-r,px+r,py+r,outline=color,width=max(1,width*.025))
-                canvas.create_oval(px-r*.43,py-r*.43,px+r*.43,py+r*.43,fill=color,outline='')
+            if not hasattr(canvas,'_pin_images'):canvas._pin_images={}
+            key=(value,int(width),int(height))
+            if key not in canvas._pin_images:
+                canvas._pin_images[key]=ImageTk.PhotoImage(
+                    pin_face(number,key[1],key[2],value.endswith('r')),master=canvas)
+            canvas.create_image(x,y,image=canvas._pin_images[key],anchor='nw')
         else:
             color = RED if suit == 'm' or value.endswith('r') else GREEN
             canvas.create_text(cx,y+height*.28,text='一二三四五六七八九'[number-1],fill=color if value.endswith('r') else INK,

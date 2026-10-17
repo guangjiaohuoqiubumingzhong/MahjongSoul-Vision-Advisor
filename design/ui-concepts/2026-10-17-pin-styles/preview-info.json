@@ -1,0 +1,27 @@
+{
+  "scope": "Design choices rendered with the real advice card; example action, not a model result.",
+  "production_changed": false,
+  "card_tile_size": [
+    62,
+    87
+  ],
+  "antialias_scale": 5,
+  "styles": {
+    "A": [
+      "传统日麻",
+      "蓝绿双环，红心点缀，接近实体日麻牌"
+    ],
+    "B": [
+      "清爽扁平",
+      "玉绿色实心圆，简洁醒目，与米白界面协调"
+    ],
+    "C": [
+      "珐琅立体",
+      "深蓝釉色与柔和高光，牌面更有质感"
+    ],
+    "D": [
+      "极简线描",
+      "墨绿细环与留白，视觉更轻盈"
+    ]
+  }
+}

@@ -102,8 +102,7 @@ class WindowCapture:
                                f"实际 {area.width}×{area.height}。")
         if (area.width, area.height) != (self.initial.width, self.initial.height):
             raise CaptureError(f"窗口尺寸发生变化：{self.initial.width}×{self.initial.height} → {area.width}×{area.height}，请重新开始。")
-        if self.config.get("dpi") not in (None, area.dpi):
-            raise CaptureError("显示 DPI 变化，请重新校准。")
+        # Recognition depends on real client pixels; DPI is metadata only.
         # Every segment must lie on a real display, including multi-monitor gaps.
         monitors = self.sct.monitors[1:]
         xs = sorted({area.left, area.left+area.width, *[v for m in monitors for v in (m["left"], m["left"]+m["width"]) if area.left < v < area.left+area.width]})

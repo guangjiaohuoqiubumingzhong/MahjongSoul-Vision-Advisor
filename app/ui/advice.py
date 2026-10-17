@@ -14,7 +14,7 @@ from tkinter import ttk, filedialog, messagebox
 
 from app.advice import ScreenshotAdvice, load_screenshot, save_advice, format_advice, recapture_gaps, recapture_reasons, recapture_until_complete
 from app.capture.frames import WindowCapture
-from app.capture.window import CaptureError, windows
+from app.capture.window import CaptureError, windows, initialize_dpi_awareness
 from app.capture.layout import CLIENT_PRESETS, arrange_client, position_panel
 from app.failure_archive import RecognitionFailureArchive
 from app.vision.config import load_config, write_json
@@ -662,4 +662,5 @@ class AdvicePanel:
 
 
 def launch(config_path,output,image_path=None):
+    initialize_dpi_awareness()
     root=tk.Tk(); AdvicePanel(root,config_path,output,image_path); root.mainloop()

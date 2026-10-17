@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "version": "0.1.0-portable-test4",
+  "tests_passed": 680,
+  "portable_checks": [
+    "panel",
+    "screen_capture",
+    "windows_capture_import",
+    "mortal_cuda",
+    "tile_classifier",
+    "ocr",
+    "screenshot_advice",
+    "window_capture"
+  ],
+  "capture_api": "PrintWindow",
+  "warnings": [
+    "窗口采集使用 PrintWindow 兼容路径；Windows.Graphics.Capture 后台采集尚未通过。"
+  ]
+}

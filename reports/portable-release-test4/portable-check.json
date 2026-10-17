@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "bundled_runtime": true,
+  "config": "steam-1366x768-pjura-snapshot-draft-25",
+  "checks": [
+    "panel",
+    "screen_capture",
+    "windows_capture_import",
+    "mortal_cuda",
+    "tile_classifier",
+    "ocr",
+    "screenshot_advice",
+    "window_capture"
+  ],
+  "warnings": [
+    "窗口采集使用 PrintWindow 兼容路径；Windows.Graphics.Capture 后台采集尚未通过。"
+  ],
+  "screenshot_status": "ready",
+  "capture_api": "PrintWindow",
+  "mortal_cuda": {
+    "provider_node_executions": {
+      "CUDAExecutionProvider": 4296
+    },
+    "core_node_executions": 988,
+    "core_all_cuda": true,
+    "non_cuda_nodes": {},
+    "session_providers": [
+      "CUDAExecutionProvider",
+      "CPUExecutionProvider"
+    ],
+    "model_version": "mortal3-b40c192-t23032505@7784a9deddf63df03f023474116f715850d3c7a0",
+    "first_inference_ms": 275.1829999979236
+  },
+  "tile_classifier": {
+    "provider": "CUDAExecutionProvider",
+    "fp32_reference_loaded": true
+  }
+}

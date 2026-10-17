@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import ctypes
 from ctypes import wintypes
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, field
 import os
 
 import numpy as np
@@ -14,6 +14,38 @@ class CaptureError(RuntimeError):
 
 class OccludedError(CaptureError):
     """Another window covers the client area; its own content is still readable."""
+
+
+def initialize_dpi_awareness(user=None):
+    """Use physical window coordinates, preferably before creating any GUI.
+
+    A launcher or compatibility setting may already have chosen the process
+    mode. In that case a per-monitor thread context still prevents coordinate
+    virtualization in capture workers. Never silently continue in scaled units.
+    """
+    if user is None:
+        if os.name != "nt":
+            raise CaptureError("窗口采集只支持 Windows。")
+        user = ctypes.WinDLL("user32", use_last_error=True)
+    signatures = {
+        "GetThreadDpiAwarenessContext": ([], wintypes.HANDLE),
+        "GetAwarenessFromDpiAwarenessContext": ([wintypes.HANDLE], ctypes.c_int),
+        "SetProcessDpiAwarenessContext": ([wintypes.HANDLE], wintypes.BOOL),
+        "SetThreadDpiAwarenessContext": ([wintypes.HANDLE], wintypes.HANDLE),
+    }
+    for name, (args, result) in signatures.items():
+        getattr(user, name).argtypes = args
+        getattr(user, name).restype = result
+    def per_monitor():
+        return user.GetAwarenessFromDpiAwarenessContext(user.GetThreadDpiAwarenessContext()) == 2
+    if per_monitor():
+        return "per-monitor"
+    user.SetProcessDpiAwarenessContext(wintypes.HANDLE(-4))  # PER_MONITOR_AWARE_V2
+    if per_monitor():
+        return "per-monitor"
+    if user.SetThreadDpiAwarenessContext(wintypes.HANDLE(-4)) and per_monitor():
+        return "per-monitor-thread"
+    raise CaptureError("无法启用实际像素坐标。请关闭程序的高 DPI 缩放兼容性替代设置后重新启动。")
 
 
 def _api():
@@ -33,13 +65,12 @@ def _api():
         "GetAncestor": ([wintypes.HWND, wintypes.UINT], wintypes.HWND),
         "GetWindow": ([wintypes.HWND, wintypes.UINT], wintypes.HWND),
         "GetWindowRect": ([wintypes.HWND, ctypes.POINTER(wintypes.RECT)], wintypes.BOOL),
-        "SetProcessDpiAwarenessContext": ([wintypes.HANDLE], wintypes.BOOL),
         "GetWindowThreadProcessId": ([wintypes.HWND, ctypes.POINTER(wintypes.DWORD)], wintypes.DWORD),
     }
     for name, (args, result) in signatures.items():
         getattr(user, name).argtypes = args
         getattr(user, name).restype = result
-    user.SetProcessDpiAwarenessContext(wintypes.HANDLE(-4))
+    initialize_dpi_awareness(user)
     return user
 
 
@@ -52,7 +83,8 @@ class ClientArea:
     top: int
     width: int
     height: int
-    dpi: int
+    # Keep display scale in saved metadata without treating it as geometry.
+    dpi: int = field(compare=False)
 
     def asdict(self):
         return asdict(self)

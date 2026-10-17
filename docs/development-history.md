@@ -1,10 +1,12 @@
 # 开发记录与技术说明
 
+2026-10-17 便携测试版 4 同步传统日麻筒子牌面和系统缩放兼容更新：蓝绿双环、红心与雀魂参考排布；采集按客户区实际像素校验，DPI 仅记录为元数据。客户区像素尺寸不变时，缩放变化不再中断采集；实际尺寸变化、窗口移出屏幕等检查继续保留。[发布与验证](../reports/portable-release-test4/README.md)。
+
 2026-10-17 新增自动错误归档：同一行动自动补截后仍识别失败时，按运行和行动保存初始图及全部补截图，并附每张识别结果、原始帧信息、配置副本和汇总清单。源码版保存到 `reports/recognition-errors`，便携测试版 3 保存到 `userdata/recognition-errors`；成功恢复、停止和过期行动不归档。重新打开源码启动入口，或下载便携测试版 3 生效。[保存规则与文件说明](screenshot-advice.md#自动保存识别错误)。
 
 ## 最新便携版
 
-[下载 Windows NVIDIA 便携测试版 3](https://github.com/guangjiaohuoqiubumingzhong/MahjongSoul-Vision-Advisor/releases/tag/v0.1.0-portable-test3)。下载两个 ZIP 分片及 `Merge-Package.cmd`，放在同一目录，双击脚本合并并校验，再完整解压并运行 `Majan/Majan.exe`。无需另装 Python；需要 Windows x64、兼容 CUDA 12.x 的 NVIDIA 显卡和驱动。测试版先保持游戏窗口可见；独立程序的后台遮挡采集仍有兼容限制。
+[下载 Windows NVIDIA 便携测试版 4](https://github.com/guangjiaohuoqiubumingzhong/MahjongSoul-Vision-Advisor/releases/tag/v0.1.0-portable-test4)。下载两个 ZIP 分片及 `Merge-Package.cmd`，放在同一目录，双击脚本合并并校验，再完整解压并运行 `Majan/Majan.exe`。无需另装 Python；需要 Windows x64、兼容 CUDA 12.x 的 NVIDIA 显卡和驱动。测试版先保持游戏窗口可见；独立程序的后台遮挡采集仍有兼容限制。
 
 本仓库保存应用、脚本、测试、配置、识别资源和模型来源清单。大模型和 CUDA 运行库随便携版提供；原始截图数据集、运行日志和开发环境不放入源码仓库。源码重建与数据范围见 [SOURCE-CONTENTS.md](../SOURCE-CONTENTS.md)。
 

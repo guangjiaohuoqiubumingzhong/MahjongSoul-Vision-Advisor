@@ -24,6 +24,8 @@ def main():
     if sys.stderr is None:
         sys.stderr = log
     try:
+        from app.capture.window import initialize_dpi_awareness
+        initialize_dpi_awareness()
         from app.portable import run
         return run(resources, userdata)
     except Exception as exc:

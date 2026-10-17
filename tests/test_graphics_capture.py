@@ -1,3 +1,4 @@
+from dataclasses import replace
 import sys
 from types import SimpleNamespace
 
@@ -99,9 +100,20 @@ def test_stale_frames_are_not_given_a_new_timestamp(native, monkeypatch):
     capture.close()
 
 
-def test_window_move_during_read_discards_the_frame(native, monkeypatch):
+def test_dpi_change_during_read_preserves_the_same_client_pixels(native, monkeypatch):
     capture = graphics.GraphicsCapture(123)
-    moved = ClientArea(123, "雀魂", 7, 102, 131, 1366, 768, 96)
+    sequence = iter([area(), replace(area(), dpi=144)])
+    monkeypatch.setattr(graphics, "client_area", lambda hwnd: next(sequence))
+    pixels, client, _ = capture.read()
+    assert pixels.shape == (768, 1366, 3) and np.all(pixels == 50)
+    assert client.asdict()["dpi"] == 96
+    capture.close()
+
+
+@pytest.mark.parametrize("change", [{"left": 102}, {"width": 1920, "height": 1080}])
+def test_window_move_or_resize_during_read_discards_the_frame(native, monkeypatch, change):
+    capture = graphics.GraphicsCapture(123)
+    moved = replace(area(), **change)
     sequence = iter([area(), moved])
     monkeypatch.setattr(graphics, "client_area", lambda hwnd: next(sequence))
     with pytest.raises(CaptureError, match="位置/尺寸变化"):

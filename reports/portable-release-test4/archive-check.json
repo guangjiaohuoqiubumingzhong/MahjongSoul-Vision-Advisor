@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "version": "0.1.0-portable-test4",
+  "zip_entries": 3094,
+  "manifest_files": 3093,
+  "application_and_launcher_files_matched": 48,
+  "archive_bytes": 2549987567,
+  "archive_sha256": "6d56dffee05772e128c1819b0e574f3e344fc16615ccf25fc8f8a503be8ce0f3",
+  "excluded": [
+    "userdata",
+    "__pycache__",
+    "*.log",
+    "*.pyc"
+  ]
+}
