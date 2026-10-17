@@ -1,0 +1,1483 @@
+{
+  "schema_version": 1,
+  "created": "2026-10-15",
+  "cases": [
+    {
+      "name": "cvmaj-top-west-added-east-pon",
+      "path": "data/public-mahjong/cvmaj/examples/img/n.png",
+      "sha256": "36918c8825eff111311f62349f877899424ff0b83441a75f15c5d56d8cfbe13a",
+      "seat": "top",
+      "roi_xywh": [
+        225,
+        0,
+        260,
+        73
+      ],
+      "expected_groups": [
+        {
+          "type": "kakan",
+          "labels": [
+            "W",
+            "W",
+            "W",
+            "W"
+          ],
+          "target": 3,
+          "called_positions": [
+            2,
+            3
+          ]
+        },
+        {
+          "type": "pon",
+          "labels": [
+            "E",
+            "E",
+            "E"
+          ],
+          "target": 0,
+          "called_positions": [
+            1
+          ]
+        }
+      ],
+      "source_page": "https://github.com/xdedss/cvmaj/blob/6e2ca242b73b89adb52f9d374513b7178056278a/img/n.png",
+      "source_family": "cvmaj",
+      "category": "structure",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 0
+    },
+    {
+      "name": "cvmaj-top-dot-chi-eight-pon",
+      "path": "data/public-mahjong/cvmaj/examples/templates/multiple/ingame03.png",
+      "sha256": "5b476ee04bea7c992ac522831025053e2bd347ef6bd13ae87637b7bfb6228390",
+      "seat": "top",
+      "roi_xywh": [
+        225,
+        0,
+        260,
+        73
+      ],
+      "expected_groups": [
+        {
+          "type": "chi",
+          "labels": [
+            "5p",
+            "6p",
+            "7p"
+          ],
+          "target": 1,
+          "called_positions": [
+            0
+          ]
+        },
+        {
+          "type": "pon",
+          "labels": [
+            "8m",
+            "8m",
+            "8m"
+          ],
+          "target": 0,
+          "called_positions": [
+            1
+          ]
+        }
+      ],
+      "source_page": "https://github.com/xdedss/cvmaj/blob/6e2ca242b73b89adb52f9d374513b7178056278a/templates/multiple/ingame03.png",
+      "source_family": "cvmaj",
+      "category": "structure",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 0
+    },
+    {
+      "name": "steam-right-white-four-pons",
+      "path": "data/public-mahjong/steam-community/images/3799875797.jpg",
+      "sha256": "598c12bd627705ffd69bf89ebe6ad718f0136a34b491a1570a75812b10b75b61",
+      "seat": "right",
+      "roi_xywh": [
+        876,
+        0,
+        152,
+        290
+      ],
+      "expected_groups": [
+        {
+          "type": "pon",
+          "labels": [
+            "P",
+            "P",
+            "P"
+          ],
+          "target": 3,
+          "called_positions": [
+            1
+          ]
+        },
+        {
+          "type": "pon",
+          "labels": [
+            "9m",
+            "9m",
+            "9m"
+          ],
+          "target": 3,
+          "called_positions": [
+            1
+          ]
+        }
+      ],
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3799875797",
+      "source_family": "steam-3799875797",
+      "category": "structure",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 7
+    },
+    {
+      "name": "steam-right-two-sou-pon",
+      "path": "data/public-mahjong/steam-community/images/3800908090.jpg",
+      "sha256": "9f663fb35679f29c8d4ebc455b9eff574ff3aa2dfb75fd9ed8896e98758340d1",
+      "seat": "right",
+      "roi_xywh": [
+        1132,
+        0,
+        196,
+        373
+      ],
+      "expected_groups": [
+        {
+          "type": "pon",
+          "labels": [
+            "2s",
+            "2s",
+            "2s"
+          ],
+          "target": 2,
+          "called_positions": [
+            2
+          ]
+        }
+      ],
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3800908090",
+      "source_family": "steam-3800908090",
+      "category": "structure",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 8
+    },
+    {
+      "name": "steam-top-white-called-first",
+      "path": "data/public-mahjong/steam-community/images/3800908090.jpg",
+      "sha256": "9f663fb35679f29c8d4ebc455b9eff574ff3aa2dfb75fd9ed8896e98758340d1",
+      "seat": "top",
+      "roi_xywh": [
+        262,
+        0,
+        302,
+        85
+      ],
+      "expected_groups": [
+        {
+          "type": "pon",
+          "labels": [
+            "P",
+            "P",
+            "P"
+          ],
+          "target": 1,
+          "called_positions": [
+            0
+          ]
+        }
+      ],
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3800908090",
+      "source_family": "steam-3800908090",
+      "category": "structure",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 8
+    },
+    {
+      "name": "steam-top-two-sou-chis",
+      "path": "data/public-mahjong/steam-community/images/3803049411.jpg",
+      "sha256": "35906bc749cd977056a488759093cfb137c54d6e4820890d1ca49013eb273bf7",
+      "seat": "top",
+      "roi_xywh": [
+        337,
+        0,
+        389,
+        110
+      ],
+      "expected_groups": [
+        {
+          "type": "chi",
+          "labels": [
+            "5s",
+            "6s",
+            "7s"
+          ],
+          "target": 1,
+          "called_positions": [
+            0
+          ]
+        },
+        {
+          "type": "chi",
+          "labels": [
+            "4s",
+            "2s",
+            "3s"
+          ],
+          "target": 1,
+          "called_positions": [
+            0
+          ]
+        }
+      ],
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3803049411",
+      "source_family": "steam-3803049411",
+      "category": "structure",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 10
+    },
+    {
+      "name": "steam-self-nine-dot-chi",
+      "path": "data/public-mahjong/steam-community/images/3803922882.jpg",
+      "sha256": "eb8db1539edaaf5a71367dc86eb4b799db5553df52b15eec6ea7354e6feaf394",
+      "seat": "self",
+      "roi_xywh": [
+        1546,
+        935,
+        337,
+        127
+      ],
+      "expected_groups": [
+        {
+          "type": "chi",
+          "labels": [
+            "9p",
+            "7p",
+            "8p"
+          ],
+          "target": 3,
+          "called_positions": [
+            0
+          ]
+        }
+      ],
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3803922882",
+      "source_family": "steam-3803922882",
+      "category": "structure",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 11
+    },
+    {
+      "name": "steam-top-two-man-pon-north-closed",
+      "path": "data/public-mahjong/steam-community/images/3803922882.jpg",
+      "sha256": "eb8db1539edaaf5a71367dc86eb4b799db5553df52b15eec6ea7354e6feaf394",
+      "seat": "top",
+      "roi_xywh": [
+        368,
+        0,
+        394,
+        110
+      ],
+      "expected_groups": [
+        {
+          "type": "pon",
+          "labels": [
+            "2m",
+            "2m",
+            "2m"
+          ],
+          "target": 0,
+          "called_positions": [
+            1
+          ]
+        },
+        {
+          "type": "ankan",
+          "labels": [
+            "N",
+            "N",
+            "N",
+            "N"
+          ],
+          "target": null,
+          "called_positions": []
+        }
+      ],
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3803922882",
+      "source_family": "steam-3803922882",
+      "category": "structure",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 11
+    },
+    {
+      "name": "steam-right-two-sou-bird-pons",
+      "path": "data/public-mahjong/steam-community/images/3805041403.jpg",
+      "sha256": "84d48bfd4865f765f9fed0de79df31ddd71a92d893bbfc34fa72cbcd552e48d6",
+      "seat": "right",
+      "roi_xywh": [
+        1485,
+        0,
+        257,
+        489
+      ],
+      "expected_groups": [
+        {
+          "type": "pon",
+          "labels": [
+            "2s",
+            "2s",
+            "2s"
+          ],
+          "target": 0,
+          "called_positions": [
+            0
+          ]
+        },
+        {
+          "type": "pon",
+          "labels": [
+            "1s",
+            "1s",
+            "1s"
+          ],
+          "target": 3,
+          "called_positions": [
+            1
+          ]
+        }
+      ],
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3805041403",
+      "source_family": "steam-3805041403",
+      "category": "structure",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 12
+    },
+    {
+      "name": "steam-top-two-dot-called-last",
+      "path": "data/public-mahjong/steam-community/images/3805041403.jpg",
+      "sha256": "84d48bfd4865f765f9fed0de79df31ddd71a92d893bbfc34fa72cbcd552e48d6",
+      "seat": "top",
+      "roi_xywh": [
+        343,
+        0,
+        396,
+        112
+      ],
+      "expected_groups": [
+        {
+          "type": "pon",
+          "labels": [
+            "2p",
+            "2p",
+            "2p"
+          ],
+          "target": 3,
+          "called_positions": [
+            2
+          ]
+        }
+      ],
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3805041403",
+      "source_family": "steam-3805041403",
+      "category": "structure",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 12
+    },
+    {
+      "name": "steam-right-three-dot-kan-seven-pon",
+      "path": "data/public-mahjong/steam-community/images/3808714033.jpg",
+      "sha256": "0dd6fd7a6304e17c142897e80f180e3f4fe1ce9f5283c5e04f0ca36efe12c7f4",
+      "seat": "right",
+      "roi_xywh": [
+        1945,
+        0,
+        337,
+        641
+      ],
+      "expected_groups": [
+        {
+          "type": "daiminkan",
+          "labels": [
+            "3p",
+            "3p",
+            "3p",
+            "3p"
+          ],
+          "target": 0,
+          "called_positions": [
+            0
+          ]
+        },
+        {
+          "type": "pon",
+          "labels": [
+            "7p",
+            "7p",
+            "7p"
+          ],
+          "target": 3,
+          "called_positions": [
+            1
+          ]
+        }
+      ],
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3808714033",
+      "source_family": "steam-3808714033",
+      "category": "structure",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 14
+    },
+    {
+      "name": "steam-top-sou-chi-bird-pon",
+      "path": "data/public-mahjong/steam-community/images/3808714033.jpg",
+      "sha256": "0dd6fd7a6304e17c142897e80f180e3f4fe1ce9f5283c5e04f0ca36efe12c7f4",
+      "seat": "top",
+      "roi_xywh": [
+        450,
+        0,
+        519,
+        146
+      ],
+      "expected_groups": [
+        {
+          "type": "chi",
+          "labels": [
+            "3s",
+            "4s",
+            "5s"
+          ],
+          "target": 1,
+          "called_positions": [
+            0
+          ]
+        },
+        {
+          "type": "pon",
+          "labels": [
+            "F",
+            "F",
+            "F"
+          ],
+          "target": 1,
+          "called_positions": [
+            0
+          ]
+        }
+      ],
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3808714033",
+      "source_family": "steam-3808714033",
+      "category": "structure",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 14
+    },
+    {
+      "name": "steam-top-two-one-three-sou",
+      "path": "data/public-mahjong/steam-community/images/3817141720.jpg",
+      "sha256": "c278551d0511a63f86300c7fcce5e33393a74fd6e7ee0617e1863a0f9d74e1fe",
+      "seat": "top",
+      "roi_xywh": [
+        337,
+        0,
+        389,
+        110
+      ],
+      "expected_groups": [
+        {
+          "type": "chi",
+          "labels": [
+            "2s",
+            "1s",
+            "3s"
+          ],
+          "target": 1,
+          "called_positions": [
+            0
+          ]
+        }
+      ],
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3817141720",
+      "source_family": "steam-3817141720",
+      "category": "structure",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 16
+    },
+    {
+      "name": "public-kan-self-P-added",
+      "path": "data/public-mahjong/kan-scenes/images/note-added-11.png",
+      "sha256": "51bdd489040eb4b30fdfab2efacb84f919e7f5841fa81dde13d8e71d05ee0b61",
+      "seat": "self",
+      "roi_xywh": [
+        799,
+        453,
+        153,
+        103
+      ],
+      "expected_groups": [
+        {
+          "type": "kakan",
+          "labels": [
+            "P",
+            "P",
+            "P",
+            "P"
+          ],
+          "target": null
+        }
+      ],
+      "source_page": "https://note.com/shinux217/n/n42348a994488",
+      "source_family": "https://note.com/shinux217/n/n42348a994488",
+      "category": "kan_and_pon",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 6
+    },
+    {
+      "name": "public-kan-self-P-added-late",
+      "path": "data/public-mahjong/kan-scenes/images/note-added-20.png",
+      "sha256": "f0e8a784d82961b4548afe5e92f4a848b08aa6f92c6df8b815e2750d24f5e947",
+      "seat": "self",
+      "roi_xywh": [
+        801,
+        456,
+        152,
+        97
+      ],
+      "expected_groups": [
+        {
+          "type": "kakan",
+          "labels": [
+            "P",
+            "P",
+            "P",
+            "P"
+          ],
+          "target": null
+        }
+      ],
+      "source_page": "https://note.com/shinux217/n/n42348a994488",
+      "source_family": "https://note.com/shinux217/n/n42348a994488",
+      "category": "kan_and_pon",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 6
+    },
+    {
+      "name": "public-kan-left-C-open",
+      "path": "data/public-mahjong/kan-scenes/images/note-added-20.png",
+      "sha256": "f0e8a784d82961b4548afe5e92f4a848b08aa6f92c6df8b815e2750d24f5e947",
+      "seat": "left",
+      "roi_xywh": [
+        47,
+        281,
+        104,
+        114
+      ],
+      "expected_groups": [
+        {
+          "type": "daiminkan",
+          "labels": [
+            "C",
+            "C",
+            "C",
+            "C"
+          ],
+          "target": 0
+        }
+      ],
+      "source_page": "https://note.com/shinux217/n/n42348a994488",
+      "source_family": "https://note.com/shinux217/n/n42348a994488",
+      "category": "kan_and_pon",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 6
+    },
+    {
+      "name": "public-kan-self-9s-open",
+      "path": "data/public-mahjong/kan-scenes/images/note-open-16.png",
+      "sha256": "47f6fbf45a8da5a5c9a1283d3b516f7cb6c0bfa2d5d01df82926b5fb83b202d0",
+      "seat": "self",
+      "roi_xywh": [
+        679,
+        610,
+        219,
+        95
+      ],
+      "expected_groups": [
+        {
+          "type": "daiminkan",
+          "labels": [
+            "9s",
+            "9s",
+            "9s",
+            "9s"
+          ],
+          "target": 3
+        }
+      ],
+      "source_page": "https://note.com/okuohouko/n/n66c05a0ed410",
+      "source_family": "https://note.com/okuohouko/n/n66c05a0ed410",
+      "category": "kan_and_pon",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 4
+    },
+    {
+      "name": "public-kan-self-9s-open-late",
+      "path": "data/public-mahjong/kan-scenes/images/note-open-17.png",
+      "sha256": "5119c5b9b50daea094c6b64d39c90037ead8b3f065be7ebf4404b567d407eccc",
+      "seat": "self",
+      "roi_xywh": [
+        679,
+        610,
+        219,
+        95
+      ],
+      "expected_groups": [
+        {
+          "type": "daiminkan",
+          "labels": [
+            "9s",
+            "9s",
+            "9s",
+            "9s"
+          ],
+          "target": 3
+        }
+      ],
+      "source_page": "https://note.com/okuohouko/n/n66c05a0ed410",
+      "source_family": "https://note.com/okuohouko/n/n66c05a0ed410",
+      "category": "kan_and_pon",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 4
+    },
+    {
+      "name": "public-kan-top-E-added",
+      "path": "data/public-mahjong/kan-scenes/images/note-right-kan-17.png",
+      "sha256": "37ed2ba9ce6734730496e267c8edb636db23fdede70d0e517967afbc0081a96b",
+      "seat": "top",
+      "roi_xywh": [
+        257,
+        12,
+        149,
+        69
+      ],
+      "expected_groups": [
+        {
+          "type": "kakan",
+          "labels": [
+            "E",
+            "E",
+            "E",
+            "E"
+          ],
+          "target": null
+        }
+      ],
+      "source_page": "https://note.com/raccoondogs/n/n987c367f73b1",
+      "source_family": "https://note.com/raccoondogs/n/n987c367f73b1",
+      "category": "kan_and_pon",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 5
+    },
+    {
+      "name": "public-kan-top-E-added-late",
+      "path": "data/public-mahjong/kan-scenes/images/note-right-kan-18.png",
+      "sha256": "de252e49ade69c71290cf47518d69dd30ec58b58d14bee4dbbbc9726520eaffa",
+      "seat": "top",
+      "roi_xywh": [
+        257,
+        12,
+        149,
+        75
+      ],
+      "expected_groups": [
+        {
+          "type": "kakan",
+          "labels": [
+            "E",
+            "E",
+            "E",
+            "E"
+          ],
+          "target": null
+        }
+      ],
+      "source_page": "https://note.com/raccoondogs/n/n987c367f73b1",
+      "source_family": "https://note.com/raccoondogs/n/n987c367f73b1",
+      "category": "kan_and_pon",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 5
+    },
+    {
+      "name": "public-kan-left-6p-closed-orange",
+      "path": "data/public-mahjong/kan-scenes/images/note-left-closed-11.jpg",
+      "sha256": "725b09641f23d62a735d08750886854c0a16ca25b66261114ff849ea6cfdca34",
+      "seat": "left",
+      "roi_xywh": [
+        40,
+        700,
+        180,
+        280
+      ],
+      "expected_groups": [
+        {
+          "type": "ankan",
+          "labels": [
+            "6p",
+            "6p",
+            "6p",
+            "6p"
+          ],
+          "target": null
+        }
+      ],
+      "source_page": "https://note.com/amutan_mj/n/n058423d1de4c",
+      "source_family": "https://note.com/amutan_mj/n/n058423d1de4c",
+      "category": "kan_and_pon",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 1
+    },
+    {
+      "name": "public-kan-top-5p-closed-red",
+      "path": "data/public-mahjong/kan-scenes/images/note-top-closed-10.png",
+      "sha256": "102e86040ac657de364a00ebe2dd91be907ec4b47223fb85d3d65ccd01c6f92f",
+      "seat": "top",
+      "roi_xywh": [
+        318,
+        7,
+        141,
+        54
+      ],
+      "expected_groups": [
+        {
+          "type": "ankan",
+          "labels": [
+            "5p",
+            "5pr",
+            "5p",
+            "5p"
+          ],
+          "target": null
+        }
+      ],
+      "source_page": "https://note.com/cos13/n/n7a417fe34fd2",
+      "source_family": "https://note.com/cos13/n/n7a417fe34fd2",
+      "category": "kan_and_pon",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 2
+    },
+    {
+      "name": "public-kan-right-1p-closed-orange",
+      "path": "data/public-mahjong/kan-scenes/images/note-right-closed-15.jpg",
+      "sha256": "18aacaa904aae31b10d372e3b953f91aee01ab8615e1c3c7ec7d72b0d0e290f7",
+      "seat": "right",
+      "roi_xywh": [
+        1690,
+        24,
+        150,
+        171
+      ],
+      "expected_groups": [
+        {
+          "type": "ankan",
+          "labels": [
+            "1p",
+            "1p",
+            "1p",
+            "1p"
+          ],
+          "target": null
+        }
+      ],
+      "source_page": "https://note.com/fine_koala1007/n/n1a02f9d306b2",
+      "source_family": "https://note.com/fine_koala1007/n/n1a02f9d306b2",
+      "category": "kan_and_pon",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 3
+    },
+    {
+      "name": "public-kan-right-1p-closed-orange-late",
+      "path": "data/public-mahjong/kan-scenes/images/note-right-closed-16.jpg",
+      "sha256": "19f0cf37d0948421e4f4fadc1f5a631aebc29cbac8450387e1fb8aab47362a99",
+      "seat": "right",
+      "roi_xywh": [
+        1690,
+        24,
+        150,
+        171
+      ],
+      "expected_groups": [
+        {
+          "type": "ankan",
+          "labels": [
+            "1p",
+            "1p",
+            "1p",
+            "1p"
+          ],
+          "target": null
+        }
+      ],
+      "source_page": "https://note.com/fine_koala1007/n/n1a02f9d306b2",
+      "source_family": "https://note.com/fine_koala1007/n/n1a02f9d306b2",
+      "category": "kan_and_pon",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 3
+    },
+    {
+      "name": "public-kan-top-C-pon-negative",
+      "path": "data/public-mahjong/kan-scenes/images/note-right-kan-20.png",
+      "sha256": "a99031b88c87d07f6e62ec850d84d3e1d39c30b1e5c215b0f73e15d6bfcbc4f1",
+      "seat": "top",
+      "roi_xywh": [
+        258,
+        12,
+        153,
+        59
+      ],
+      "expected_groups": [
+        {
+          "type": "pon",
+          "labels": [
+            "C",
+            "C",
+            "C"
+          ],
+          "target": 0
+        }
+      ],
+      "source_page": "https://note.com/raccoondogs/n/n987c367f73b1",
+      "source_family": "https://note.com/raccoondogs/n/n987c367f73b1",
+      "category": "kan_and_pon",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 5
+    },
+    {
+      "name": "public-kan-self-P-pon-negative",
+      "path": "data/public-mahjong/kan-scenes/images/note-added-10.png",
+      "sha256": "6e7080826bcd922bb742a0e5e9433ef5c75d579eeb991430f837cee4321b2da7",
+      "seat": "self",
+      "roi_xywh": [
+        798,
+        476,
+        158,
+        72
+      ],
+      "expected_groups": [
+        {
+          "type": "pon",
+          "labels": [
+            "P",
+            "P",
+            "P"
+          ],
+          "target": null
+        }
+      ],
+      "source_page": "https://note.com/shinux217/n/n42348a994488",
+      "source_family": "https://note.com/shinux217/n/n42348a994488",
+      "category": "kan_and_pon",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 6
+    },
+    {
+      "name": "user-250819-2005-self",
+      "path": "data/screenshots/user-250819-train/kyoku02-turn06/00000001.png",
+      "sha256": "70d9ea427bde9a96a4c161ee3d7364a79131cd18e032f83c01f10bb3cae24e59",
+      "seat": "self",
+      "roi_xywh": [
+        900,
+        665,
+        440,
+        90
+      ],
+      "expected_groups": [
+        {
+          "type": "chi",
+          "labels": [
+            "6p",
+            "5pr",
+            "7p"
+          ],
+          "target": 3,
+          "called_positions": [
+            0
+          ]
+        },
+        {
+          "type": "chi",
+          "labels": [
+            "4p",
+            "2p",
+            "3p"
+          ],
+          "target": 3,
+          "called_positions": [
+            0
+          ]
+        }
+      ],
+      "source_page": "data/screenshots/user-250819-train/kyoku02-turn06/00000001.annotation.json",
+      "source_family": "user-250819-2005",
+      "category": "recorded_game",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 18
+    },
+    {
+      "name": "user-250819-2005-right",
+      "path": "data/screenshots/user-250819-train/kyoku02-turn06/00000001.png",
+      "sha256": "70d9ea427bde9a96a4c161ee3d7364a79131cd18e032f83c01f10bb3cae24e59",
+      "seat": "right",
+      "roi_xywh": [
+        1038,
+        0,
+        180,
+        342
+      ],
+      "expected_groups": [
+        {
+          "type": "chi",
+          "labels": [
+            "1s",
+            "2s",
+            "3s"
+          ],
+          "target": 0,
+          "called_positions": [
+            0
+          ]
+        }
+      ],
+      "source_page": "data/screenshots/user-250819-train/kyoku02-turn06/00000001.annotation.json",
+      "source_family": "user-250819-2005",
+      "category": "recorded_game",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 18
+    },
+    {
+      "name": "user-250819-2005-left",
+      "path": "data/screenshots/user-250819-train/kyoku02-turn06/00000001.png",
+      "sha256": "70d9ea427bde9a96a4c161ee3d7364a79131cd18e032f83c01f10bb3cae24e59",
+      "seat": "left",
+      "roi_xywh": [
+        30,
+        410,
+        175,
+        303
+      ],
+      "expected_groups": [
+        {
+          "type": "pon",
+          "labels": [
+            "8s",
+            "8s",
+            "8s"
+          ],
+          "target": 0,
+          "called_positions": [
+            2
+          ]
+        }
+      ],
+      "source_page": "data/screenshots/user-250819-train/kyoku02-turn06/00000001.annotation.json",
+      "source_family": "user-250819-2005",
+      "category": "recorded_game",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 18
+    },
+    {
+      "name": "user-250821-1613-self",
+      "path": "data/replays/user-250821-test-recording-01/screenshots/00001135.png",
+      "sha256": "ef07c83861e4cc24afce496752809756c08255dfd1595bd8b8a5e19744cc5b46",
+      "seat": "self",
+      "roi_xywh": [
+        900,
+        665,
+        440,
+        90
+      ],
+      "expected_groups": [
+        {
+          "type": "pon",
+          "labels": [
+            "2m",
+            "2m",
+            "2m"
+          ],
+          "target": 2,
+          "called_positions": [
+            1
+          ]
+        }
+      ],
+      "source_page": "data/replays/user-250821-test-recording-01/screenshots/00001135.annotation.json",
+      "source_family": "user-250821-1613",
+      "category": "recorded_game",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 19
+    },
+    {
+      "name": "user-250821-1613-right",
+      "path": "data/replays/user-250821-test-recording-01/screenshots/00001135.png",
+      "sha256": "ef07c83861e4cc24afce496752809756c08255dfd1595bd8b8a5e19744cc5b46",
+      "seat": "right",
+      "roi_xywh": [
+        1038,
+        0,
+        180,
+        342
+      ],
+      "expected_groups": [
+        {
+          "type": "chi",
+          "labels": [
+            "6m",
+            "4m",
+            "5m"
+          ],
+          "target": 0,
+          "called_positions": [
+            0
+          ]
+        }
+      ],
+      "source_page": "data/replays/user-250821-test-recording-01/screenshots/00001135.annotation.json",
+      "source_family": "user-250821-1613",
+      "category": "recorded_game",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 19
+    },
+    {
+      "name": "user-250821-1613-top",
+      "path": "data/replays/user-250821-test-recording-01/screenshots/00001135.png",
+      "sha256": "ef07c83861e4cc24afce496752809756c08255dfd1595bd8b8a5e19744cc5b46",
+      "seat": "top",
+      "roi_xywh": [
+        240,
+        0,
+        277,
+        78
+      ],
+      "expected_groups": [
+        {
+          "type": "pon",
+          "labels": [
+            "5mr",
+            "5m",
+            "5m"
+          ],
+          "target": 0,
+          "called_positions": [
+            1
+          ]
+        }
+      ],
+      "source_page": "data/replays/user-250821-test-recording-01/screenshots/00001135.annotation.json",
+      "source_family": "user-250821-1613",
+      "category": "recorded_game",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 19
+    },
+    {
+      "name": "user-250821-1613-left",
+      "path": "data/replays/user-250821-test-recording-01/screenshots/00001135.png",
+      "sha256": "ef07c83861e4cc24afce496752809756c08255dfd1595bd8b8a5e19744cc5b46",
+      "seat": "left",
+      "roi_xywh": [
+        30,
+        410,
+        175,
+        303
+      ],
+      "expected_groups": [
+        {
+          "type": "pon",
+          "labels": [
+            "3m",
+            "3m",
+            "3m"
+          ],
+          "target": 1,
+          "called_positions": [
+            1
+          ]
+        }
+      ],
+      "source_page": "data/replays/user-250821-test-recording-01/screenshots/00001135.annotation.json",
+      "source_family": "user-250821-1613",
+      "category": "recorded_game",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 19
+    },
+    {
+      "name": "user-red-chi-293",
+      "path": "data/fixtures/right-chi-perspective/turn-293.png",
+      "sha256": "e7e345c9b06b438190d51c411cd5a34be2de9db373839b6fcf2dc3ec00d8e520",
+      "seat": "right",
+      "roi_xywh": [
+        1459,
+        0,
+        253,
+        481
+      ],
+      "expected_groups": [
+        {
+          "type": "chi",
+          "labels": [
+            "5mr",
+            "4m",
+            "6m"
+          ],
+          "target": 0,
+          "called_positions": [
+            0
+          ]
+        }
+      ],
+      "source_page": null,
+      "source_family": "user-20261015-east3",
+      "category": "user_regression",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 17
+    },
+    {
+      "name": "user-red-chi-300",
+      "path": "data/fixtures/right-chi-perspective/turn-300.png",
+      "sha256": "8df894ad3a2cb803d10314a7bc360bf8085395c7149ca5f9d0af4cc5f2bf008d",
+      "seat": "right",
+      "roi_xywh": [
+        1459,
+        0,
+        253,
+        481
+      ],
+      "expected_groups": [
+        {
+          "type": "chi",
+          "labels": [
+            "5mr",
+            "4m",
+            "6m"
+          ],
+          "target": 0,
+          "called_positions": [
+            0
+          ]
+        }
+      ],
+      "source_page": null,
+      "source_family": "user-20261015-east3",
+      "category": "user_regression",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 17
+    },
+    {
+      "name": "user-white-pon-62",
+      "path": "data/fixtures/white-meld/turn-62.png",
+      "sha256": "cd75d3ac7187810ddfcc6d5dd2272c6403747de0aec72403f30361277abb61b6",
+      "seat": "right",
+      "roi_xywh": [
+        1459,
+        0,
+        253,
+        481
+      ],
+      "expected_groups": [
+        {
+          "type": "pon",
+          "labels": [
+            "P",
+            "P",
+            "P"
+          ],
+          "target": 3,
+          "called_positions": [
+            1
+          ]
+        }
+      ],
+      "source_page": null,
+      "source_family": "user-white-meld",
+      "category": "user_regression",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 20
+    },
+    {
+      "name": "user-white-pon-58",
+      "path": "data/fixtures/white-meld/turn-58.png",
+      "sha256": "9189d232eb4265d2547e08f70ac053f555a3b1dc16dfec02d713cf613851c25e",
+      "seat": "right",
+      "roi_xywh": [
+        1459,
+        0,
+        253,
+        481
+      ],
+      "expected_groups": [
+        {
+          "type": "pon",
+          "labels": [
+            "P",
+            "P",
+            "P"
+          ],
+          "target": 3,
+          "called_positions": [
+            1
+          ]
+        }
+      ],
+      "source_page": null,
+      "source_family": "user-white-meld",
+      "category": "user_regression",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 20
+    },
+    {
+      "name": "empty-ingame01-right",
+      "path": "data/public-mahjong/cvmaj/examples/templates/multiple/ingame01.png",
+      "sha256": "6d81971d9fa1b71503c9ee0fed1852fc27783fb51b05b12396d1d1aa8011f9af",
+      "seat": "right",
+      "roi_xywh": [
+        973,
+        0,
+        169,
+        321
+      ],
+      "expected_groups": [],
+      "source_page": "https://github.com/xdedss/cvmaj/blob/6e2ca242b73b89adb52f9d374513b7178056278a/templates/multiple/ingame01.png",
+      "source_family": "cvmaj",
+      "category": "negative_backs_or_table",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 0
+    },
+    {
+      "name": "empty-ingame01-top",
+      "path": "data/public-mahjong/cvmaj/examples/templates/multiple/ingame01.png",
+      "sha256": "6d81971d9fa1b71503c9ee0fed1852fc27783fb51b05b12396d1d1aa8011f9af",
+      "seat": "top",
+      "roi_xywh": [
+        225,
+        0,
+        260,
+        73
+      ],
+      "expected_groups": [],
+      "source_page": "https://github.com/xdedss/cvmaj/blob/6e2ca242b73b89adb52f9d374513b7178056278a/templates/multiple/ingame01.png",
+      "source_family": "cvmaj",
+      "category": "negative_backs_or_table",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 0
+    },
+    {
+      "name": "empty-ingame02-right",
+      "path": "data/public-mahjong/cvmaj/examples/templates/multiple/ingame02.png",
+      "sha256": "a6c025ae1008aec5a955295676bee4ce0950a7597a300f9e31a168772841d8b0",
+      "seat": "right",
+      "roi_xywh": [
+        973,
+        0,
+        169,
+        321
+      ],
+      "expected_groups": [],
+      "source_page": "https://github.com/xdedss/cvmaj/blob/6e2ca242b73b89adb52f9d374513b7178056278a/templates/multiple/ingame02.png",
+      "source_family": "cvmaj",
+      "category": "negative_backs_or_table",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 0
+    },
+    {
+      "name": "empty-ingame02-top",
+      "path": "data/public-mahjong/cvmaj/examples/templates/multiple/ingame02.png",
+      "sha256": "a6c025ae1008aec5a955295676bee4ce0950a7597a300f9e31a168772841d8b0",
+      "seat": "top",
+      "roi_xywh": [
+        225,
+        0,
+        260,
+        73
+      ],
+      "expected_groups": [],
+      "source_page": "https://github.com/xdedss/cvmaj/blob/6e2ca242b73b89adb52f9d374513b7178056278a/templates/multiple/ingame02.png",
+      "source_family": "cvmaj",
+      "category": "negative_backs_or_table",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 0
+    },
+    {
+      "name": "empty-3801772233-right",
+      "path": "data/public-mahjong/steam-community/images/3801772233.jpg",
+      "sha256": "63d2c7d21809eb687940ca8530e6d7a0a2f377d2596bc182ab4eac55a6434281",
+      "seat": "right",
+      "roi_xywh": [
+        1485,
+        0,
+        257,
+        489
+      ],
+      "expected_groups": [],
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3801772233",
+      "source_family": "steam-3801772233",
+      "category": "negative_backs_or_table",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 9
+    },
+    {
+      "name": "empty-3801772233-top",
+      "path": "data/public-mahjong/steam-community/images/3801772233.jpg",
+      "sha256": "63d2c7d21809eb687940ca8530e6d7a0a2f377d2596bc182ab4eac55a6434281",
+      "seat": "top",
+      "roi_xywh": [
+        343,
+        0,
+        396,
+        112
+      ],
+      "expected_groups": [],
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3801772233",
+      "source_family": "steam-3801772233",
+      "category": "negative_backs_or_table",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 9
+    },
+    {
+      "name": "empty-3805320035-right",
+      "path": "data/public-mahjong/steam-community/images/3805320035.jpg",
+      "sha256": "4b0a622847ea06512198d925d0c98d504551d7c2328a6392826f1440c7ee8e46",
+      "seat": "right",
+      "roi_xywh": [
+        1945,
+        0,
+        337,
+        641
+      ],
+      "expected_groups": [],
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3805320035",
+      "source_family": "steam-3805320035",
+      "category": "negative_backs_or_table",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 13
+    },
+    {
+      "name": "empty-3805320035-top",
+      "path": "data/public-mahjong/steam-community/images/3805320035.jpg",
+      "sha256": "4b0a622847ea06512198d925d0c98d504551d7c2328a6392826f1440c7ee8e46",
+      "seat": "top",
+      "roi_xywh": [
+        450,
+        0,
+        519,
+        146
+      ],
+      "expected_groups": [],
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3805320035",
+      "source_family": "steam-3805320035",
+      "category": "negative_backs_or_table",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 13
+    },
+    {
+      "name": "empty-3812161238-right",
+      "path": "data/public-mahjong/steam-community/images/3812161238.jpg",
+      "sha256": "4efa1fc4b8bdf91565675608ff6a8a62f4ffe7fc39f129a47ee05068f1b99564",
+      "seat": "right",
+      "roi_xywh": [
+        1459,
+        0,
+        253,
+        481
+      ],
+      "expected_groups": [],
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812161238",
+      "source_family": "steam-3812161238",
+      "category": "negative_backs_or_table",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 15
+    },
+    {
+      "name": "empty-3812161238-top",
+      "path": "data/public-mahjong/steam-community/images/3812161238.jpg",
+      "sha256": "4efa1fc4b8bdf91565675608ff6a8a62f4ffe7fc39f129a47ee05068f1b99564",
+      "seat": "top",
+      "roi_xywh": [
+        337,
+        0,
+        389,
+        110
+      ],
+      "expected_groups": [],
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812161238",
+      "source_family": "steam-3812161238",
+      "category": "negative_backs_or_table",
+      "review_method": "Visual review of enlarged original pixels; inherited labels cite their original reviewed annotation.",
+      "split": "regression",
+      "family_id": 15
+    }
+  ],
+  "scope": "Frozen targeted debugging/regression corpus, not a population accuracy estimate or a blind holdout. Repeated views and captures share source_family. No model training.",
+  "sources": {
+    "pjura": "https://huggingface.co/datasets/pjura/mahjong_souls_tiles",
+    "cvmaj": "https://github.com/xdedss/cvmaj",
+    "roboflow_screen": "https://universe.roboflow.com/will-fuogp/mahjongsoul-tile-detection",
+    "roboflow_tiles": "https://universe.roboflow.com/majsoul/majsoul-6igdu",
+    "sightread": "https://huggingface.co/datasets/sightread-bench/mahjong-v0.1"
+  },
+  "counts": {
+    "cases": 47,
+    "unique_images": 32,
+    "source_families": 21,
+    "positive_groups": 46,
+    "negative_regions": 10,
+    "seats": {
+      "top": 18,
+      "right": 17,
+      "self": 8,
+      "left": 4
+    }
+  }
+}

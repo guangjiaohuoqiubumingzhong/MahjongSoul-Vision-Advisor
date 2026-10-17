@@ -1,0 +1,16 @@
+{
+  "source": "https://pypi.org/project/rapidocr-onnxruntime/1.4.4/",
+  "upstream": "https://github.com/RapidAI/RapidOCR/tree/v1.4.4",
+  "wheel_sha256": "971d7d5f223a7a808662229df1ef69893809d8457d834e6373d3854bc1782cbf",
+  "model": "ch_PP-OCRv4_rec_infer.onnx",
+  "model_sha256": "48fc40f24f6d2a207a2b1091d3437eb3cc3eb6b676dc3ef9c37384005483683b",
+  "license": "Apache-2.0",
+  "engine": "ONNX Runtime CPUExecutionProvider for fixed text crops only",
+  "decision_engine": "Mortal remains CUDAExecutionProvider only; no CPU ORT distribution installed",
+  "input": [
+    {
+      "name": "x",
+      "shape": "tensor_type {\n  elem_type: 1\n  shape {\n    dim {\n      dim_param: \"p2o.DynamicDimension.0\"\n    }\n    dim {\n      dim_value: 3\n    }\n    dim {\n      dim_param: \"?\"\n    }\n    dim {\n      dim_param: \"p2o.DynamicDimension.1\"\n    }\n  }\n}\n"
+    }
+  ]
+}

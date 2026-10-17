@@ -1,0 +1,460 @@
+{
+  "repository": {
+    "id": 367099540,
+    "node_id": "MDEwOlJlcG9zaXRvcnkzNjcwOTk1NDA=",
+    "name": "cvmaj",
+    "full_name": "xdedss/cvmaj",
+    "private": false,
+    "owner": {
+      "login": "xdedss",
+      "id": 16552113,
+      "node_id": "MDQ6VXNlcjE2NTUyMTEz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16552113?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xdedss",
+      "html_url": "https://github.com/xdedss",
+      "followers_url": "https://api.github.com/users/xdedss/followers",
+      "following_url": "https://api.github.com/users/xdedss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xdedss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xdedss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xdedss/subscriptions",
+      "organizations_url": "https://api.github.com/users/xdedss/orgs",
+      "repos_url": "https://api.github.com/users/xdedss/repos",
+      "events_url": "https://api.github.com/users/xdedss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xdedss/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/xdedss/cvmaj",
+    "description": "雀魂cv框架",
+    "fork": false,
+    "url": "https://api.github.com/repos/xdedss/cvmaj",
+    "forks_url": "https://api.github.com/repos/xdedss/cvmaj/forks",
+    "keys_url": "https://api.github.com/repos/xdedss/cvmaj/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/xdedss/cvmaj/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/xdedss/cvmaj/teams",
+    "hooks_url": "https://api.github.com/repos/xdedss/cvmaj/hooks",
+    "issue_events_url": "https://api.github.com/repos/xdedss/cvmaj/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/xdedss/cvmaj/events",
+    "assignees_url": "https://api.github.com/repos/xdedss/cvmaj/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/xdedss/cvmaj/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/xdedss/cvmaj/tags",
+    "blobs_url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/xdedss/cvmaj/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/xdedss/cvmaj/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/xdedss/cvmaj/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/xdedss/cvmaj/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/xdedss/cvmaj/languages",
+    "stargazers_url": "https://api.github.com/repos/xdedss/cvmaj/stargazers",
+    "contributors_url": "https://api.github.com/repos/xdedss/cvmaj/contributors",
+    "subscribers_url": "https://api.github.com/repos/xdedss/cvmaj/subscribers",
+    "subscription_url": "https://api.github.com/repos/xdedss/cvmaj/subscription",
+    "commits_url": "https://api.github.com/repos/xdedss/cvmaj/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/xdedss/cvmaj/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/xdedss/cvmaj/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/xdedss/cvmaj/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/xdedss/cvmaj/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/xdedss/cvmaj/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/xdedss/cvmaj/merges",
+    "archive_url": "https://api.github.com/repos/xdedss/cvmaj/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/xdedss/cvmaj/downloads",
+    "issues_url": "https://api.github.com/repos/xdedss/cvmaj/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/xdedss/cvmaj/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/xdedss/cvmaj/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/xdedss/cvmaj/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/xdedss/cvmaj/labels{/name}",
+    "releases_url": "https://api.github.com/repos/xdedss/cvmaj/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/xdedss/cvmaj/deployments",
+    "created_at": "2021-05-13T15:54:20Z",
+    "updated_at": "2026-09-15T14:07:16Z",
+    "pushed_at": "2021-06-04T11:24:31Z",
+    "git_url": "git://github.com/xdedss/cvmaj.git",
+    "ssh_url": "git@github.com:xdedss/cvmaj.git",
+    "clone_url": "https://github.com/xdedss/cvmaj.git",
+    "svn_url": "https://github.com/xdedss/cvmaj",
+    "homepage": null,
+    "size": 19068,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "Python",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [],
+    "visibility": "public",
+    "forks": 1,
+    "open_issues": 0,
+    "watchers": 12,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 1,
+    "subscribers_count": 1
+  },
+  "tree": {
+    "sha": "6e2ca242b73b89adb52f9d374513b7178056278a",
+    "url": "https://api.github.com/repos/xdedss/cvmaj/git/trees/6e2ca242b73b89adb52f9d374513b7178056278a",
+    "tree": [
+      {
+        "path": ".gitattributes",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+        "size": 66,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/dfe0770424b2a19faf507a501ebfc23be8f54e7b"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "291fffde399aa1f49beb738df4f406b31247b0a4",
+        "size": 1376,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/291fffde399aa1f49beb738df4f406b31247b0a4"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d79ed143e85adbcb0aa867581f704db7f51ab555",
+        "size": 1063,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/d79ed143e85adbcb0aa867581f704db7f51ab555"
+      },
+      {
+        "path": "ai",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ce6e7259b5fba27b3752097b3d728b8bc7f47b7e",
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/trees/ce6e7259b5fba27b3752097b3d728b8bc7f47b7e"
+      },
+      {
+        "path": "ai/example.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5c6d2c52290db9fe6a3614d74417779ca80e41ec",
+        "size": 412,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/5c6d2c52290db9fe6a3614d74417779ca80e41ec"
+      },
+      {
+        "path": "ai/no19.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "73df00d909bc5ae14691e8d3debd191112eddbf4",
+        "size": 2708,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/73df00d909bc5ae14691e8d3debd191112eddbf4"
+      },
+      {
+        "path": "cvmaj.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c9d9392a98d7574efb12265973de61e2fdecd42d",
+        "size": 9329,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/c9d9392a98d7574efb12265973de61e2fdecd42d"
+      },
+      {
+        "path": "cvmaj_check.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d112e907c8da247df33c3c13bb146461747a38d2",
+        "size": 555,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/d112e907c8da247df33c3c13bb146461747a38d2"
+      },
+      {
+        "path": "dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36b2e750e27b47661cb8ccffd32f8509f8412bcb",
+        "size": 2310,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/36b2e750e27b47661cb8ccffd32f8509f8412bcb"
+      },
+      {
+        "path": "img",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ae3c795a4185ae6ef93dc044856bd871c0a31f8d",
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/trees/ae3c795a4185ae6ef93dc044856bd871c0a31f8d"
+      },
+      {
+        "path": "img/bwborder.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6e3051032beb4c4d31fd13fc7dfd512ad7e7d7d",
+        "size": 31676,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/c6e3051032beb4c4d31fd13fc7dfd512ad7e7d7d"
+      },
+      {
+        "path": "img/bwmap.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b61fe59f51b87c62c4337a16559ca8e45505c1c0",
+        "size": 21146,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/b61fe59f51b87c62c4337a16559ca8e45505c1c0"
+      },
+      {
+        "path": "img/e2.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "feb8ed4711f9218840c91a0f9b016b2f8f3a368e",
+        "size": 1250863,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/feb8ed4711f9218840c91a0f9b016b2f8f3a368e"
+      },
+      {
+        "path": "img/model.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bb25b9d7e212e63365c805adef84e9a232cb5298",
+        "size": 24540,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/bb25b9d7e212e63365c805adef84e9a232cb5298"
+      },
+      {
+        "path": "img/n.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "065dcbc829343c44f264e995f635c631dd5a143c",
+        "size": 1079796,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/065dcbc829343c44f264e995f635c631dd5a143c"
+      },
+      {
+        "path": "img/p.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be0f3596bdd5f2dae0d3c1736801c84bebca96fa",
+        "size": 60405,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/be0f3596bdd5f2dae0d3c1736801c84bebca96fa"
+      },
+      {
+        "path": "img/samples.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b5d4f17e11b5e4e5435b0f18c82bf1ebab085ec",
+        "size": 239329,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/4b5d4f17e11b5e4e5435b0f18c82bf1ebab085ec"
+      },
+      {
+        "path": "img/scan.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82fde9ee7977e66aa50696ff6e587224b6f36256",
+        "size": 159847,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/82fde9ee7977e66aa50696ff6e587224b6f36256"
+      },
+      {
+        "path": "img/v.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1fa3efda9e10b065d680bd0eb10fdf2ef720b8a",
+        "size": 680127,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/b1fa3efda9e10b065d680bd0eb10fdf2ef720b8a"
+      },
+      {
+        "path": "models.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8cb6b237fdef0b2792c00990bbc5c4415f5a728e",
+        "size": 865,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/8cb6b237fdef0b2792c00990bbc5c4415f5a728e"
+      },
+      {
+        "path": "pretrained.tar",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef622dc4c1c531e0ffe9b3165a2f9ecce37503b2",
+        "size": 1080063,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/ef622dc4c1c531e0ffe9b3165a2f9ecce37503b2"
+      },
+      {
+        "path": "readme.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "afff35e9e2b0834818f7050b451e34937dcc45c4",
+        "size": 5142,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/afff35e9e2b0834818f7050b451e34937dcc45c4"
+      },
+      {
+        "path": "requirements.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3a3fbe70836ef65a3ccb34a7f4f9545813a55671",
+        "size": 50,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/3a3fbe70836ef65a3ccb34a7f4f9545813a55671"
+      },
+      {
+        "path": "samples",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7325c840d4bd24e2644e9a733665286057abc8d5",
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/trees/7325c840d4bd24e2644e9a733665286057abc8d5"
+      },
+      {
+        "path": "samples/pack.zip",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "26622f7a7b8da09115e447a6b25d29d6d89e06fb",
+        "size": 7444858,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/26622f7a7b8da09115e447a6b25d29d6d89e06fb"
+      },
+      {
+        "path": "samples/readme.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e81cf6c3eeff89c12ae496a095391218c4bc3581",
+        "size": 101,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/e81cf6c3eeff89c12ae496a095391218c4bc3581"
+      },
+      {
+        "path": "scrutils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "429a0b626ddaa1ed4f702b12a71ecf5edaac2f7c",
+        "size": 11643,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/429a0b626ddaa1ed4f702b12a71ecf5edaac2f7c"
+      },
+      {
+        "path": "segutils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3be9b898de440c3bd684765947a42c3d7c59f208",
+        "size": 15461,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/3be9b898de440c3bd684765947a42c3d7c59f208"
+      },
+      {
+        "path": "templates",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "eaad9ae5524583ef498adccd78af2aace66ca6ba",
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/trees/eaad9ae5524583ef498adccd78af2aace66ca6ba"
+      },
+      {
+        "path": "templates/05.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5778c5e32197db61384a70bfcd57d52f4014166d",
+        "size": 1141223,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/5778c5e32197db61384a70bfcd57d52f4014166d"
+      },
+      {
+        "path": "templates/ingameTemplate.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "95a844e4af6800bc1fa69f2952f7f7697d66e501",
+        "size": 502891,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/95a844e4af6800bc1fa69f2952f7f7697d66e501"
+      },
+      {
+        "path": "templates/mainTemplate.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "acc6e15534503421dac0cd2338b06c14f0c06532",
+        "size": 1286253,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/acc6e15534503421dac0cd2338b06c14f0c06532"
+      },
+      {
+        "path": "templates/multiple",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a8edf1a6845dec3543edb36b6f80c7df6d235cd2",
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/trees/a8edf1a6845dec3543edb36b6f80c7df6d235cd2"
+      },
+      {
+        "path": "templates/multiple/crop.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "815713586ccafdc23e93d0cc304726e43c352ce4",
+        "size": 1358,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/815713586ccafdc23e93d0cc304726e43c352ce4"
+      },
+      {
+        "path": "templates/multiple/ingame01.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d471a1fc1e6b883cd46b74448b8e9b7a950f12a0",
+        "size": 915500,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/d471a1fc1e6b883cd46b74448b8e9b7a950f12a0"
+      },
+      {
+        "path": "templates/multiple/ingame02.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "05f65dd56cf401a839181fb75fbab793d6d19134",
+        "size": 938385,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/05f65dd56cf401a839181fb75fbab793d6d19134"
+      },
+      {
+        "path": "templates/multiple/ingame03.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "564be404895db67263e406c5506787491e5e10a6",
+        "size": 996990,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/564be404895db67263e406c5506787491e5e10a6"
+      },
+      {
+        "path": "templates/multiple/load.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "72fe0592f0e3940a14b1e0aa566d01b6972a2cf4",
+        "size": 354785,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/72fe0592f0e3940a14b1e0aa566d01b6972a2cf4"
+      },
+      {
+        "path": "templates/multiple/title01.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f3ec638084f4cf6ea89da2c13ba2f6a469a395a5",
+        "size": 400183,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/f3ec638084f4cf6ea89da2c13ba2f6a469a395a5"
+      },
+      {
+        "path": "templates/multiple/title02.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86ef4747b73d37753beab59e6f059615c0a74c51",
+        "size": 400575,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/86ef4747b73d37753beab59e6f059615c0a74c51"
+      },
+      {
+        "path": "templates/multiple/title03.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8c465dc3251da043860172d769b4e99a01d568d0",
+        "size": 990126,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/8c465dc3251da043860172d769b4e99a01d568d0"
+      },
+      {
+        "path": "templates/patch1.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fd22aa3696ee915df631d3d27a2a9e1d612be3d3",
+        "size": 126869,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/fd22aa3696ee915df631d3d27a2a9e1d612be3d3"
+      },
+      {
+        "path": "visionutils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "827518d1dbad6d1abc88482e4b7b8210bc4aab34",
+        "size": 10157,
+        "url": "https://api.github.com/repos/xdedss/cvmaj/git/blobs/827518d1dbad6d1abc88482e4b7b8210bc4aab34"
+      }
+    ],
+    "truncated": false
+  }
+}

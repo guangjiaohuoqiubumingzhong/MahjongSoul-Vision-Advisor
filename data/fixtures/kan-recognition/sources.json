@@ -1,0 +1,34 @@
+{
+  "top-3p-ankan": {
+    "source": "top-3p-ankan-desktop.png",
+    "source_sha256": "c6dcd54a7ec4c9cdba3438397410f7d8e037e723c5edc2d1d7e47e655500783d",
+    "source_size": [
+      2508,
+      1112
+    ],
+    "client_crop_xywh": [
+      1,
+      31,
+      1920,
+      1080
+    ],
+    "native_client": "top-3p-ankan-1920.png",
+    "source_kind": "user_desktop_attachment"
+  },
+  "top-C-pon-arrow": {
+    "source": "top-C-pon-arrow-desktop.png",
+    "source_sha256": "77d004544f046507dab59bd9b301ee0cf167d3165920c94366555ed370413f0a",
+    "source_size": [
+      2509,
+      1112
+    ],
+    "client_crop_xywh": [
+      1,
+      31,
+      1920,
+      1080
+    ],
+    "native_client": "top-C-pon-arrow-1920.png",
+    "source_kind": "user_desktop_attachment"
+  }
+}

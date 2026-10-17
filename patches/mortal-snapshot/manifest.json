@@ -1,0 +1,18 @@
+{
+  "source_commit": "0cff2b52982be5b1163aa9a62fb01f03ce91e0d2",
+  "purpose": "Visible single-frame decision state import; does not reconstruct event history",
+  "files": {
+    "libriichi/src/state/mod.rs": {
+      "overlay": "mod.rs",
+      "sha256": "339752ee40a671ef79b2a0e096ef06b9ae8b0043b63df924410ac9194f8c64e8",
+      "original_sha256": "f304f2d5445e5f7ed34a28b21aa622b9adc56b0851b6ed87747628167b044f45",
+      "original_lf_sha256": "edf18b2a505f7334ac21dcfe46e72e097eb806dc8de8bcc92fefa3624509beb1"
+    },
+    "libriichi/src/state/snapshot.rs": {
+      "overlay": "snapshot.rs",
+      "sha256": "f847361e71a944a3c0085f508a7afa51f10cfb09b315f34b37660c87feaa75d7",
+      "original_sha256": null,
+      "original_lf_sha256": null
+    }
+  }
+}

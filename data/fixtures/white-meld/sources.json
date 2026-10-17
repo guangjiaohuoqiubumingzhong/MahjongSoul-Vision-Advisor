@@ -1,0 +1,40 @@
+[
+  {
+    "image": "turn-62.png",
+    "source_capture": "D:\\py_project\\Majan\\reports\\screenshot-advice\\run-20261011T130243-2\\action-0002\\00000163.png",
+    "source_report": "reports\\screenshot-advice\\run-20261011T130243-2\\action-0002\\advice.json",
+    "user_image": "C:/Users/16BITS~1/AppData/Local/Temp/codex-clipboard-18557705-721d-4a9a-9b54-2d877bc64468.png",
+    "sha256": "cd75d3ac7187810ddfcc6d5dd2272c6403747de0aec72403f30361277abb61b6",
+    "purpose": "user_bug_regression_not_training",
+    "expected": {
+      "meld_player": 1,
+      "labels": [
+        "P",
+        "P",
+        "P"
+      ],
+      "type": "pon",
+      "called_position": 1,
+      "source_player": 3
+    }
+  },
+  {
+    "image": "turn-58.png",
+    "source_capture": "D:\\py_project\\Majan\\reports\\screenshot-advice\\run-20261011T130243-2\\action-0003\\00000274.png",
+    "source_report": "reports\\screenshot-advice\\run-20261011T130243-2\\action-0003\\advice.json",
+    "user_image": "C:/Users/16BITS~1/AppData/Local/Temp/codex-clipboard-fc35f106-8930-42cc-9c97-707e12c78f9b.png",
+    "sha256": "9189d232eb4265d2547e08f70ac053f555a3b1dc16dfec02d713cf613851c25e",
+    "purpose": "user_bug_regression_not_training",
+    "expected": {
+      "meld_player": 1,
+      "labels": [
+        "P",
+        "P",
+        "P"
+      ],
+      "type": "pon",
+      "called_position": 1,
+      "source_player": 3
+    }
+  }
+]

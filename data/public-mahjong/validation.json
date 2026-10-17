@@ -1,0 +1,27 @@
+{
+  "valid_images": 3132,
+  "unique_images": 2890,
+  "screenshot_examples": 432,
+  "unique_screenshot_examples": 427,
+  "by_source": {
+    "cvmaj": 743,
+    "steam-kan-research": 30,
+    "kan-note": 181,
+    "kan-reddit": 1,
+    "pjura": 1977,
+    "steam-community": 200
+  },
+  "scene_counts": {
+    "processed": 8,
+    "board": 185,
+    "hand_closeup": 4,
+    "lobby": 57,
+    "tile_crop": 2700,
+    "unreviewed": 30,
+    "win_result": 148
+  },
+  "unique_board_images": 182,
+  "clear_board_images": 28,
+  "sha256_verified": true,
+  "decode_verified": true
+}

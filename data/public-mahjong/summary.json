@@ -1,0 +1,22 @@
+{
+  "collected_at": "2026-10-12T14:05:32.326177+00:00",
+  "images": 2920,
+  "unique_images": 2683,
+  "by_source": {
+    "cvmaj": 743,
+    "pjura": 1977,
+    "steam-community": 200
+  },
+  "by_kind": {
+    "screenshot_or_processed_example": 20,
+    "tile_crop": 2700,
+    "screenshot_candidate": 200
+  },
+  "unique_by_source": {
+    "cvmaj": 545,
+    "pjura": 1938,
+    "steam-community": 200
+  },
+  "total_bytes": 120582544,
+  "errors": []
+}

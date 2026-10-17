@@ -1,0 +1,4607 @@
+{
+  "schema_version": 1,
+  "feature_version": "bgr-body-v2-and-rectified-colour-glyph-v3",
+  "face_parameters": {
+    "background_percentile": 85,
+    "minimum_background": 64,
+    "minimum_crop_side": 8,
+    "white_min_channel": 0.94,
+    "polygon_epsilon": 0.03,
+    "minimum_area_fraction": 0.2,
+    "warp_size": [
+      40,
+      60
+    ],
+    "face_trim": 3,
+    "glyph_min_channel": 0.7,
+    "blank_ink_min_channel": 0.96,
+    "blank_max_ink_fraction": 0.01,
+    "glyph_size": [
+      30,
+      50
+    ],
+    "glyph_padding": 2,
+    "blur_kernel": [
+      3,
+      3
+    ],
+    "blur_sigma": 1.0,
+    "ink_offset": 0.15,
+    "ink_contrast": 0.45,
+    "red_contrast": 0.3,
+    "green_contrast": 0.2,
+    "correlation_weight": 0.65,
+    "mse_weight": 0.35,
+    "mse_scale": 6,
+    "constant_mse_scale": 5
+  },
+  "source_games": [
+    "user-250819-2005",
+    "user-251228-f82d20f0"
+  ],
+  "templates": [
+    {
+      "id": "35784acee8d3c8a9",
+      "file": "35784acee8d3c8a9-3d8d737c446b407d.png",
+      "sha256": "3d8d737c446b407dfb2906dfe7a8a95402fe84fe184e081e9d383ab459ee5294",
+      "label": "2m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 0
+    },
+    {
+      "id": "11c212350522b9f8",
+      "file": "11c212350522b9f8-f821d9ebeb731031.png",
+      "sha256": "f821d9ebeb7310317adc33dddb3faa6f371fc4d2555c39168926af48255a7d87",
+      "label": "3m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 1
+    },
+    {
+      "id": "24aba5959ecb32fa",
+      "file": "24aba5959ecb32fa-888bda4eac7e6b72.png",
+      "sha256": "888bda4eac7e6b726c599c9609ecc136bd59809f3f7bed684616929190e84e7a",
+      "label": "2p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 2
+    },
+    {
+      "id": "c2217fdab55a79fb",
+      "file": "c2217fdab55a79fb-d828f1bbe4352f99.png",
+      "sha256": "d828f1bbe4352f99c8ecc71bcc4eece2bcbb57be5b0e089fbdd7c12b23a909eb",
+      "label": "2p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 3
+    },
+    {
+      "id": "f2b03dc051e06be3",
+      "file": "f2b03dc051e06be3-0acd503bfa33ccb5.png",
+      "sha256": "0acd503bfa33ccb52aedf6261f69c745d79411eff0c82e17296aab6e6b541044",
+      "label": "5p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 4
+    },
+    {
+      "id": "3b856746e596322f",
+      "file": "3b856746e596322f-4e328775fcb00dc3.png",
+      "sha256": "4e328775fcb00dc3a75940103c627474427d3285e57e263ec3ad45ad0e123869",
+      "label": "5p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 5
+    },
+    {
+      "id": "434439d6dac74215",
+      "file": "434439d6dac74215-6874963314fc1197.png",
+      "sha256": "6874963314fc119754af4baa8b50209628fbe1acf82f74184ac22d86f9b07db8",
+      "label": "5p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 6
+    },
+    {
+      "id": "dd203c9569862553",
+      "file": "dd203c9569862553-6f815e6ff4272b93.png",
+      "sha256": "6f815e6ff4272b938de89f1aa56b44d284e7deee13206f8808d4b51f3b0122fa",
+      "label": "6p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 7
+    },
+    {
+      "id": "82fac815660dd063",
+      "file": "82fac815660dd063-6aac1c78b15d6655.png",
+      "sha256": "6aac1c78b15d6655bf0004435b9fd26d31a64815b2c6d578292032543ce39b74",
+      "label": "2s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 8
+    },
+    {
+      "id": "027450f5fa49a2f7",
+      "file": "027450f5fa49a2f7-6da13a4951bca73e.png",
+      "sha256": "6da13a4951bca73e496cf910520a3d299e42da0b97ab4ccf3aeb7effb15998de",
+      "label": "3s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 9
+    },
+    {
+      "id": "d9bd429675ba0a65",
+      "file": "d9bd429675ba0a65-51e6439b65541449.png",
+      "sha256": "51e6439b655414498a0433e4ca9ec2292e2682e82dbfa69898d67e88729c35fa",
+      "label": "4s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 10
+    },
+    {
+      "id": "2671e8ee9d44c162",
+      "file": "2671e8ee9d44c162-c92fcebf1cd6d3cd.png",
+      "sha256": "c92fcebf1cd6d3cd40c13e6dae0ededf272a3943d7209ff47028b0eec26756a7",
+      "label": "4s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 11
+    },
+    {
+      "id": "033306a8bd153df1",
+      "file": "033306a8bd153df1-0bc615097d7fa5d1.png",
+      "sha256": "0bc615097d7fa5d118342a51a037bad0ac3a3c04c5f2e14b98281b12f9eacc5b",
+      "label": "5sr",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 12
+    },
+    {
+      "id": "e33ac2af0dce665e",
+      "file": "e33ac2af0dce665e-e34f544f3692c680.png",
+      "sha256": "e34f544f3692c6807d0bafb31342212a48d5863922c8f3848c1a877fb1f18cd5",
+      "label": "F",
+      "kind": "tile",
+      "roles": [
+        "river_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 13
+    },
+    {
+      "id": "91098e2e919f87cd",
+      "file": "91098e2e919f87cd-20bab9477805d71f.png",
+      "sha256": "20bab9477805d71f9c65b3b191825978d218c83d242c5d60dbe388c5bd80ffbf",
+      "label": "1m",
+      "kind": "tile",
+      "roles": [
+        "river_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 14
+    },
+    {
+      "id": "5ce0797439b4b658",
+      "file": "5ce0797439b4b658-2226e4012a09bb11.png",
+      "sha256": "2226e4012a09bb114a820220cfd2afd99ee4d665abfd1b498628438486154265",
+      "label": "5m",
+      "kind": "tile",
+      "roles": [
+        "river_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 15
+    },
+    {
+      "id": "abc00e3fe4b800d1",
+      "file": "abc00e3fe4b800d1-e0fe12b938db0440.png",
+      "sha256": "e0fe12b938db044066de9c8a157f3bb8f6f26b163ff3e26b513ae40d9e665bcb",
+      "label": "P",
+      "kind": "tile",
+      "roles": [
+        "river_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 16
+    },
+    {
+      "id": "67e237774720f830",
+      "file": "67e237774720f830-bdb400c410561478.png",
+      "sha256": "bdb400c4105614780543d4508ea2abba61a2f03b99b412778877421cbd31e8d8",
+      "label": "8p",
+      "kind": "tile",
+      "roles": [
+        "river_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 17
+    },
+    {
+      "id": "50e70c2000bbc666",
+      "file": "50e70c2000bbc666-215259c285df7725.png",
+      "sha256": "215259c285df77257235f0829fec4b56a5fd42b31c377a03b9f1de58b3cd0bb3",
+      "label": "7s",
+      "kind": "tile",
+      "roles": [
+        "river_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 18
+    },
+    {
+      "id": "ba3cd5a8912867e7",
+      "file": "ba3cd5a8912867e7-7dcf1f8b3e689d71.png",
+      "sha256": "7dcf1f8b3e689d714594b3f6bd64c612fe64dfff2b2059fc0909e64c7a161ff4",
+      "label": "C",
+      "kind": "tile",
+      "roles": [
+        "river_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 19
+    },
+    {
+      "id": "69d737456b1f5141",
+      "file": "69d737456b1f5141-ea5d50758ec64de2.png",
+      "sha256": "ea5d50758ec64de2c44043342b9e45f686f8b53cc5deaed50663f79aad8698fb",
+      "label": "3p",
+      "kind": "tile",
+      "roles": [
+        "river_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 20
+    },
+    {
+      "id": "9ba4a4936c7f2e4e",
+      "file": "9ba4a4936c7f2e4e-b6dfa86647d30663.png",
+      "sha256": "b6dfa86647d306632c346b0c7867ece7e29837b357e8c0322d09578ff7763e3f",
+      "label": "7m",
+      "kind": "tile",
+      "roles": [
+        "river_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 21
+    },
+    {
+      "id": "a6b374178d28435a",
+      "file": "a6b374178d28435a-86f60f2a06648632.png",
+      "sha256": "86f60f2a06648632ecaabf9f97456e1bd72afdf84064892639a9d4cb1444a215",
+      "label": "1s",
+      "kind": "tile",
+      "roles": [
+        "river_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 22
+    },
+    {
+      "id": "0194d293e617536d",
+      "file": "0194d293e617536d-97bd1b107100e137.png",
+      "sha256": "97bd1b107100e137d4f1374be4bd782b296970d135b5af3024e96fb42b66beab",
+      "label": "C",
+      "kind": "tile",
+      "roles": [
+        "river_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 23
+    },
+    {
+      "id": "df4e51bad30db88c",
+      "file": "df4e51bad30db88c-14e0c9b6c856e21e.png",
+      "sha256": "14e0c9b6c856e21ea14200547e748c7358052a0cab04395f9fe84297822a8df5",
+      "label": "8p",
+      "kind": "tile",
+      "roles": [
+        "river_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 24
+    },
+    {
+      "id": "36520642f08b9b10",
+      "file": "36520642f08b9b10-29ac65160389f4b1.png",
+      "sha256": "29ac65160389f4b1c2979e82d3456431fa2a84dc75fd309849e4b2495dd6e884",
+      "label": "S",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 25
+    },
+    {
+      "id": "2eb202aff5f16cf9",
+      "file": "2eb202aff5f16cf9-f2b67a1f51d25566.png",
+      "sha256": "f2b67a1f51d25566f94c7031cfa6b262b47163f8dde3fb3ae0cf25eff7976cb1",
+      "label": "9m",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 26
+    },
+    {
+      "id": "206d81835ecdecc3",
+      "file": "206d81835ecdecc3-468201c3a70bfa08.png",
+      "sha256": "468201c3a70bfa08d76fea3ba98243b83c6e8c73b6a91e5eeea9374767c79387",
+      "label": "P",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 27
+    },
+    {
+      "id": "58b8aabd941b22eb",
+      "file": "58b8aabd941b22eb-630baaa5eec62764.png",
+      "sha256": "630baaa5eec62764d01a855f3c3f1206548b9e4f60cb008e332962c4bbe343ea",
+      "label": "8p",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 28
+    },
+    {
+      "id": "ae715f88609039dd",
+      "file": "ae715f88609039dd-4e9307971f64c6b7.png",
+      "sha256": "4e9307971f64c6b7d56ff9a80294380738a477c7fe80ef52a0a4a33fd3a30b45",
+      "label": "1p",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 29
+    },
+    {
+      "id": "51c566135eded7c8",
+      "file": "51c566135eded7c8-68c66df960dd18f7.png",
+      "sha256": "68c66df960dd18f7c88a3fff06860626222dd4ff6950bdd37b6fb0d632253f27",
+      "label": "W",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 30
+    },
+    {
+      "id": "0da1ff02b10342ca",
+      "file": "0da1ff02b10342ca-6037b087b5f929a7.png",
+      "sha256": "6037b087b5f929a7430cb0525aa09d8d3cace4a277c2236f434a14b164be00a2",
+      "label": "4p",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 31
+    },
+    {
+      "id": "d59e4e41da212413",
+      "file": "d59e4e41da212413-608d94b8c7f8f801.png",
+      "sha256": "608d94b8c7f8f801a945454cd8156cef763e7f06ab5f30dc651fde82f0658b3c",
+      "label": "8s",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 32
+    },
+    {
+      "id": "a6ae76cb5772d3e3",
+      "file": "a6ae76cb5772d3e3-ae170fd4bf3c24a0.png",
+      "sha256": "ae170fd4bf3c24a05ed3cbd92f66e48efd95bcaf9470feed392c893553fc3543",
+      "label": "C",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 33
+    },
+    {
+      "id": "dd240d20b12522e1",
+      "file": "dd240d20b12522e1-40986793cde737d5.png",
+      "sha256": "40986793cde737d591ad8181d777e2c76cd52a98a6509ae5f16d1eb325a4af00",
+      "label": "2s",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 34
+    },
+    {
+      "id": "4e357a0aeaf84922",
+      "file": "4e357a0aeaf84922-b479e86f664d2545.png",
+      "sha256": "b479e86f664d2545046295ebae58e889407a225fe033da9b3caea3e0704278da",
+      "label": "4p",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 35
+    },
+    {
+      "id": "3b186d04cd1fe4c3",
+      "file": "3b186d04cd1fe4c3-8f3bbc145347c3f0.png",
+      "sha256": "8f3bbc145347c3f0e01a5d730bc3320a8dcee9eff9d508a9d7e67b320ff4a117",
+      "label": "7s",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 36
+    },
+    {
+      "id": "936027092eda5717",
+      "file": "936027092eda5717-8c83f1096c3fa43a.png",
+      "sha256": "8c83f1096c3fa43ac7165a32a7f6ac75a12329f5f8a82a65bb1860a07514832a",
+      "label": "P",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 37
+    },
+    {
+      "id": "79695e0cfdb3fbca",
+      "file": "79695e0cfdb3fbca-41d9f246bac3036b.png",
+      "sha256": "41d9f246bac3036b2e16266880d763b2fd99fed50234d91fde9de58b6b1262c0",
+      "label": "4m",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 38
+    },
+    {
+      "id": "f25c1f1039e62c7a",
+      "file": "f25c1f1039e62c7a-ba39661e8c20a13e.png",
+      "sha256": "ba39661e8c20a13e106e078c54814fba864d24a2de972dfb33152278d383a791",
+      "label": "W",
+      "kind": "tile",
+      "roles": [
+        "river_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 39
+    },
+    {
+      "id": "3a1e4ff77fbb268b",
+      "file": "3a1e4ff77fbb268b-0188c15ac01fe49a.png",
+      "sha256": "0188c15ac01fe49a0d45e8ff955bc0e2a3e10b877eae18936f799737d7f11d4b",
+      "label": "N",
+      "kind": "tile",
+      "roles": [
+        "river_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 40
+    },
+    {
+      "id": "9af94b3283f7995b",
+      "file": "9af94b3283f7995b-a578a58700765aaa.png",
+      "sha256": "a578a58700765aaa3987b467fa362afbbe2dac6fb81951a778f73a686e5a301a",
+      "label": "F",
+      "kind": "tile",
+      "roles": [
+        "river_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 41
+    },
+    {
+      "id": "4cd0b3c8f4e15b31",
+      "file": "4cd0b3c8f4e15b31-a118ee027cfecb42.png",
+      "sha256": "a118ee027cfecb42ec7ae569838aa7153f0562cd1d4344c0dbd1978c793a7b9d",
+      "label": "F",
+      "kind": "tile",
+      "roles": [
+        "river_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 42
+    },
+    {
+      "id": "a97b22a211c99a44",
+      "file": "a97b22a211c99a44-bca859da9563acad.png",
+      "sha256": "bca859da9563acade06253658dd133b7ea55af5424e38a0e451f3e754651e909",
+      "label": "E",
+      "kind": "tile",
+      "roles": [
+        "river_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 43
+    },
+    {
+      "id": "bc75a88276c5db87",
+      "file": "bc75a88276c5db87-10271193b9d7dff3.png",
+      "sha256": "10271193b9d7dff30f3a75140cc62635d4a3570e79ec2cf099777b0171370ec1",
+      "label": "9s",
+      "kind": "tile",
+      "roles": [
+        "river_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 44
+    },
+    {
+      "id": "5a3861008d80354e",
+      "file": "5a3861008d80354e-c95ec223280a82c4.png",
+      "sha256": "c95ec223280a82c41420db726c55b63cf5b1f1f8d10383baa84a69ebb91af91c",
+      "label": "N",
+      "kind": "tile",
+      "roles": [
+        "river_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 45
+    },
+    {
+      "id": "7c2dd16b7e1c6592",
+      "file": "7c2dd16b7e1c6592-6da8e4d4167306b0.png",
+      "sha256": "6da8e4d4167306b0632413432d3ae44808f2ae52b9d477218e050438a6834b62",
+      "label": "E",
+      "kind": "tile",
+      "roles": [
+        "river_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 46
+    },
+    {
+      "id": "369b0d8cd7d59c0e",
+      "file": "369b0d8cd7d59c0e-afa9bd55402d4ede.png",
+      "sha256": "afa9bd55402d4ede14be3e92592005d7159950e66bc61af86c9f2e2aed857f75",
+      "label": "8s",
+      "kind": "tile",
+      "roles": [
+        "river_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 47
+    },
+    {
+      "id": "4e264f47ff94fed0",
+      "file": "4e264f47ff94fed0-4af579c1c31dcf27.png",
+      "sha256": "4af579c1c31dcf277dcc8a75ef75a7346d55428589b85f4fa8c9b6c131557961",
+      "label": "5s",
+      "kind": "tile",
+      "roles": [
+        "river_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 48
+    },
+    {
+      "id": "90ee517b7a5f167d",
+      "file": "90ee517b7a5f167d-6907a8c620e041db.png",
+      "sha256": "6907a8c620e041dbb156b4be13974d88aeb7e8b3ed9c0632a271ecf9a6461c9f",
+      "label": "9p",
+      "kind": "tile",
+      "roles": [
+        "river_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 49
+    },
+    {
+      "id": "9c5287e486406a35",
+      "file": "9c5287e486406a35-65cfcc8bcf6eb074.png",
+      "sha256": "65cfcc8bcf6eb074dbe287dbdb35840b45a7301a65aa7743316d315bc680e33b",
+      "label": "7p",
+      "kind": "tile",
+      "roles": [
+        "river_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 50
+    },
+    {
+      "id": "88c537e7a61e0545",
+      "file": "88c537e7a61e0545-0aa702f3c0531731.png",
+      "sha256": "0aa702f3c0531731a80bfa131da9f07944aebad113546436abdc68bbbd0cde24",
+      "label": "9s",
+      "kind": "tile",
+      "roles": [
+        "river_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 51
+    },
+    {
+      "id": "6e5e3b55fb92402e",
+      "file": "6e5e3b55fb92402e-455801fc2d6665bf.png",
+      "sha256": "455801fc2d6665bf247de8c4c0542f04f5fda81cb2920405d7b773b9fad36bec",
+      "label": "1m",
+      "kind": "tile",
+      "roles": [
+        "river_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 52
+    },
+    {
+      "id": "ffcf29fce17cdbf3",
+      "file": "ffcf29fce17cdbf3-c1034039553e2765.png",
+      "sha256": "c1034039553e2765b6168c554cfab5c578061668b5c960d9c924a42712302d06",
+      "label": "N",
+      "kind": "tile",
+      "roles": [
+        "river_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 53
+    },
+    {
+      "id": "f5f88e8541322a3d",
+      "file": "f5f88e8541322a3d-e679d670511def43.png",
+      "sha256": "e679d670511def4301ccc904f5183d1cfd0b4a34e8b9c6c40c1516bb5885bcc0",
+      "label": "S",
+      "kind": "tile",
+      "roles": [
+        "river_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 54
+    },
+    {
+      "id": "cd52cf6e5be63e50",
+      "file": "cd52cf6e5be63e50-ad09d993d6d3f3c7.png",
+      "sha256": "ad09d993d6d3f3c7c62ec25ea9f1117023b87fbfd78da9601b334da0e0d64f83",
+      "label": "9s",
+      "kind": "tile",
+      "roles": [
+        "river_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 55
+    },
+    {
+      "id": "da35cc66beb2ea05",
+      "file": "da35cc66beb2ea05-d18ee1264bda991b.png",
+      "sha256": "d18ee1264bda991ba1002704ed443887fc2f462adf4259016660b0aead4ab85e",
+      "label": "7s",
+      "kind": "tile",
+      "roles": [
+        "river_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 56
+    },
+    {
+      "id": "b453192e54bed29f",
+      "file": "b453192e54bed29f-667596a47a3c09ac.png",
+      "sha256": "667596a47a3c09acb8a6192497d6f994982a2bfd0cd90759b3f97cf0b50cdba6",
+      "label": "8p",
+      "kind": "tile",
+      "roles": [
+        "river_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 57
+    },
+    {
+      "id": "baaa3726ae60a14c",
+      "file": "baaa3726ae60a14c-a6e4a3e74c06c3d6.png",
+      "sha256": "a6e4a3e74c06c3d6e97afdcc507074ccddc5a2f668f0351017ac359f7b04d442",
+      "label": "9m",
+      "kind": "tile",
+      "roles": [
+        "river_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 58
+    },
+    {
+      "id": "c94c1662637c4c1e",
+      "file": "c94c1662637c4c1e-ed4c568f9b8ec959.png",
+      "sha256": "ed4c568f9b8ec959865223d8e39f3abe7bbc00add6043520274d95b610a6207d",
+      "label": "2m",
+      "kind": "tile",
+      "roles": [
+        "river_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 59
+    },
+    {
+      "id": "859ba76e4647c7f3",
+      "file": "859ba76e4647c7f3-a9fc9b9bf2a1ce91.png",
+      "sha256": "a9fc9b9bf2a1ce91230ac40f6404973cb422d97360b8c85eecfbd86c6e994649",
+      "label": "7s",
+      "kind": "tile",
+      "roles": [
+        "river_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 60
+    },
+    {
+      "id": "840d0bae6b7c6a1a",
+      "file": "840d0bae6b7c6a1a-b98e88543f795c7a.png",
+      "sha256": "b98e88543f795c7a67c5eec2fe4d714d2b69dbe1f4a9da070e17a0a45e914c64",
+      "label": "C",
+      "kind": "tile",
+      "roles": [
+        "river_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 61
+    },
+    {
+      "id": "36b5da3d2bebcd8b",
+      "file": "36b5da3d2bebcd8b-ff06b24060edf89c.png",
+      "sha256": "ff06b24060edf89cdf7ad3c6559edbc13f5624b891827b60869b61b44e7c8071",
+      "label": "2s",
+      "kind": "tile",
+      "roles": [
+        "river_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 62
+    },
+    {
+      "id": "860d0bfe2179d061",
+      "file": "860d0bfe2179d061-ca9085f4d6f3a16d.png",
+      "sha256": "ca9085f4d6f3a16dd292b237e2e417d3a9077d29da1142fbca045848739875a4",
+      "label": "E",
+      "kind": "tile",
+      "roles": [
+        "river_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 63
+    },
+    {
+      "id": "f584c1a4db97585c",
+      "file": "f584c1a4db97585c-4c47aab526694887.png",
+      "sha256": "4c47aab52669488746781f14ffcd5e5a46e3d9d39cf19d3d58a5be9691c522ea",
+      "label": "3m",
+      "kind": "tile",
+      "roles": [
+        "river_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 64
+    },
+    {
+      "id": "c5434a35013ad930",
+      "file": "c5434a35013ad930-87b0e52333d5c0ff.png",
+      "sha256": "87b0e52333d5c0ffe11546b6696cea2cde6f42df0066cec0164a9044ecedf663",
+      "label": "2m",
+      "kind": "tile",
+      "roles": [
+        "dora"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 65
+    },
+    {
+      "id": "2af461e842a311b3",
+      "file": "2af461e842a311b3-104bfd2c46ff67b4.png",
+      "sha256": "104bfd2c46ff67b409dbe8413a74a6aa186290486ae5ac1580cc51cd5b5e90aa",
+      "label": "7p",
+      "kind": "tile",
+      "roles": [
+        "dora"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 66
+    },
+    {
+      "id": "b60ec654b87f1932",
+      "file": "b60ec654b87f1932-6d9c6341d3e87212.png",
+      "sha256": "6d9c6341d3e87212c83ffe01ed9c0f53322976458e32c5076dedf00094eec55d",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 67
+    },
+    {
+      "id": "1b1c9726b7700f81",
+      "file": "1b1c9726b7700f81-198321ac66cf05f7.png",
+      "sha256": "198321ac66cf05f7873c4d211f33b26af55b60dc9ac57dd06b73aef683e65d2f",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 68
+    },
+    {
+      "id": "a3b85538402f5ad2",
+      "file": "a3b85538402f5ad2-bead3310647314ba.png",
+      "sha256": "bead3310647314ba2092af9db3e8ddf4d76196abee56b3146b1f1e155b86b4c6",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 69
+    },
+    {
+      "id": "d3636d3f64356c88",
+      "file": "d3636d3f64356c88-22f9bb3d7ce72e43.png",
+      "sha256": "22f9bb3d7ce72e43d4e3912f491651d4342c1678fcc525898c4738e7f9226a9a",
+      "label": "24000",
+      "kind": "text",
+      "roles": [
+        "score_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 70
+    },
+    {
+      "id": "32acb4dedce01f02",
+      "file": "32acb4dedce01f02-d6ddf9ed1460a9cb.png",
+      "sha256": "d6ddf9ed1460a9cbc79ef95ce9ecb01de919342f50cb8f966775ea040157d0a0",
+      "label": "東1局",
+      "kind": "text",
+      "roles": [
+        "round"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 71
+    },
+    {
+      "id": "fbee06929a43b41b",
+      "file": "fbee06929a43b41b-0cfca203cca35753.png",
+      "sha256": "0cfca203cca357539e1860899ef0e9dbbf567a206f36666a67d3f50ef81bfc8d",
+      "label": "余16",
+      "kind": "text",
+      "roles": [
+        "remaining"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 72
+    },
+    {
+      "id": "a16ccbaf3ca03f40",
+      "file": "a16ccbaf3ca03f40-fa5c29240f1a0985.png",
+      "sha256": "fa5c29240f1a09856493cb8032780f26f9fe5fa3d41fc8d0487f8abd85b9e45d",
+      "label": "0",
+      "kind": "text",
+      "roles": [
+        "honba"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 73
+    },
+    {
+      "id": "1646cb760ae3412f",
+      "file": "1646cb760ae3412f-0e10b2dac10892ff.png",
+      "sha256": "0e10b2dac10892ff81e5ac9a3af56df2f9a5f8a3cb1d859c237c704f6270973f",
+      "label": "1",
+      "kind": "text",
+      "roles": [
+        "kyotaku"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 74
+    },
+    {
+      "id": "ce925e82fcd4d566",
+      "file": "ce925e82fcd4d566-3d32242229bec7d9.png",
+      "sha256": "3d32242229bec7d9e916248cc0970e12ef17e8f6ad69aa8956a0110ccba0d04e",
+      "label": "6s",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 75
+    },
+    {
+      "id": "0a71dce31c9493cd",
+      "file": "0a71dce31c9493cd-21a6c29404427d53.png",
+      "sha256": "21a6c29404427d53837e6327170b78274391767da93948c6ec0146db666e028f",
+      "label": "6s",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 76
+    },
+    {
+      "id": "4c38caa5c0604ed1",
+      "file": "4c38caa5c0604ed1-f32c174a9d41fab2.png",
+      "sha256": "f32c174a9d41fab274b90b9c58c4b2d43dbe918cbd76c33ead76024cc5a2fda6",
+      "label": "6s",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 77
+    },
+    {
+      "id": "797d797377026416",
+      "file": "797d797377026416-ec45be729ac2768c.png",
+      "sha256": "ec45be729ac2768cae9d4b91e72964a86509ccf506144b743aa28d478dfdc95f",
+      "label": "6s",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 78
+    },
+    {
+      "id": "a9595a420110ac96",
+      "file": "a9595a420110ac96-603ecdd1ba7ca91e.png",
+      "sha256": "603ecdd1ba7ca91e755b6ffaa8fa73284ec12100227f2a3696a64fbbeef61dc1",
+      "label": "8m",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 79
+    },
+    {
+      "id": "89a415996fd4c1ca",
+      "file": "89a415996fd4c1ca-e4e27f484a2afc70.png",
+      "sha256": "e4e27f484a2afc708c29f25244eb55c025217daddb6b4add141f7f5043c8d557",
+      "label": "8m",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 80
+    },
+    {
+      "id": "b44f6a5b3b932006",
+      "file": "b44f6a5b3b932006-449b75e36d269624.png",
+      "sha256": "449b75e36d269624ff39c4955957ab875d4bcfc1f2f96e180450bf508fdb1201",
+      "label": "8m",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 81
+    },
+    {
+      "id": "4a2bc44f9dcbc83f",
+      "file": "4a2bc44f9dcbc83f-4e862769520cac1f.png",
+      "sha256": "4e862769520cac1f016ab2a829520f4fa0c15da9c064f7089dd573e402d3f111",
+      "label": "1s",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 82
+    },
+    {
+      "id": "1031a3fc96c4ff3c",
+      "file": "1031a3fc96c4ff3c-5ecd9da0eac1cf31.png",
+      "sha256": "5ecd9da0eac1cf31e345bf86d4357410eae510145e7baeb83cf6a2ae2885cd1c",
+      "label": "1s",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 83
+    },
+    {
+      "id": "ffb9d979d4be5059",
+      "file": "ffb9d979d4be5059-1f2bb6ebb105f76b.png",
+      "sha256": "1f2bb6ebb105f76bcae7e229a6249457a6c52943f14b4730c90cf8cab10c6927",
+      "label": "1s",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "source_target": 84
+    },
+    {
+      "id": "efde71055adb1764",
+      "file": "efde71055adb1764-72848c943b215ef3.png",
+      "sha256": "72848c943b215ef34c70e75272fba7ad086c46e0c779d4a15465a31fdb20bbae",
+      "label": "6m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 0
+    },
+    {
+      "id": "5d09af942befbca8",
+      "file": "5d09af942befbca8-727a7231cfa7f79d.png",
+      "sha256": "727a7231cfa7f79db7eb076496388ed81f7f4059b525ceba5be630be08aedbab",
+      "label": "7m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 1
+    },
+    {
+      "id": "2a20b266475efcb4",
+      "file": "2a20b266475efcb4-4c4e070354f06365.png",
+      "sha256": "4c4e070354f063656f0fcb4721ec457139cb5c5e19695f3d1dd3e4419270fa9a",
+      "label": "4p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 2
+    },
+    {
+      "id": "48df6b6d307343a7",
+      "file": "48df6b6d307343a7-6df610da2c090698.png",
+      "sha256": "6df610da2c090698810563464919ce4ac75b758dd5a2c87571911bfe9e65cde5",
+      "label": "7p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 3
+    },
+    {
+      "id": "2ab193bbc2b9d2c4",
+      "file": "2ab193bbc2b9d2c4-6c8d8b57e6b62efa.png",
+      "sha256": "6c8d8b57e6b62efa67ec7190fba165a5cb057e215bca430d81cdb97645fa697c",
+      "label": "9p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 4
+    },
+    {
+      "id": "f1fb8a11206a85ae",
+      "file": "f1fb8a11206a85ae-2cf4007e15db1f30.png",
+      "sha256": "2cf4007e15db1f30117c2f537e8afe56708055560425b0d14ed03e5230b90023",
+      "label": "2s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 5
+    },
+    {
+      "id": "b33b0cd15034ba65",
+      "file": "b33b0cd15034ba65-f3ff429e658bfb9a.png",
+      "sha256": "f3ff429e658bfb9ac4974f832eac50a7755c5d83168d6a7d5e1ec0b50df5db49",
+      "label": "E",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 6
+    },
+    {
+      "id": "320b2dd504987e57",
+      "file": "320b2dd504987e57-1b890e5e87a0c57b.png",
+      "sha256": "1b890e5e87a0c57bc70612e9e05ac34e724565bcd644b651dd476d6651b66dbf",
+      "label": "S",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 7
+    },
+    {
+      "id": "80543d600ca4a140",
+      "file": "80543d600ca4a140-cab61edad664ce9a.png",
+      "sha256": "cab61edad664ce9ace396edb4d7e4b6aa72a5c0d10e2b1358596332355fbb5b3",
+      "label": "W",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 8
+    },
+    {
+      "id": "534057ec93947daa",
+      "file": "534057ec93947daa-b84356a32715b675.png",
+      "sha256": "b84356a32715b675dacb41807104f46b611817c01816b103da7d45c82da4ea6a",
+      "label": "W",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 9
+    },
+    {
+      "id": "28c2ca70159ae95a",
+      "file": "28c2ca70159ae95a-cdf2911f1da3ad2f.png",
+      "sha256": "cdf2911f1da3ad2fc74fa7f8cac234a9ba0b8f9458e67070583bc3eb66aab3ba",
+      "label": "N",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 10
+    },
+    {
+      "id": "3e4c519fb90c77fb",
+      "file": "3e4c519fb90c77fb-ae83a2c6a10fc566.png",
+      "sha256": "ae83a2c6a10fc566c9a7732a8e0728274437c5f3eae7cc091aa27b7832402c9a",
+      "label": "P",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 11
+    },
+    {
+      "id": "0654eb11427ca070",
+      "file": "0654eb11427ca070-c57b01a47a72b28f.png",
+      "sha256": "c57b01a47a72b28fe84018027eccc4fd5452bf6aa4d61f4117873bd65770b495",
+      "label": "P",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 12
+    },
+    {
+      "id": "644492469471bfd3",
+      "file": "644492469471bfd3-a949d2384990b7bd.png",
+      "sha256": "a949d2384990b7bd3c58a87c4c31c4e374bbeb0fe1936f0751ba4b4d8f26fcc2",
+      "label": "6s",
+      "kind": "tile",
+      "roles": [
+        "dora"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 13
+    },
+    {
+      "id": "3db63273753464ca",
+      "file": "3db63273753464ca-29370d384efb7ad8.png",
+      "sha256": "29370d384efb7ad893f46b116b2ef3ef3eaf64bf2f199f0803a3a603be2d4e04",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 14
+    },
+    {
+      "id": "b30fbb36df436c36",
+      "file": "b30fbb36df436c36-0cc560e2d938c4d6.png",
+      "sha256": "0cc560e2d938c4d615429e6b1d1c134de75c84cfbbbb4985bfe87747aad78070",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 15
+    },
+    {
+      "id": "87f84ba62034a917",
+      "file": "87f84ba62034a917-1d24b3ebb28689bf.png",
+      "sha256": "1d24b3ebb28689bf5aeefc4589705272dbeaad50079948e2467f0f38a15c0e56",
+      "label": "37000",
+      "kind": "text",
+      "roles": [
+        "score_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 16
+    },
+    {
+      "id": "8fadd9fbe2d1add7",
+      "file": "8fadd9fbe2d1add7-47261d32424b87d2.png",
+      "sha256": "47261d32424b87d25df0d2a875d08d94bbb42521a3cf8c5306753f5af0c0aab9",
+      "label": "13000",
+      "kind": "text",
+      "roles": [
+        "score_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 17
+    },
+    {
+      "id": "ba085e4cffcdd65b",
+      "file": "ba085e4cffcdd65b-a975d1d314069153.png",
+      "sha256": "a975d1d314069153e3bc5c997bc3b5b7ac86da8a99cd5d712323d49c40fd3d02",
+      "label": "東1局",
+      "kind": "text",
+      "roles": [
+        "round"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 18
+    },
+    {
+      "id": "847e8fe5e76009df",
+      "file": "847e8fe5e76009df-d24227f55ddc2d28.png",
+      "sha256": "d24227f55ddc2d28644a3ab28b6a350c1c230d6c5cd0c9f8e80427a597c6d067",
+      "label": "余69",
+      "kind": "text",
+      "roles": [
+        "remaining"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 19
+    },
+    {
+      "id": "b2dc156e50b8c5a9",
+      "file": "b2dc156e50b8c5a9-3818a417af764cca.png",
+      "sha256": "3818a417af764ccafa262f8604d6b6820144bf220ca921f3c07c408128a56c40",
+      "label": "1",
+      "kind": "text",
+      "roles": [
+        "honba"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 20
+    },
+    {
+      "id": "ad56333245fe04c0",
+      "file": "ad56333245fe04c0-e4380b6683ddee84.png",
+      "sha256": "e4380b6683ddee84b6d6034634e568b901183aedbfa9a1f228b2f0572f2f3184",
+      "label": "0",
+      "kind": "text",
+      "roles": [
+        "kyotaku"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "source_target": 21
+    },
+    {
+      "id": "acb21fd24a360289",
+      "file": "acb21fd24a360289-45bcef359b03f242.png",
+      "sha256": "45bcef359b03f242e60126e5aeb9f4aad30e3871bf138f6072d35bc9ac08b964",
+      "label": "3m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 0
+    },
+    {
+      "id": "99be2507a26904d0",
+      "file": "99be2507a26904d0-eeee41bed8b014db.png",
+      "sha256": "eeee41bed8b014db3aece881d4b84246e9a42942e206310ab58b903f7aaefecb",
+      "label": "9m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 1
+    },
+    {
+      "id": "0784d1707b15f4c8",
+      "file": "0784d1707b15f4c8-9a052070a1f28600.png",
+      "sha256": "9a052070a1f2860070667b13d24b9d17279cd7043003506154c64c417a5b3295",
+      "label": "2p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 2
+    },
+    {
+      "id": "61b1462e29b69299",
+      "file": "61b1462e29b69299-dfc34696bd5429cd.png",
+      "sha256": "dfc34696bd5429cd17b712865e2d31d0bfe30e626188cbb5fa627bc8f9b28cac",
+      "label": "3p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 3
+    },
+    {
+      "id": "8b82b85df2ab44c5",
+      "file": "8b82b85df2ab44c5-ba16cdb47ebc0edd.png",
+      "sha256": "ba16cdb47ebc0edd0f106b0b241792bd80a942653db6b23de85533b62f527679",
+      "label": "9p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 4
+    },
+    {
+      "id": "0f00f40b5da60219",
+      "file": "0f00f40b5da60219-ec09d20edb4bdbe6.png",
+      "sha256": "ec09d20edb4bdbe6141ead63bc059326d43bb505dbce6fd3a7960433b281e267",
+      "label": "1s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 5
+    },
+    {
+      "id": "d7040f1364045ab7",
+      "file": "d7040f1364045ab7-c0d8f4143c09fa0e.png",
+      "sha256": "c0d8f4143c09fa0e74c0c80b0455f7b5ff9dfd94e9212766130488fa7b78e487",
+      "label": "2s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 6
+    },
+    {
+      "id": "e393ab8f76c0d509",
+      "file": "e393ab8f76c0d509-daffa812d2de6004.png",
+      "sha256": "daffa812d2de6004a27978b02b30ff6db1b70812bee9b9009389dcd45fe949e9",
+      "label": "2s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 7
+    },
+    {
+      "id": "8a1778e4a9c5069d",
+      "file": "8a1778e4a9c5069d-a35b8e4f7d2dfd15.png",
+      "sha256": "a35b8e4f7d2dfd15988d62e91334da7cb4b4ae2bbab6192b6f891a9d3abf17cf",
+      "label": "4s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 8
+    },
+    {
+      "id": "2cf0e0dcf0914dde",
+      "file": "2cf0e0dcf0914dde-669c9fae9526b747.png",
+      "sha256": "669c9fae9526b747a732b1374f7e6fc63ffee9950d63dd24637b4d0646b34fed",
+      "label": "6s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 9
+    },
+    {
+      "id": "223f4939870d2519",
+      "file": "223f4939870d2519-4591c3477861adae.png",
+      "sha256": "4591c3477861adaee05b848f086bbf3452eed27c632743787e5400d7087394d4",
+      "label": "7s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 10
+    },
+    {
+      "id": "451f1b488adfd05a",
+      "file": "451f1b488adfd05a-125c7553ea9db2c8.png",
+      "sha256": "125c7553ea9db2c894ae547138520705e2d0b15b8fb97d2be2a7f63b2e97b2b8",
+      "label": "S",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 11
+    },
+    {
+      "id": "5287bff653c1f144",
+      "file": "5287bff653c1f144-a2002a5caf781ece.png",
+      "sha256": "a2002a5caf781ece7c7df86b177d6957f645ca83366205093cfc06a05c85a6f5",
+      "label": "N",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 12
+    },
+    {
+      "id": "5658a7351d9af084",
+      "file": "5658a7351d9af084-8b41ded621f8928d.png",
+      "sha256": "8b41ded621f8928d7ac80a2a82274a4764dce9c2d0c04b550b5fadcc32a7c115",
+      "label": "C",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 13
+    },
+    {
+      "id": "df081fb69c369563",
+      "file": "df081fb69c369563-908020b1d0cb0afb.png",
+      "sha256": "908020b1d0cb0afbb95a61eba1227255b4fc5d0813165e96755e84b3bbd034b2",
+      "label": "3p",
+      "kind": "tile",
+      "roles": [
+        "dora"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 14
+    },
+    {
+      "id": "2215c998511630a4",
+      "file": "2215c998511630a4-ece18a2629d7c128.png",
+      "sha256": "ece18a2629d7c1282ecbf59397dcb1d54293f7c106f2e441e7695698d0f415b4",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 15
+    },
+    {
+      "id": "6d2aaf0bf42c952c",
+      "file": "6d2aaf0bf42c952c-54214ce1fe6f29c8.png",
+      "sha256": "54214ce1fe6f29c83f9eb5bb3016d6573f657a95d18c7ef97096f3557cc8c682",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 16
+    },
+    {
+      "id": "8644c4746ce818b2",
+      "file": "8644c4746ce818b2-4350394c3dac02b4.png",
+      "sha256": "4350394c3dac02b4e02f29e9802bd19989321c0ed31dc6c6847dab25407ad664",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 17
+    },
+    {
+      "id": "f6f301c94da101f0",
+      "file": "f6f301c94da101f0-24c4c2b942a215d5.png",
+      "sha256": "24c4c2b942a215d515c8892ac8e89664bd8378aff09ba8bac84deba136c93346",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 18
+    },
+    {
+      "id": "654dc1ad224bf192",
+      "file": "654dc1ad224bf192-055619b96e4c13d3.png",
+      "sha256": "055619b96e4c13d3e85b00b6b8343c61777a80551498e67c0af27b0fc44994f2",
+      "label": "東1局",
+      "kind": "text",
+      "roles": [
+        "round"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 19
+    },
+    {
+      "id": "a589f600239674f7",
+      "file": "a589f600239674f7-6d47ebfc277beebe.png",
+      "sha256": "6d47ebfc277beebe44695f7f179961727bb8e00682b4fcd5ddd6ec41959512cc",
+      "label": "余69",
+      "kind": "text",
+      "roles": [
+        "remaining"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 20
+    },
+    {
+      "id": "27d9afa72fb64c59",
+      "file": "27d9afa72fb64c59-fa5c29240f1a0985.png",
+      "sha256": "fa5c29240f1a09856493cb8032780f26f9fe5fa3d41fc8d0487f8abd85b9e45d",
+      "label": "0",
+      "kind": "text",
+      "roles": [
+        "honba"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 21
+    },
+    {
+      "id": "93effbfa9c3ffc72",
+      "file": "93effbfa9c3ffc72-e4380b6683ddee84.png",
+      "sha256": "e4380b6683ddee84b6d6034634e568b901183aedbfa9a1f228b2f0572f2f3184",
+      "label": "0",
+      "kind": "text",
+      "roles": [
+        "kyotaku"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "source_target": 22
+    },
+    {
+      "id": "508d03591de24390",
+      "file": "508d03591de24390-9c9abd92e0f24080.png",
+      "sha256": "9c9abd92e0f240809b34f24d5052106a2f8936965cf14f7c67739f696c18072a",
+      "label": "4m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 0
+    },
+    {
+      "id": "71e47b997832e49d",
+      "file": "71e47b997832e49d-fd15921048042ec9.png",
+      "sha256": "fd15921048042ec9633fecba17b3e329b8fb45cea9b759b2310ee8ff38cf8fba",
+      "label": "4m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 1
+    },
+    {
+      "id": "35a0a4e8e3861703",
+      "file": "35a0a4e8e3861703-8d9a4389230b1613.png",
+      "sha256": "8d9a4389230b161314d4da384181b61adfbb085dfaa0c2bc85b386a2dee2170a",
+      "label": "5mr",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 2
+    },
+    {
+      "id": "72868f33f5641c48",
+      "file": "72868f33f5641c48-35ea8996073d31f8.png",
+      "sha256": "35ea8996073d31f8fa2418f4497fd3c7d4c12b2cc8a5316e249f88e5c8d85684",
+      "label": "5m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 3
+    },
+    {
+      "id": "39a688c97b058906",
+      "file": "39a688c97b058906-cf33ce3af47ab22b.png",
+      "sha256": "cf33ce3af47ab22b3268e8ea1667a6f208e38504e609bbd94070877b0c4523a7",
+      "label": "5m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 4
+    },
+    {
+      "id": "c4381db88fa96f8e",
+      "file": "c4381db88fa96f8e-467c39f18f2d5429.png",
+      "sha256": "467c39f18f2d5429569d2845c8970623fe29679877a0147f78e559478a64b76d",
+      "label": "2p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 5
+    },
+    {
+      "id": "4179a59c739c6fad",
+      "file": "4179a59c739c6fad-b33d386d1a63ab38.png",
+      "sha256": "b33d386d1a63ab381721bec39953cc55394af785896e5c952afdb5b6df5d03e6",
+      "label": "5pr",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 6
+    },
+    {
+      "id": "c17f00d7a163f312",
+      "file": "c17f00d7a163f312-78e5dc94855a4700.png",
+      "sha256": "78e5dc94855a4700121d1c411985daa48be177d2b9c8eb95d0272a9afac5fffe",
+      "label": "7p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 7
+    },
+    {
+      "id": "2422ff190ee99c62",
+      "file": "2422ff190ee99c62-f79da5150eff9212.png",
+      "sha256": "f79da5150eff9212ac7af13cef042ff6931cdc6108b7886a63c10c90876fbbef",
+      "label": "1s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 8
+    },
+    {
+      "id": "af3134549945d0a9",
+      "file": "af3134549945d0a9-01dc980c1ea9a2f6.png",
+      "sha256": "01dc980c1ea9a2f637390c8634e0620366c19e992178a424181dc741f2732f79",
+      "label": "8s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 9
+    },
+    {
+      "id": "57ed6ec49434aafd",
+      "file": "57ed6ec49434aafd-656beb2f8f0a5ec7.png",
+      "sha256": "656beb2f8f0a5ec75512259c83a8815f01926f886af1fca0c27c03f9094028db",
+      "label": "9s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 10
+    },
+    {
+      "id": "f007e45549797dec",
+      "file": "f007e45549797dec-21ad183073f92494.png",
+      "sha256": "21ad183073f92494c85666c5f66d1c865695dbc1e0830592e219f96a6ae50a54",
+      "label": "E",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 11
+    },
+    {
+      "id": "0f70dc515aabaab1",
+      "file": "0f70dc515aabaab1-bbc3e30bf69d12e1.png",
+      "sha256": "bbc3e30bf69d12e168fa871a3bfcaa0642f94f7aa0aa52f526d35a1dd5a9b491",
+      "label": "F",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 12
+    },
+    {
+      "id": "439d7d3a296c8b42",
+      "file": "439d7d3a296c8b42-6a87b1cfc79cf5f7.png",
+      "sha256": "6a87b1cfc79cf5f70a9475ce380c83a8db6b0858735261d8fba1f2240847506f",
+      "label": "C",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 13
+    },
+    {
+      "id": "919afad7885a4400",
+      "file": "919afad7885a4400-a949d2384990b7bd.png",
+      "sha256": "a949d2384990b7bd3c58a87c4c31c4e374bbeb0fe1936f0751ba4b4d8f26fcc2",
+      "label": "6s",
+      "kind": "tile",
+      "roles": [
+        "dora"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 14
+    },
+    {
+      "id": "db25dd94d923d6ae",
+      "file": "db25dd94d923d6ae-9b2b0ecca57819ba.png",
+      "sha256": "9b2b0ecca57819ba30193c38e862d3528a3947eeb65d471d63d2f80800a94d03",
+      "label": "37000",
+      "kind": "text",
+      "roles": [
+        "score_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 15
+    },
+    {
+      "id": "cbed9d1a5ad03674",
+      "file": "cbed9d1a5ad03674-3edc44c619dd17eb.png",
+      "sha256": "3edc44c619dd17ebfde25c7367bac5d822e8fa592b02828002cc0556c42fcb10",
+      "label": "13000",
+      "kind": "text",
+      "roles": [
+        "score_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 16
+    },
+    {
+      "id": "61adad8b8cc936fb",
+      "file": "61adad8b8cc936fb-375b05032e755a2f.png",
+      "sha256": "375b05032e755a2f6135244f2673a0e959893773e2b8578207b7f29b1343b300",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 17
+    },
+    {
+      "id": "3219a38cd02b9aa7",
+      "file": "3219a38cd02b9aa7-0b759a9c2d880c1b.png",
+      "sha256": "0b759a9c2d880c1b8b8524e81057b153fd4c360570b357b9c8662de64572c18f",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 18
+    },
+    {
+      "id": "e5246f807ad69138",
+      "file": "e5246f807ad69138-8999dc56d14c566f.png",
+      "sha256": "8999dc56d14c566fe2f7d37eaf51c5a4c336972475b333a6c0dab8c95109d475",
+      "label": "東1局",
+      "kind": "text",
+      "roles": [
+        "round"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 19
+    },
+    {
+      "id": "734f9a8468401e17",
+      "file": "734f9a8468401e17-d2dc9ed624a8e1c5.png",
+      "sha256": "d2dc9ed624a8e1c500c340799af931592d03be135729501c7596e9af6e706028",
+      "label": "余69",
+      "kind": "text",
+      "roles": [
+        "remaining"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 20
+    },
+    {
+      "id": "4c3771b760c4b67d",
+      "file": "4c3771b760c4b67d-3818a417af764cca.png",
+      "sha256": "3818a417af764ccafa262f8604d6b6820144bf220ca921f3c07c408128a56c40",
+      "label": "1",
+      "kind": "text",
+      "roles": [
+        "honba"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 21
+    },
+    {
+      "id": "401a854d868642c2",
+      "file": "401a854d868642c2-e4380b6683ddee84.png",
+      "sha256": "e4380b6683ddee84b6d6034634e568b901183aedbfa9a1f228b2f0572f2f3184",
+      "label": "0",
+      "kind": "text",
+      "roles": [
+        "kyotaku"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "source_target": 22
+    },
+    {
+      "id": "1ebc02ee524a482e",
+      "file": "1ebc02ee524a482e-45bcef359b03f242.png",
+      "sha256": "45bcef359b03f242e60126e5aeb9f4aad30e3871bf138f6072d35bc9ac08b964",
+      "label": "3m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 0
+    },
+    {
+      "id": "7606c61a8d8719cc",
+      "file": "7606c61a8d8719cc-fd15921048042ec9.png",
+      "sha256": "fd15921048042ec9633fecba17b3e329b8fb45cea9b759b2310ee8ff38cf8fba",
+      "label": "4m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 1
+    },
+    {
+      "id": "8e696d29960b6642",
+      "file": "8e696d29960b6642-6497c5b8a73682f5.png",
+      "sha256": "6497c5b8a73682f5b9806d0fe85f26c60213e7dbe314cf1aa27fe41142d4b241",
+      "label": "4m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 2
+    },
+    {
+      "id": "0ace3f47b5296883",
+      "file": "0ace3f47b5296883-63d42ebbe8e1746b.png",
+      "sha256": "63d42ebbe8e1746bebf24b0d0af40cd9b997af0ac18183f0610722782d6b13e9",
+      "label": "5mr",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 3
+    },
+    {
+      "id": "39c8f7f39a77fde3",
+      "file": "39c8f7f39a77fde3-396267ffec1db336.png",
+      "sha256": "396267ffec1db336252bdedbb2500af8592c036538d807c01a75caaf92e6d141",
+      "label": "5m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 4
+    },
+    {
+      "id": "9c713be62e87461b",
+      "file": "9c713be62e87461b-2562873d17893154.png",
+      "sha256": "2562873d1789315471ffe3fa9e0f38da825b625533ca9f133b5627944f33cd1c",
+      "label": "5m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 5
+    },
+    {
+      "id": "e9eb2c043a6c39c5",
+      "file": "e9eb2c043a6c39c5-fe1d2678c1905fe8.png",
+      "sha256": "fe1d2678c1905fe865b067d81972cc6c41819b015ff3f60f6f8326542d70c5f1",
+      "label": "E",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 6
+    },
+    {
+      "id": "de8710700cdce76d",
+      "file": "de8710700cdce76d-5658d89746c71115.png",
+      "sha256": "5658d89746c71115d9e96f2c6adbd6b895bef5535d4c5f5bf3cffee2b9cbce77",
+      "label": "C",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 7
+    },
+    {
+      "id": "93348e880e0b9fa9",
+      "file": "93348e880e0b9fa9-a949d2384990b7bd.png",
+      "sha256": "a949d2384990b7bd3c58a87c4c31c4e374bbeb0fe1936f0751ba4b4d8f26fcc2",
+      "label": "6s",
+      "kind": "tile",
+      "roles": [
+        "dora"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 8
+    },
+    {
+      "id": "d03afac39180bcf8",
+      "file": "d03afac39180bcf8-b17a3408f6892f6b.png",
+      "sha256": "b17a3408f6892f6bde4093ffb5fd565f6e5208360de2a2c74641ff236f3a3560",
+      "label": "6p",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 9
+    },
+    {
+      "id": "5cc1d52e2d598798",
+      "file": "5cc1d52e2d598798-0ca679c3db8a6786.png",
+      "sha256": "0ca679c3db8a6786361eec116dffdb24140da901f0d77fb10b5e15b43805549c",
+      "label": "5pr",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 10
+    },
+    {
+      "id": "8142d0e7c1144b95",
+      "file": "8142d0e7c1144b95-0a408df33eb4d254.png",
+      "sha256": "0a408df33eb4d25450b304432ff3bf32e67a75c605d189d5e78e244a77debf12",
+      "label": "7p",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 11
+    },
+    {
+      "id": "f373269862c30f5c",
+      "file": "f373269862c30f5c-e8b019db3f0c7c33.png",
+      "sha256": "e8b019db3f0c7c33dd5cd1232ea95cf90ddad955385a458c7d1c4bc665883b76",
+      "label": "4p",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 12
+    },
+    {
+      "id": "e233512eb14a427f",
+      "file": "e233512eb14a427f-651c288803be6854.png",
+      "sha256": "651c288803be68541d230734148e981967cadf962c2a89f634367424686f0502",
+      "label": "2p",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 13
+    },
+    {
+      "id": "0dda015ede7bfe11",
+      "file": "0dda015ede7bfe11-a197c0cc38fd1a3c.png",
+      "sha256": "a197c0cc38fd1a3c9a68609bf0b4eab97edc25ab9e82d99bff8c87f1dcb705a5",
+      "label": "3p",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 14
+    },
+    {
+      "id": "f296e5763bf64db1",
+      "file": "f296e5763bf64db1-61babc3c72b4fe70.png",
+      "sha256": "61babc3c72b4fe70091269202d66eede99cef49f5a0d4c959bba9db6c4067cdb",
+      "label": "1s",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 15
+    },
+    {
+      "id": "83b17c1e49f4c7a2",
+      "file": "83b17c1e49f4c7a2-c17155f681de4755.png",
+      "sha256": "c17155f681de475598814c0b63a51966a8e050448ee349b935d0f312d316fc58",
+      "label": "2s",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 16
+    },
+    {
+      "id": "14e6c3379160dfa0",
+      "file": "14e6c3379160dfa0-24ecafa58ab883c2.png",
+      "sha256": "24ecafa58ab883c26195df955fdeb5a452bde63e3346ae8bb0673bf6b3d93ad5",
+      "label": "3s",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 17
+    },
+    {
+      "id": "fd5008ff3dbbc162",
+      "file": "fd5008ff3dbbc162-69a30a922f2f8290.png",
+      "sha256": "69a30a922f2f8290f07b8a32bde6a6cd9f2ff043f5d0f94ea95a3a1caefce6a7",
+      "label": "8s",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 18
+    },
+    {
+      "id": "65e46c48c06bd962",
+      "file": "65e46c48c06bd962-ea10287f8d67d587.png",
+      "sha256": "ea10287f8d67d587d2498a3fa2e92659e4bd993d11aec3a20ba455f218717030",
+      "label": "8s",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 19
+    },
+    {
+      "id": "33a396dfd617bd11",
+      "file": "33a396dfd617bd11-2d698be3bd5a8e7d.png",
+      "sha256": "2d698be3bd5a8e7d065eaff99334007d4c0d41db23d3147d6f4c5a973a5a81a6",
+      "label": "8s",
+      "kind": "tile",
+      "roles": [
+        "meld_self",
+        "meld_right",
+        "meld_top",
+        "meld_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 20
+    },
+    {
+      "id": "0a9df2d78c9656b9",
+      "file": "0a9df2d78c9656b9-32e7d256c45da464.png",
+      "sha256": "32e7d256c45da464f8113215253d8cb0342965fd9f4b64039af380dff14330c1",
+      "label": "back",
+      "kind": "back",
+      "roles": [
+        "meld_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 21
+    },
+    {
+      "id": "c2acf174f5b9c43a",
+      "file": "c2acf174f5b9c43a-ed99ec3ddcb4620c.png",
+      "sha256": "ed99ec3ddcb4620ca017e1710cccbe8895dc2e352ed3eb0d10e3ad3d2c2b37c8",
+      "label": "back",
+      "kind": "back",
+      "roles": [
+        "meld_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 22
+    },
+    {
+      "id": "e3ea9d2ee6e4a87f",
+      "file": "e3ea9d2ee6e4a87f-d4d4668cfa906936.png",
+      "sha256": "d4d4668cfa906936dc60a8c64add1ab7fe73236931fb002390ac71c98d5b7ae1",
+      "label": "back",
+      "kind": "back",
+      "roles": [
+        "meld_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 23
+    },
+    {
+      "id": "ce0620c47b084400",
+      "file": "ce0620c47b084400-0129fd036cd577a0.png",
+      "sha256": "0129fd036cd577a09200b738223345a7029341b94bdc7882337fdd0432be2d7e",
+      "label": "back",
+      "kind": "back",
+      "roles": [
+        "meld_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 24
+    },
+    {
+      "id": "162840ea2e8e96c9",
+      "file": "162840ea2e8e96c9-8a15e94613d6cec6.png",
+      "sha256": "8a15e94613d6cec6b2d168d6c58a2ba7f0b4860ff3769c5c90c8a5ab0a87fd18",
+      "label": "1s",
+      "kind": "tile",
+      "roles": [
+        "river_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 25
+    },
+    {
+      "id": "1bd29b0681013e9e",
+      "file": "1bd29b0681013e9e-a075cf72e9d74215.png",
+      "sha256": "a075cf72e9d7421501e565244c77a93f15c128fc1f07cd5d2c15b747a017534c",
+      "label": "9s",
+      "kind": "tile",
+      "roles": [
+        "river_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 26
+    },
+    {
+      "id": "2c5a278c20b56322",
+      "file": "2c5a278c20b56322-d1684474f54e29cd.png",
+      "sha256": "d1684474f54e29cd4ff4f60e77f48ca9e37f51c48508e8059624f02089e716cc",
+      "label": "F",
+      "kind": "tile",
+      "roles": [
+        "river_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 27
+    },
+    {
+      "id": "627f202b5d5bf842",
+      "file": "627f202b5d5bf842-ef4fa244283d486c.png",
+      "sha256": "ef4fa244283d486c1da83427f2a12f3c1240503e21ec9c680b83a2199a37a145",
+      "label": "7p",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 28
+    },
+    {
+      "id": "a3bb84958593d49b",
+      "file": "a3bb84958593d49b-2d74c2104ee42079.png",
+      "sha256": "2d74c2104ee4207948cc91d895248bb4c96326317d62a20dc7641ed9acc326f0",
+      "label": "1m",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 29
+    },
+    {
+      "id": "ecf9d870abdc2470",
+      "file": "ecf9d870abdc2470-f4a248252c741cf4.png",
+      "sha256": "f4a248252c741cf469bfd2d667f61949f31d20a2f8fd23bc96cee27d61dd8ceb",
+      "label": "4p",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 30
+    },
+    {
+      "id": "28dbf7b8ac6af965",
+      "file": "28dbf7b8ac6af965-c06baa6c3557814e.png",
+      "sha256": "c06baa6c3557814e9aea36af87d80c52238259a3338942398cf89bdaa4fb3cd8",
+      "label": "S",
+      "kind": "tile",
+      "roles": [
+        "river_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 31
+    },
+    {
+      "id": "2d86ee837178d271",
+      "file": "2d86ee837178d271-e5ed4793ecc34f43.png",
+      "sha256": "e5ed4793ecc34f43b7bbbd5012ab22d4fa5c7299e4ff3a2e75706a0faf99ed2f",
+      "label": "2s",
+      "kind": "tile",
+      "roles": [
+        "river_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 32
+    },
+    {
+      "id": "a2ddfa3c5591fc38",
+      "file": "a2ddfa3c5591fc38-b239901a834a2128.png",
+      "sha256": "b239901a834a2128b82fcc2a6dd04dea7a91c2fd609b6c5b676ccf530b882c75",
+      "label": "9p",
+      "kind": "tile",
+      "roles": [
+        "river_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 33
+    },
+    {
+      "id": "ba52499dc3983748",
+      "file": "ba52499dc3983748-770b5129752296e5.png",
+      "sha256": "770b5129752296e57c630e6140409b416061f31e0f93c4e2e191f264ca6eb797",
+      "label": "6s",
+      "kind": "tile",
+      "roles": [
+        "river_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 34
+    },
+    {
+      "id": "35c65a7e02e0b2ac",
+      "file": "35c65a7e02e0b2ac-2be425f47f1f15e7.png",
+      "sha256": "2be425f47f1f15e77507c2eaa411f23ceb6b0a64f580396b78c557e21180c145",
+      "label": "4s",
+      "kind": "tile",
+      "roles": [
+        "river_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 35
+    },
+    {
+      "id": "9e6c19735fbfe5b4",
+      "file": "9e6c19735fbfe5b4-55b9de7f16f1eddb.png",
+      "sha256": "55b9de7f16f1eddbf92ffbcdaa5a9c28e58b5721509907df17c64bea08a2798b",
+      "label": "C",
+      "kind": "tile",
+      "roles": [
+        "river_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 36
+    },
+    {
+      "id": "b0983c01cca45835",
+      "file": "b0983c01cca45835-ed33ba97984884bb.png",
+      "sha256": "ed33ba97984884bbf1b1c189911652ff71dfac328a6566dc0c67740298301fb8",
+      "label": "3m",
+      "kind": "tile",
+      "roles": [
+        "river_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 37
+    },
+    {
+      "id": "e9194d0d3c146f93",
+      "file": "e9194d0d3c146f93-b7e7116223d8c490.png",
+      "sha256": "b7e7116223d8c490cb56ff25ccf2c8d24cbf56e15a508c4b767e903bd20d297a",
+      "label": "7m",
+      "kind": "tile",
+      "roles": [
+        "river_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 38
+    },
+    {
+      "id": "a163e7d789099959",
+      "file": "a163e7d789099959-604719567e500d75.png",
+      "sha256": "604719567e500d75ccd4d3e2ffcfe5212e92b3816d4a858076a1692d260580f8",
+      "label": "37000",
+      "kind": "text",
+      "roles": [
+        "score_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 39
+    },
+    {
+      "id": "323aac8a99d5bc34",
+      "file": "323aac8a99d5bc34-c650410ed22a1139.png",
+      "sha256": "c650410ed22a1139762da263545947650caae840b0ef45e944afc2c92b80cdaf",
+      "label": "13000",
+      "kind": "text",
+      "roles": [
+        "score_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 40
+    },
+    {
+      "id": "906ec123bc59ef87",
+      "file": "906ec123bc59ef87-e8b397a5d3dd6c32.png",
+      "sha256": "e8b397a5d3dd6c321f8476f5bde16792577403dec0ba1143b752e418161fa956",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 41
+    },
+    {
+      "id": "6a50a7de73f4e387",
+      "file": "6a50a7de73f4e387-f8cd6bd5730c619d.png",
+      "sha256": "f8cd6bd5730c619dfd05230a7dca425a582c35b0afa408e7b3fd0f9d4c3a8227",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 42
+    },
+    {
+      "id": "b104bfc53355366d",
+      "file": "b104bfc53355366d-c441a6f9ece8b1bc.png",
+      "sha256": "c441a6f9ece8b1bc5a7da7071a6535514a9483dbaea6f5fb2e13ac211a695ade",
+      "label": "東1局",
+      "kind": "text",
+      "roles": [
+        "round"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 43
+    },
+    {
+      "id": "1f84b80a31040b66",
+      "file": "1f84b80a31040b66-7e4cce033d317e3a.png",
+      "sha256": "7e4cce033d317e3a8b1cc262d86e60bd65b2cbf028dd8e0dd0161018d28f4262",
+      "label": "余55",
+      "kind": "text",
+      "roles": [
+        "remaining"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 44
+    },
+    {
+      "id": "b5b652445f99ee9f",
+      "file": "b5b652445f99ee9f-3818a417af764cca.png",
+      "sha256": "3818a417af764ccafa262f8604d6b6820144bf220ca921f3c07c408128a56c40",
+      "label": "1",
+      "kind": "text",
+      "roles": [
+        "honba"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 45
+    },
+    {
+      "id": "e160c8f412d25156",
+      "file": "e160c8f412d25156-e4380b6683ddee84.png",
+      "sha256": "e4380b6683ddee84b6d6034634e568b901183aedbfa9a1f228b2f0572f2f3184",
+      "label": "0",
+      "kind": "text",
+      "roles": [
+        "kyotaku"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "source_target": 46
+    },
+    {
+      "id": "0a05abe99981383d",
+      "file": "0a05abe99981383d-58fb7caf89baa53f.png",
+      "sha256": "58fb7caf89baa53f45c0aaf88bb95d2db7fceedbaa57e623a82433bbd3d16e6b",
+      "label": "9m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 0
+    },
+    {
+      "id": "391e5c69d6a9e2e5",
+      "file": "391e5c69d6a9e2e5-93c3cfa9037e60a1.png",
+      "sha256": "93c3cfa9037e60a1be891633e194c796f16948ec1669a329c3d006647618a697",
+      "label": "1p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 1
+    },
+    {
+      "id": "8b4704b87e6bee2d",
+      "file": "8b4704b87e6bee2d-1bcb7386d0bfd20d.png",
+      "sha256": "1bcb7386d0bfd20d3d924138e4ccbed9a86679e2bd648fd42ec088e8cc00f5cb",
+      "label": "3p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 2
+    },
+    {
+      "id": "2979b955b79185e5",
+      "file": "2979b955b79185e5-3a8292aa24fabcee.png",
+      "sha256": "3a8292aa24fabceefc73dd3763bb0c4ad425bbe6425a44c3c7e23d169853f4bd",
+      "label": "5pr",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 3
+    },
+    {
+      "id": "1543ef8bf7d03ae2",
+      "file": "1543ef8bf7d03ae2-2fb028e098005a75.png",
+      "sha256": "2fb028e098005a75c34e774ae5bd3e6d17375cb085c016a8260a9e5149b4551f",
+      "label": "6p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 4
+    },
+    {
+      "id": "3b7a0305ada286b3",
+      "file": "3b7a0305ada286b3-3b0ad776cc0274f3.png",
+      "sha256": "3b0ad776cc0274f302d713e65d4b18c5a648a947a02a6d71c8213e3016a744bf",
+      "label": "9p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 5
+    },
+    {
+      "id": "f56b6695025f38fe",
+      "file": "f56b6695025f38fe-de66820729337211.png",
+      "sha256": "de66820729337211945a858c7818bbf46e628bc94a66c97fd597e86d5a1be20a",
+      "label": "1s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 6
+    },
+    {
+      "id": "938e503d67048b89",
+      "file": "938e503d67048b89-03e360ee2f00d0f3.png",
+      "sha256": "03e360ee2f00d0f377c9208ddf4107017a1911d64e2d592ff9210d63e3843368",
+      "label": "5s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 7
+    },
+    {
+      "id": "2bb5918cb379551f",
+      "file": "2bb5918cb379551f-0604b7689246fb5f.png",
+      "sha256": "0604b7689246fb5f0e7e33ba7664e83c95340d70daaf2db61e06941f0e77d711",
+      "label": "6s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 8
+    },
+    {
+      "id": "400ce0cbcc77d6e9",
+      "file": "400ce0cbcc77d6e9-b0a7f077edfb60d8.png",
+      "sha256": "b0a7f077edfb60d8d2962af65e873529008eb05d3ff1bbe28e89ff2475d31fad",
+      "label": "E",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 9
+    },
+    {
+      "id": "436f53b88c40d051",
+      "file": "436f53b88c40d051-94132dca69617c63.png",
+      "sha256": "94132dca69617c638c63272837d82193ffe09fd70353c838e2d3b07576f7ee05",
+      "label": "W",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 10
+    },
+    {
+      "id": "95372db55cbcf998",
+      "file": "95372db55cbcf998-0909d63d45e651bd.png",
+      "sha256": "0909d63d45e651bdfa018ff9177cbf68e5b045d17378c5419e471314551ed54d",
+      "label": "N",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 11
+    },
+    {
+      "id": "26cfc7372cb1669e",
+      "file": "26cfc7372cb1669e-84b29c58257cf740.png",
+      "sha256": "84b29c58257cf740afd657ef59029728fd03e75dc56b806a43085f94d7906088",
+      "label": "N",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 12
+    },
+    {
+      "id": "524728dce9b5ce4f",
+      "file": "524728dce9b5ce4f-93cb79d41999260b.png",
+      "sha256": "93cb79d41999260bbc18daf5a8b5d5b87cf14e83710c2bece2cc5fcb158ee6b0",
+      "label": "P",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 13
+    },
+    {
+      "id": "b92d38df8c6d52f0",
+      "file": "b92d38df8c6d52f0-1c5751b2aa4040ba.png",
+      "sha256": "1c5751b2aa4040baae8b1293b3cd3f60c32df10cab5277e0cbcc631716317f42",
+      "label": "2s",
+      "kind": "tile",
+      "roles": [
+        "dora"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 14
+    },
+    {
+      "id": "2e275b1fce8d749e",
+      "file": "2e275b1fce8d749e-8dfa1555160fee6c.png",
+      "sha256": "8dfa1555160fee6cc23e4efc308cf87591f2299e8a5f5cbfe05a3d2705f0b805",
+      "label": "43100",
+      "kind": "text",
+      "roles": [
+        "score_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 15
+    },
+    {
+      "id": "d895235125e874c4",
+      "file": "d895235125e874c4-dd53dc0fe674c423.png",
+      "sha256": "dd53dc0fe674c423ed5aeb84abd93dab23a3addf47d3401c6f4406e793daeab2",
+      "label": "13000",
+      "kind": "text",
+      "roles": [
+        "score_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 16
+    },
+    {
+      "id": "32872c73f3b2d836",
+      "file": "32872c73f3b2d836-3fc86a2c064eee14.png",
+      "sha256": "3fc86a2c064eee14dd90d3f42d9c08a5c4902b996aa789652eae16d8a1145be6",
+      "label": "18900",
+      "kind": "text",
+      "roles": [
+        "score_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 17
+    },
+    {
+      "id": "38e995a1a1fadcca",
+      "file": "38e995a1a1fadcca-cff1035e6084b570.png",
+      "sha256": "cff1035e6084b570d9187360a2eaf3a3c63ba768d769f9576fcb4cc4317026bc",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 18
+    },
+    {
+      "id": "013c2c3ce2c262d7",
+      "file": "013c2c3ce2c262d7-23cb6d71bd248b61.png",
+      "sha256": "23cb6d71bd248b61fdeffed7e762972ee51becf798e3d22b8573cf3b0d24f23d",
+      "label": "東1局",
+      "kind": "text",
+      "roles": [
+        "round"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 19
+    },
+    {
+      "id": "c01c68d5c5c2d739",
+      "file": "c01c68d5c5c2d739-d97810ada883d188.png",
+      "sha256": "d97810ada883d1887e0dee22e056a1909353e3542a089e12d59b1aa37e2357f3",
+      "label": "余69",
+      "kind": "text",
+      "roles": [
+        "remaining"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 20
+    },
+    {
+      "id": "16566f0904328543",
+      "file": "16566f0904328543-3e1bf76b2bc35074.png",
+      "sha256": "3e1bf76b2bc35074236331a27b5876aadd2fc35d74daa2485b2a69edcfe3b523",
+      "label": "2",
+      "kind": "text",
+      "roles": [
+        "honba"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 21
+    },
+    {
+      "id": "31e43df5e3315b75",
+      "file": "31e43df5e3315b75-e4380b6683ddee84.png",
+      "sha256": "e4380b6683ddee84b6d6034634e568b901183aedbfa9a1f228b2f0572f2f3184",
+      "label": "0",
+      "kind": "text",
+      "roles": [
+        "kyotaku"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "source_target": 22
+    },
+    {
+      "id": "401f3484cac29826",
+      "file": "401f3484cac29826-9c9abd92e0f24080.png",
+      "sha256": "9c9abd92e0f240809b34f24d5052106a2f8936965cf14f7c67739f696c18072a",
+      "label": "4m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 0
+    },
+    {
+      "id": "2c2bface1548b1a9",
+      "file": "2c2bface1548b1a9-2dc2db546e6106e3.png",
+      "sha256": "2dc2db546e6106e32098032a0f7d605a787b0fa175422c5c39121597c0162891",
+      "label": "5m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 1
+    },
+    {
+      "id": "bbb1d05bdb511a67",
+      "file": "bbb1d05bdb511a67-f06bafac972af41c.png",
+      "sha256": "f06bafac972af41ce86e358c490e7788520490302a3da32de79e36ad6994ad5e",
+      "label": "7m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 2
+    },
+    {
+      "id": "822bd9cb9c985801",
+      "file": "822bd9cb9c985801-adf1bd1e0ec7e0ec.png",
+      "sha256": "adf1bd1e0ec7e0ec62e67046e694d8522bd62f3be6aa0ffcf765f0c33e4691aa",
+      "label": "5p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 3
+    },
+    {
+      "id": "c24e1564fe375598",
+      "file": "c24e1564fe375598-78c57008445eb2f8.png",
+      "sha256": "78c57008445eb2f819e81fd2fcbac38412129f6788392fc3f2e4c2a78383efe1",
+      "label": "7p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 4
+    },
+    {
+      "id": "56f9b69f541cb5de",
+      "file": "56f9b69f541cb5de-ea9664fe13d59f23.png",
+      "sha256": "ea9664fe13d59f23b36387d27f01375b82c58dcb211d54b34f4038c970e1fed7",
+      "label": "9p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 5
+    },
+    {
+      "id": "7802935b0ee2af9e",
+      "file": "7802935b0ee2af9e-5891b1e8939e573a.png",
+      "sha256": "5891b1e8939e573affcdfdfeef87618167a1d2260b026120f701b01287460126",
+      "label": "3s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 6
+    },
+    {
+      "id": "ab5ae7156e880ab4",
+      "file": "ab5ae7156e880ab4-9df3ad394398b5d4.png",
+      "sha256": "9df3ad394398b5d472faad62473b96a7d95075a3fed34850591ad190cb117988",
+      "label": "3s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 7
+    },
+    {
+      "id": "e5a65b244620362d",
+      "file": "e5a65b244620362d-0604b7689246fb5f.png",
+      "sha256": "0604b7689246fb5f0e7e33ba7664e83c95340d70daaf2db61e06941f0e77d711",
+      "label": "6s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 8
+    },
+    {
+      "id": "5744f75ddc89d2e0",
+      "file": "5744f75ddc89d2e0-5c1dbb5de84860fa.png",
+      "sha256": "5c1dbb5de84860fae314b4db2a674984eba7c0e414c480b3effce75bb4be45f5",
+      "label": "7s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 9
+    },
+    {
+      "id": "87c4f537e2d3eafb",
+      "file": "87c4f537e2d3eafb-2ac860a2eeb988c9.png",
+      "sha256": "2ac860a2eeb988c95f9be384f1415253de948ffcbb670e76cc14c9ea3d793296",
+      "label": "8s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 10
+    },
+    {
+      "id": "3265ee33a0993df0",
+      "file": "3265ee33a0993df0-4d6f5b97defec167.png",
+      "sha256": "4d6f5b97defec1675df33fe4910136cae22de8074c3190c2f988ed52d883efcd",
+      "label": "9s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 11
+    },
+    {
+      "id": "4399fcc6049c51ce",
+      "file": "4399fcc6049c51ce-fe487120aaa1c0da.png",
+      "sha256": "fe487120aaa1c0da63b884ce79370acf427d8e038968b9c51c7036ffaf74f7f9",
+      "label": "S",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 12
+    },
+    {
+      "id": "aa40f8894d7a3df6",
+      "file": "aa40f8894d7a3df6-4367e5f7bf604f0e.png",
+      "sha256": "4367e5f7bf604f0ee87789127bfe8c9b289770ec9a4d2b85bc2a679b5a08545c",
+      "label": "4p",
+      "kind": "tile",
+      "roles": [
+        "dora"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 13
+    },
+    {
+      "id": "97a83562119c0187",
+      "file": "97a83562119c0187-dc09e865aff8b702.png",
+      "sha256": "dc09e865aff8b7023209a564bdbeea5430106c17fcb96febc48c0a2228bb41d9",
+      "label": "42200",
+      "kind": "text",
+      "roles": [
+        "score_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 14
+    },
+    {
+      "id": "65e14bab7cf14b92",
+      "file": "65e14bab7cf14b92-07b57bdfdcb92c46.png",
+      "sha256": "07b57bdfdcb92c46c922aefb522ea9e00e51b40c2c733108319c457f54545b12",
+      "label": "15100",
+      "kind": "text",
+      "roles": [
+        "score_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 15
+    },
+    {
+      "id": "7646b121e82bf043",
+      "file": "7646b121e82bf043-87a29b37a274088b.png",
+      "sha256": "87a29b37a274088bcf7be043da3102aeeba70498b7243ad737b29e685ec2920f",
+      "label": "18300",
+      "kind": "text",
+      "roles": [
+        "score_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 16
+    },
+    {
+      "id": "d803b7bd3a302a7d",
+      "file": "d803b7bd3a302a7d-4c6573656b8cd778.png",
+      "sha256": "4c6573656b8cd778711470223d9c1120d0794cceb1137f6ea6cee6b42ea124fd",
+      "label": "24400",
+      "kind": "text",
+      "roles": [
+        "score_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 17
+    },
+    {
+      "id": "1d587dbf123d55b4",
+      "file": "1d587dbf123d55b4-cf70f84add8aa3e3.png",
+      "sha256": "cf70f84add8aa3e3e0736f0b317e38a0013351e822b571542a1b84f964f41017",
+      "label": "東2局",
+      "kind": "text",
+      "roles": [
+        "round"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 18
+    },
+    {
+      "id": "d150aa5b82c53273",
+      "file": "d150aa5b82c53273-7128524cd4986f13.png",
+      "sha256": "7128524cd4986f139cb795e5e6e625ad478d29bbb60617ea7fa54b61144390a7",
+      "label": "余69",
+      "kind": "text",
+      "roles": [
+        "remaining"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 19
+    },
+    {
+      "id": "894ed7eb7aafa968",
+      "file": "894ed7eb7aafa968-fa5c29240f1a0985.png",
+      "sha256": "fa5c29240f1a09856493cb8032780f26f9fe5fa3d41fc8d0487f8abd85b9e45d",
+      "label": "0",
+      "kind": "text",
+      "roles": [
+        "honba"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 20
+    },
+    {
+      "id": "b95abaf979eb8d9e",
+      "file": "b95abaf979eb8d9e-e4380b6683ddee84.png",
+      "sha256": "e4380b6683ddee84b6d6034634e568b901183aedbfa9a1f228b2f0572f2f3184",
+      "label": "0",
+      "kind": "text",
+      "roles": [
+        "kyotaku"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "source_target": 21
+    },
+    {
+      "id": "576e5e537a5739a6",
+      "file": "576e5e537a5739a6-3d8d737c446b407d.png",
+      "sha256": "3d8d737c446b407dfb2906dfe7a8a95402fe84fe184e081e9d383ab459ee5294",
+      "label": "2m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 0
+    },
+    {
+      "id": "b9cfac61f20d59ca",
+      "file": "b9cfac61f20d59ca-c31eb76bdbe15920.png",
+      "sha256": "c31eb76bdbe15920a3837083a9e7898c1cc3f2175d9361dc1b08cd0f51bda068",
+      "label": "2m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 1
+    },
+    {
+      "id": "1a96d48be18d233b",
+      "file": "1a96d48be18d233b-627c90e29fbfdf0f.png",
+      "sha256": "627c90e29fbfdf0fd00a1e82b2944377e619b9277156c9b626b4d08163b9034d",
+      "label": "8m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 2
+    },
+    {
+      "id": "90a4faee200cb305",
+      "file": "90a4faee200cb305-c86b18d2c5e40b02.png",
+      "sha256": "c86b18d2c5e40b021a9fcd9717d79334e34fe6e6f6cdf8a27ac5a96308627f04",
+      "label": "1p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 3
+    },
+    {
+      "id": "f2fcefbb0165bd7a",
+      "file": "f2fcefbb0165bd7a-a36fd1c15dcf9ec3.png",
+      "sha256": "a36fd1c15dcf9ec342ddee35bd0772cb0fa20c1c2aebe456c979d3e71ea19951",
+      "label": "2p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 4
+    },
+    {
+      "id": "1e54e30f0cb335b3",
+      "file": "1e54e30f0cb335b3-8579361e90f2d4ad.png",
+      "sha256": "8579361e90f2d4ad75a936b19f8f1c927f37be2cba9ec1eed3fd044c0134150d",
+      "label": "6p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 5
+    },
+    {
+      "id": "9ce373c1d5562296",
+      "file": "9ce373c1d5562296-de66820729337211.png",
+      "sha256": "de66820729337211945a858c7818bbf46e628bc94a66c97fd597e86d5a1be20a",
+      "label": "1s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 6
+    },
+    {
+      "id": "7a1dd308222561ed",
+      "file": "7a1dd308222561ed-2909de5af234c81a.png",
+      "sha256": "2909de5af234c81abc25c67bfc85c7d8bd529974f88044ccfca4df8da19e158e",
+      "label": "1s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 7
+    },
+    {
+      "id": "aa3e1fc78b367b16",
+      "file": "aa3e1fc78b367b16-a14bb0d8338041f2.png",
+      "sha256": "a14bb0d8338041f2b18425b0a1f19a4a70388a446838fbc939e1526d902ae4e3",
+      "label": "2s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 8
+    },
+    {
+      "id": "ceae499ca9119e28",
+      "file": "ceae499ca9119e28-2b2c4193f919af22.png",
+      "sha256": "2b2c4193f919af2251d54854490581e0e503647e839451b92ec3326c168675f5",
+      "label": "5sr",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 9
+    },
+    {
+      "id": "27a76ad7f1eb4fd0",
+      "file": "27a76ad7f1eb4fd0-31814ce8769b9ab6.png",
+      "sha256": "31814ce8769b9ab6387215e9b30eaf4b8e0e74f5fe59a18cc103f17aa8a690db",
+      "label": "6s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 10
+    },
+    {
+      "id": "961f64f874804672",
+      "file": "961f64f874804672-39d31e0e1c2eb587.png",
+      "sha256": "39d31e0e1c2eb587cbef4685332317fcd59c43d5f789e7d50fdf137b37e3abd5",
+      "label": "7s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 11
+    },
+    {
+      "id": "afe462750b8134a3",
+      "file": "afe462750b8134a3-66dbb6a9733b674e.png",
+      "sha256": "66dbb6a9733b674e1d291d3099733f0fa43210fac414eeb21eb5010f1ce5ad58",
+      "label": "9s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 12
+    },
+    {
+      "id": "1c6ce8bf415b9846",
+      "file": "1c6ce8bf415b9846-55c2cd337374d4fe.png",
+      "sha256": "55c2cd337374d4febcb5715f84c59223077731b3ce244736b0236eed24abc975",
+      "label": "6p",
+      "kind": "tile",
+      "roles": [
+        "dora"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 13
+    },
+    {
+      "id": "548c08cf880ee221",
+      "file": "548c08cf880ee221-03823b8778a6bb45.png",
+      "sha256": "03823b8778a6bb45cbf0007928e0aa6cc5cfeb3b45f1c4c90a74d64c106b2eb0",
+      "label": "34200",
+      "kind": "text",
+      "roles": [
+        "score_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 14
+    },
+    {
+      "id": "d706ec1bda4801ec",
+      "file": "d706ec1bda4801ec-b362385a095c167b.png",
+      "sha256": "b362385a095c167bdf446354c631afbe65fed4846a85b08b2176f2d330a7fd4c",
+      "label": "15100",
+      "kind": "text",
+      "roles": [
+        "score_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 15
+    },
+    {
+      "id": "99e80bee48f0e324",
+      "file": "99e80bee48f0e324-c646f2889ec3f842.png",
+      "sha256": "c646f2889ec3f842dbca80018cd9fdb526d24be8213153d9ac89f1888b15e42e",
+      "label": "26300",
+      "kind": "text",
+      "roles": [
+        "score_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 16
+    },
+    {
+      "id": "1b0c6808977d3fb9",
+      "file": "1b0c6808977d3fb9-fa84fb3baf4157f9.png",
+      "sha256": "fa84fb3baf4157f9bd0381d0d350e0f7a455525ec4b131173c4d5a3a87322106",
+      "label": "24400",
+      "kind": "text",
+      "roles": [
+        "score_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 17
+    },
+    {
+      "id": "dab1d07c20d378ae",
+      "file": "dab1d07c20d378ae-b374697bfdbc4b76.png",
+      "sha256": "b374697bfdbc4b7626c539bce80f7876f4e6586bbd0a39f6f70fe86f60e5e527",
+      "label": "東3局",
+      "kind": "text",
+      "roles": [
+        "round"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 18
+    },
+    {
+      "id": "009cfdb43000de13",
+      "file": "009cfdb43000de13-3da57a3b96a6d524.png",
+      "sha256": "3da57a3b96a6d524e40947c26105253e908b87b9a16a184c329a22776af8c5bd",
+      "label": "余69",
+      "kind": "text",
+      "roles": [
+        "remaining"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 19
+    },
+    {
+      "id": "53dff3df7ecf54c2",
+      "file": "53dff3df7ecf54c2-fa5c29240f1a0985.png",
+      "sha256": "fa5c29240f1a09856493cb8032780f26f9fe5fa3d41fc8d0487f8abd85b9e45d",
+      "label": "0",
+      "kind": "text",
+      "roles": [
+        "honba"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 20
+    },
+    {
+      "id": "adbd4fe5f29bfcac",
+      "file": "adbd4fe5f29bfcac-e4380b6683ddee84.png",
+      "sha256": "e4380b6683ddee84b6d6034634e568b901183aedbfa9a1f228b2f0572f2f3184",
+      "label": "0",
+      "kind": "text",
+      "roles": [
+        "kyotaku"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "source_target": 21
+    },
+    {
+      "id": "aadc63e654fedfc2",
+      "file": "aadc63e654fedfc2-1c3db541fd896a35.png",
+      "sha256": "1c3db541fd896a35606b53579c5f49e351db738e976e339f6a15e29a0a8a8d5a",
+      "label": "1p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 0
+    },
+    {
+      "id": "e55ccd904cb72504",
+      "file": "e55ccd904cb72504-25a8ff9dd09369f8.png",
+      "sha256": "25a8ff9dd09369f8595c0a761766f64662dfa8b2243b0b69229d622f705fdbd1",
+      "label": "2p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 1
+    },
+    {
+      "id": "f69004cee94def68",
+      "file": "f69004cee94def68-92c322671215b0a0.png",
+      "sha256": "92c322671215b0a07f0871036c9580b67c56e00c676954564349fd1aac5802ab",
+      "label": "2p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 2
+    },
+    {
+      "id": "9a0b64d429c317ac",
+      "file": "9a0b64d429c317ac-dfc34696bd5429cd.png",
+      "sha256": "dfc34696bd5429cd17b712865e2d31d0bfe30e626188cbb5fa627bc8f9b28cac",
+      "label": "3p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 3
+    },
+    {
+      "id": "f8c58d0f0f3ed450",
+      "file": "f8c58d0f0f3ed450-a491d437f06e4556.png",
+      "sha256": "a491d437f06e45568c1deabb9dd360ccadb7cbf62c27a3106590baa5577226a4",
+      "label": "5sr",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 4
+    },
+    {
+      "id": "2a672e3a8829d9c5",
+      "file": "2a672e3a8829d9c5-f3e534219097ba21.png",
+      "sha256": "f3e534219097ba21cfb24eb349270a49d16ef39482d0c0043cf54d0e76c4327c",
+      "label": "5s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 5
+    },
+    {
+      "id": "62c4551b75b6c6cc",
+      "file": "62c4551b75b6c6cc-bc03d7a4defe8cdd.png",
+      "sha256": "bc03d7a4defe8cdd2173c6f5dcb58a6a69f8354b330f8be5de073bca2445b3f4",
+      "label": "7s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 6
+    },
+    {
+      "id": "e77641d37a0ca50f",
+      "file": "e77641d37a0ca50f-1954e5bb9ec5a169.png",
+      "sha256": "1954e5bb9ec5a1691b78edf18504fa0ff456dbbdd2cbf2a179f888783336149b",
+      "label": "8s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 7
+    },
+    {
+      "id": "b099267e11b86f63",
+      "file": "b099267e11b86f63-e83f58cc92236240.png",
+      "sha256": "e83f58cc92236240bf3dc546303b94bfb5d05ddb3c4498838c528f172a957818",
+      "label": "9s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 8
+    },
+    {
+      "id": "0b0044b722fc5565",
+      "file": "0b0044b722fc5565-188f67e28f8ad01d.png",
+      "sha256": "188f67e28f8ad01d1b6eb562b385230c06184c115052f38adc33d1ac8060f221",
+      "label": "E",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 9
+    },
+    {
+      "id": "9dfc44b9741a3449",
+      "file": "9dfc44b9741a3449-99551c6149d933ec.png",
+      "sha256": "99551c6149d933ec3c0150329b3ddba65e5a36c61856825b5291fca7acf668f2",
+      "label": "E",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 10
+    },
+    {
+      "id": "1daf908a9227800a",
+      "file": "1daf908a9227800a-de9aefb7233f0368.png",
+      "sha256": "de9aefb7233f0368b27cf0693c9dfab9485156034032aeffc876771d049953c5",
+      "label": "S",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 11
+    },
+    {
+      "id": "5dbcb2a823ab0233",
+      "file": "5dbcb2a823ab0233-041ce398b7d366ce.png",
+      "sha256": "041ce398b7d366ce4a8a463e8827ea4bb86aff7748e83c22c79cda699d4ac52b",
+      "label": "P",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 12
+    },
+    {
+      "id": "93295956dcaa7b6f",
+      "file": "93295956dcaa7b6f-424dfc627f2e4873.png",
+      "sha256": "424dfc627f2e4873317b14fd2223b167030148b2acfc8b96aa1192af0fbfb750",
+      "label": "8p",
+      "kind": "tile",
+      "roles": [
+        "dora"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 13
+    },
+    {
+      "id": "7de1822517aee8d8",
+      "file": "7de1822517aee8d8-95ac74d062be221b.png",
+      "sha256": "95ac74d062be221bbb5ab513dc408b4172f019cb3c322790f8029d7a872546dd",
+      "label": "34700",
+      "kind": "text",
+      "roles": [
+        "score_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 14
+    },
+    {
+      "id": "8a460985481c697a",
+      "file": "8a460985481c697a-9a60b43394f7da7a.png",
+      "sha256": "9a60b43394f7da7a394fce731f8b74341b7c363d2cf762c3eb1c977d74b6cfd7",
+      "label": "16600",
+      "kind": "text",
+      "roles": [
+        "score_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 15
+    },
+    {
+      "id": "98b60ea888e0ec60",
+      "file": "98b60ea888e0ec60-83a77118f8fb4693.png",
+      "sha256": "83a77118f8fb46933069874999d049d10b0685962208990b2b2bca04e08f81d2",
+      "label": "24800",
+      "kind": "text",
+      "roles": [
+        "score_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 16
+    },
+    {
+      "id": "011dccb543c078da",
+      "file": "011dccb543c078da-707e40a1cefcdfd6.png",
+      "sha256": "707e40a1cefcdfd69883336d83e7c10757406a7797b4a854400cc1fcbb78b015",
+      "label": "22900",
+      "kind": "text",
+      "roles": [
+        "score_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 17
+    },
+    {
+      "id": "98277d335c24eaff",
+      "file": "98277d335c24eaff-8bb729e8ef070bd2.png",
+      "sha256": "8bb729e8ef070bd23bdad60675333372ad402fd00ea23159bf88dac02c0514b4",
+      "label": "東4局",
+      "kind": "text",
+      "roles": [
+        "round"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 18
+    },
+    {
+      "id": "0b7ffaffd684b68d",
+      "file": "0b7ffaffd684b68d-7cf6e4ec1ece974c.png",
+      "sha256": "7cf6e4ec1ece974c50dc23d7e4282435fc5ee69728ad01786767c8964a73eac0",
+      "label": "余69",
+      "kind": "text",
+      "roles": [
+        "remaining"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 19
+    },
+    {
+      "id": "c356a4f8c2b07495",
+      "file": "c356a4f8c2b07495-3818a417af764cca.png",
+      "sha256": "3818a417af764ccafa262f8604d6b6820144bf220ca921f3c07c408128a56c40",
+      "label": "1",
+      "kind": "text",
+      "roles": [
+        "honba"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 20
+    },
+    {
+      "id": "aeb5740b7cacca59",
+      "file": "aeb5740b7cacca59-0e10b2dac10892ff.png",
+      "sha256": "0e10b2dac10892ff81e5ac9a3af56df2f9a5f8a3cb1d859c237c704f6270973f",
+      "label": "1",
+      "kind": "text",
+      "roles": [
+        "kyotaku"
+      ],
+      "state": "unknown",
+      "source_game": "user-250819-2005",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "source_target": 21
+    },
+    {
+      "id": "a3773bfedea61056",
+      "file": "a3773bfedea61056-be3107b7897db327.png",
+      "sha256": "be3107b7897db327c3e266ea1cdd9d374df91e0abecc133ec99ce5e33d772834",
+      "label": "1m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 0
+    },
+    {
+      "id": "a8ee945e1b18e0c6",
+      "file": "a8ee945e1b18e0c6-2dc2db546e6106e3.png",
+      "sha256": "2dc2db546e6106e32098032a0f7d605a787b0fa175422c5c39121597c0162891",
+      "label": "5m",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 1
+    },
+    {
+      "id": "3cfa2c7aff427fc7",
+      "file": "3cfa2c7aff427fc7-9a052070a1f28600.png",
+      "sha256": "9a052070a1f2860070667b13d24b9d17279cd7043003506154c64c417a5b3295",
+      "label": "2p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 2
+    },
+    {
+      "id": "3abde645fd8e36f7",
+      "file": "3abde645fd8e36f7-c1c96ab3af99df17.png",
+      "sha256": "c1c96ab3af99df17091c88ae76a745b49a23d4d2efc9a0d7680476f0faa4724e",
+      "label": "2p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 3
+    },
+    {
+      "id": "14bebab83cd011d9",
+      "file": "14bebab83cd011d9-7e68f3345ba80269.png",
+      "sha256": "7e68f3345ba802690d5f75967042945c16703c8a9eeed8f8d9e8b25fe9a61361",
+      "label": "3p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 4
+    },
+    {
+      "id": "231bfacfa0fb8107",
+      "file": "231bfacfa0fb8107-511eafff1080a44f.png",
+      "sha256": "511eafff1080a44f939d14346081cafeb2b6e90bf5519a83a8de04d24b5ec7ca",
+      "label": "6p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 5
+    },
+    {
+      "id": "223bba6a3912c7f0",
+      "file": "223bba6a3912c7f0-7042b2f812eb92ff.png",
+      "sha256": "7042b2f812eb92ff4cc8044f79629adbfd41e06f11ffe4aec304b5effeeb85a7",
+      "label": "8p",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 6
+    },
+    {
+      "id": "6a8511adc0457c03",
+      "file": "6a8511adc0457c03-0e4b6c7fe4288c22.png",
+      "sha256": "0e4b6c7fe4288c225d54717db893ca6b4825d3f11221a323b3d16f8b1ec9c357",
+      "label": "1s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 7
+    },
+    {
+      "id": "7bf243b4be69dbc7",
+      "file": "7bf243b4be69dbc7-a14bb0d8338041f2.png",
+      "sha256": "a14bb0d8338041f2b18425b0a1f19a4a70388a446838fbc939e1526d902ae4e3",
+      "label": "2s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 8
+    },
+    {
+      "id": "c79016de89ed7917",
+      "file": "c79016de89ed7917-6da13a4951bca73e.png",
+      "sha256": "6da13a4951bca73e496cf910520a3d299e42da0b97ab4ccf3aeb7effb15998de",
+      "label": "3s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 9
+    },
+    {
+      "id": "86e71c403e4a7d28",
+      "file": "86e71c403e4a7d28-b873d596976aa2ed.png",
+      "sha256": "b873d596976aa2edecf4f13892bf667a6e22a048783c74747dedbaf7e6847c2c",
+      "label": "4s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 10
+    },
+    {
+      "id": "da76024f3ded95dd",
+      "file": "da76024f3ded95dd-42f2e3ce32f42021.png",
+      "sha256": "42f2e3ce32f4202117210729f2ea2eedd7a48d917b05c78bf7b743ee8c8c6e98",
+      "label": "4s",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 11
+    },
+    {
+      "id": "dcf1287a80d35d16",
+      "file": "dcf1287a80d35d16-548a417ff0f62235.png",
+      "sha256": "548a417ff0f62235afcb04259db9b83a4bdd1851ca023020ea8cf5510a6032d9",
+      "label": "5sr",
+      "kind": "tile",
+      "roles": [
+        "hand",
+        "draw"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 12
+    },
+    {
+      "id": "bf26980792b05566",
+      "file": "bf26980792b05566-87b0e52333d5c0ff.png",
+      "sha256": "87b0e52333d5c0ffe11546b6696cea2cde6f42df0066cec0164a9044ecedf663",
+      "label": "2m",
+      "kind": "tile",
+      "roles": [
+        "dora"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 13
+    },
+    {
+      "id": "0a10986da0d87c70",
+      "file": "0a10986da0d87c70-ce9b36e2ea704896.png",
+      "sha256": "ce9b36e2ea704896abd441b68a591f01c8cd7f99c536d01776f65d0a8694b29a",
+      "label": "back",
+      "kind": "back",
+      "roles": [
+        "dora"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 14
+    },
+    {
+      "id": "17b830521a5a6815",
+      "file": "17b830521a5a6815-af339c6f1a615015.png",
+      "sha256": "af339c6f1a61501539806c6e25b0c7df4e6ca378a2ccf4da9b8aa0aa1d0210c7",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_self"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 15
+    },
+    {
+      "id": "89208242c81360f9",
+      "file": "89208242c81360f9-365ff2f6a1e1c244.png",
+      "sha256": "365ff2f6a1e1c244a49d192038687106320a4a411ba47cd18ade9a0969883dc6",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_top"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 16
+    },
+    {
+      "id": "bee5300a1d59360c",
+      "file": "bee5300a1d59360c-61763c487a5da0a2.png",
+      "sha256": "61763c487a5da0a24d91d16077ab366579d4f19c7b9e1c4677423a4d2c07018e",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_right"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 17
+    },
+    {
+      "id": "8c0a5944413e02b8",
+      "file": "8c0a5944413e02b8-c9e0283e004716d2.png",
+      "sha256": "c9e0283e004716d2deb8eacef16aafc721d62655ffc5ea94cd7c819e832d04a5",
+      "label": "25000",
+      "kind": "text",
+      "roles": [
+        "score_left"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 18
+    },
+    {
+      "id": "6c81a91f063345ae",
+      "file": "6c81a91f063345ae-081403fbbbb9f577.png",
+      "sha256": "081403fbbbb9f5778d8e4e7aad887cf73cf3f8f3cc7fc1fc77e2f45ce8e07b5b",
+      "label": "東1局",
+      "kind": "text",
+      "roles": [
+        "round"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 19
+    },
+    {
+      "id": "600a1978e70da7d8",
+      "file": "600a1978e70da7d8-d8105743125736ca.png",
+      "sha256": "d8105743125736cadfd2323eb3b1bc1b25578551199fd7d6fa5caae2da8b5096",
+      "label": "余69",
+      "kind": "text",
+      "roles": [
+        "remaining"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 20
+    },
+    {
+      "id": "2c0f14941d4fc9ff",
+      "file": "2c0f14941d4fc9ff-29f58468dd1882c1.png",
+      "sha256": "29f58468dd1882c1ffd31b41455581513a8e2809b205c913b8894068a8cb57d3",
+      "label": "0",
+      "kind": "text",
+      "roles": [
+        "honba"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 21
+    },
+    {
+      "id": "2e2a3ae561e8aedf",
+      "file": "2e2a3ae561e8aedf-2ef54bff06935afc.png",
+      "sha256": "2ef54bff06935afc3ec8f8129a42f948cb73a7bc3d5bd36ca4d0b4ba85f5efb6",
+      "label": "0",
+      "kind": "text",
+      "roles": [
+        "kyotaku"
+      ],
+      "state": "unknown",
+      "source_game": "user-251228-f82d20f0",
+      "source_annotation": "D:\\py_project\\Majan\\data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "source_target": 22
+    }
+  ],
+  "score_kind": "template_similarity_not_probability"
+}

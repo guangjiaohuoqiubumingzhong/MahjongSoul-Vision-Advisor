@@ -1,0 +1,12 @@
+{
+  "repo": "pjura/mahjong_soul_vision",
+  "revision": "ea01ca0bcb9be0fc10a5fa09ee8356770c25adc5",
+  "license": "Apache-2.0",
+  "source": "https://huggingface.co/pjura/mahjong_soul_vision/tree/ea01ca0bcb9be0fc10a5fa09ee8356770c25adc5",
+  "files": {
+    "config.json": "086fd81a962469a0feed7b117f389062ab88287a0996425ac6af2faa49562543",
+    "preprocessor_config.json": "a34861a24e781942424ad790b82bc99348404a2e64ea882de88c40905851698d",
+    "README.md": "7992d900b83ca83b313c9d17607420f43b5f8f3e3f5fffbf2f95327dd761aeba",
+    "pytorch_model.bin": "a3cc566c8011b4496239a5228de3985e37ba2c2dfceefd52f67bb34c5f7e49c0"
+  }
+}

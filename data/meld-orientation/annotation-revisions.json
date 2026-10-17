@@ -1,0 +1,26 @@
+{
+  "reviewed": "2026-10-15",
+  "method": "Independent visual inspection of enlarged native pixels, not a recognizer-generated label. Both stages rescored on identical final labels.",
+  "revisions": [
+    {
+      "case": "steam-right-three-dot-kan-seven-pon",
+      "correction": "3p x4 daiminkan, not x3 pon",
+      "evidence": "../../reports/meld-dataset/review-12-right.png"
+    },
+    {
+      "case": "steam-top-sou-chi-bird-pon",
+      "correction": "F pon, not 1s pon",
+      "evidence": "../../reports/meld-dataset/3808714033-native-review.png"
+    },
+    {
+      "case": "steam-right-white-four-pons",
+      "correction": "9m pon, not 4m pon; stable case identifier retained",
+      "evidence": "../../reports/meld-dataset/3799875797-native-review.png"
+    },
+    {
+      "case": "steam-self-nine-dot-chi",
+      "correction": "Expand ROI to include the entire leftmost 9p face; partial crop was invalid",
+      "evidence": "../../reports/meld-dataset/after/steam-self-nine-dot-chi-original-roi.png"
+    }
+  ]
+}

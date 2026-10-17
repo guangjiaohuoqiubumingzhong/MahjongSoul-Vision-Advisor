@@ -1,0 +1,13 @@
+{"type": "start_game", "names": ["self", "shimocha", "toimen", "kamicha"]}
+{"type": "start_kyoku", "bakaze": "E", "dora_marker": "C", "kyoku": 1, "honba": 0, "kyotaku": 0, "oya": 0, "scores": [25000, 25000, 25000, 25000], "tehais": [["1m", "2m", "3m", "4m", "5mr", "6m", "7p", "8p", "9p", "2s", "3s", "E", "E"], ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?"], ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?"], ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?"]]}
+{"type": "tsumo", "actor": 0, "pai": "N"}
+{"type": "reach", "actor": 0}
+{"type": "dahai", "actor": 0, "pai": "N", "tsumogiri": true}
+{"type": "reach_accepted", "actor": 0}
+{"type": "tsumo", "actor": 1, "pai": "?"}
+{"type": "dahai", "actor": 1, "pai": "P", "tsumogiri": true}
+{"type": "tsumo", "actor": 2, "pai": "?"}
+{"type": "dahai", "actor": 2, "pai": "F", "tsumogiri": true}
+{"type": "tsumo", "actor": 3, "pai": "?"}
+{"type": "dahai", "actor": 3, "pai": "C", "tsumogiri": true}
+{"type": "tsumo", "actor": 0, "pai": "9m"}

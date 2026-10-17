@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "reviewed": true,
+  "reference_size": [
+    1366,
+    768
+  ],
+  "review_method": "Selected positive tile glyphs and negative green-back sides visually checked on enlarged native pixel crops; partial region annotations, not full scene accuracy.",
+  "cases": [
+    {
+      "path": "data/public-mahjong/steam-community/images/3803049411.jpg",
+      "image_sha256": "35906bc749cd977056a488759093cfb137c54d6e4820890d1ca49013eb273bf7",
+      "regions": {
+        "meld_top": {
+          "targets": [
+            {
+              "label": "4s",
+              "bbox": [
+                350,
+                25,
+                45,
+                26
+              ]
+            }
+          ],
+          "complete_region": false
+        }
+      }
+    },
+    {
+      "path": "data/public-mahjong/steam-community/images/3803368031.jpg",
+      "image_sha256": "a9c4a094229806fe68ae1e7410931d203c3f91d3ef066a44fff3c2cdc1882c8e",
+      "regions": {
+        "meld_self": {
+          "targets": [
+            {
+              "label": "8s",
+              "bbox": [
+                1121,
+                687,
+                73,
+                48
+              ]
+            }
+          ],
+          "complete_region": false
+        }
+      }
+    }
+  ],
+  "non_tile_bodies": [
+    {
+      "path": "data/public-mahjong/steam-community/images/3800908090.jpg",
+      "bbox": [
+        1174,
+        232,
+        20,
+        25
+      ],
+      "rotation": 270,
+      "region": "meld_right",
+      "expected": "concealed_back_side_no_tile_identity"
+    },
+    {
+      "path": "data/public-mahjong/steam-community/images/3803922882.jpg",
+      "bbox": [
+        1174,
+        232,
+        20,
+        25
+      ],
+      "rotation": 270,
+      "region": "meld_right",
+      "expected": "concealed_back_side_no_tile_identity"
+    },
+    {
+      "path": "data/public-mahjong/steam-community/images/3812161238.jpg",
+      "bbox": [
+        1174,
+        232,
+        20,
+        25
+      ],
+      "rotation": 270,
+      "region": "meld_right",
+      "expected": "concealed_back_side_no_tile_identity"
+    }
+  ]
+}

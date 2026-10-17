@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "repo": "pjura/mahjong_soul_vision",
+  "revision": "ea01ca0bcb9be0fc10a5fa09ee8356770c25adc5",
+  "license": "Apache-2.0",
+  "source": "https://huggingface.co/pjura/mahjong_soul_vision/tree/ea01ca0bcb9be0fc10a5fa09ee8356770c25adc5",
+  "files": {
+    "config.json": "086fd81a962469a0feed7b117f389062ab88287a0996425ac6af2faa49562543",
+    "preprocessor_config.json": "a34861a24e781942424ad790b82bc99348404a2e64ea882de88c40905851698d",
+    "README.md": "7992d900b83ca83b313c9d17607420f43b5f8f3e3f5fffbf2f95327dd761aeba",
+    "pytorch_model.bin": "a3cc566c8011b4496239a5228de3985e37ba2c2dfceefd52f67bb34c5f7e49c0"
+  },
+  "model": "vit-fused-fp16-61a9d73499bc.onnx",
+  "model_sha256": "61a9d73499bcae64dfff7a191e9589b972bbb0aad62159fbfb834376fc1783d3",
+  "id2label": {
+    "0": "1b",
+    "1": "1n",
+    "10": "4n",
+    "11": "4p",
+    "12": "5b",
+    "13": "5n",
+    "14": "5p",
+    "15": "6b",
+    "16": "6n",
+    "17": "6p",
+    "18": "7b",
+    "19": "7n",
+    "2": "1p",
+    "20": "7p",
+    "21": "8b",
+    "22": "8n",
+    "23": "8p",
+    "24": "9b",
+    "25": "9n",
+    "26": "9p",
+    "27": "ew",
+    "28": "gd",
+    "29": "nw",
+    "3": "2b",
+    "30": "rd",
+    "31": "sw",
+    "32": "wd",
+    "33": "ww",
+    "4": "2n",
+    "5": "2p",
+    "6": "3b",
+    "7": "3n",
+    "8": "3p",
+    "9": "4b"
+  },
+  "preprocessor": {
+    "do_normalize": true,
+    "do_rescale": true,
+    "do_resize": true,
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_processor_type": "ViTImageProcessor",
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "resample": 2,
+    "rescale_factor": 0.00392156862745098,
+    "size": {
+      "height": 224,
+      "width": 224
+    }
+  },
+  "scope": "34 base tile classes only; no red-five, back, text, button or detector classes",
+  "validation": {
+    "status": "passed",
+    "public_crops": 2457,
+    "public_top1_and_acceptance_unchanged": true,
+    "scene_variants": 20,
+    "scene_state_and_recommendations_unchanged": true,
+    "scope": "Numerical/recognition parity with the pinned FP32 model using threshold-boundary rechecks; not new training or a new held-out accuracy estimate."
+  },
+  "source_export": {
+    "opset": 17,
+    "weights_only": true,
+    "reference_crops": [
+      {
+        "annotation": "data\\replays\\user-251228-train-recording-01\\screenshots\\00001362.annotation.json",
+        "id": "hand-0"
+      },
+      {
+        "annotation": "data\\replays\\user-251228-train-recording-01\\screenshots\\00001362.annotation.json",
+        "id": "hand-1"
+      },
+      {
+        "annotation": "data\\replays\\user-251228-train-recording-01\\screenshots\\00001362.annotation.json",
+        "id": "hand-2"
+      }
+    ],
+    "versions": {
+      "torch": "2.5.1+cpu",
+      "transformers": "4.46.3",
+      "onnx": "1.19.0",
+      "numpy": "2.2.6",
+      "Pillow": "11.3.0"
+    }
+  },
+  "optimization": {
+    "method": "ort-vit-fused-fp16",
+    "precision": "mixed-fp16-fp32-io",
+    "onnxruntime": "1.23.2",
+    "source_model_sha256": "f34e4537a7b9ff41ea12fdb4843cf0ec8a6109def22ca3eabb51045b492fc75c",
+    "source_manifest": "../manifest.json",
+    "source_manifest_sha256": "7f6760b269d2e70c389bdda402c585e26007f6cc65b9c484b08d4e95879defa9",
+    "validation_file": "validation-7a680961378f.json",
+    "validation_sha256": "7a680961378f44b07a11270628192c071f40b62569b2817038f830ac1134ee40",
+    "fp32_guard_band": 0.005,
+    "sources": [
+      "https://onnxruntime.ai/docs/performance/transformers-optimization.html",
+      "https://onnxruntime.ai/docs/performance/model-optimizations/float16.html"
+    ]
+  }
+}

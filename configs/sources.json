@@ -1,0 +1,20 @@
+{
+  "rustup": {
+    "version": "1.29.1",
+    "url": "https://static.rust-lang.org/rustup/archive/1.29.1/x86_64-pc-windows-msvc/rustup-init.exe",
+    "sha256": "6f4bef66261261fcb43131be8720bab817d403a09edec7455c371974b90bdb7e"
+  },
+  "windows_sdk": {
+    "version": "10.0.26100.9169",
+    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.windows.sdk.cpp.x64/10.0.26100.9169/microsoft.windows.sdk.cpp.x64.10.0.26100.9169.nupkg",
+    "sha256": "df6226a051e320942abfbd57848b43d18772996ecd66beadad240f2a56ed2f7b"
+  },
+  "mjai_reviewer": {
+    "url": "https://github.com/Equim-chan/mjai-reviewer.git",
+    "commit": "2dc5ec5c8b28517cfb45f57eb21536d9a8f67aa9"
+  },
+  "mortal": {
+    "url": "https://github.com/Equim-chan/Mortal.git",
+    "commit": "0cff2b52982be5b1163aa9a62fb01f03ce91e0d2"
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "evaluation": "native_public_meld_component",
+  "annotation_notes": "Only the listed ROI/group is labelled. Native pixels preserved. Three-player/special-rule and non-16:9 frames are component tests only, not four-player backend or default-layout passes. Coverage is not all 12 seat/type combinations.",
+  "cases": [
+    {
+      "name": "self-P-added",
+      "path": "kan-scenes/images/note-added-11.png",
+      "source_page": "https://note.com/shinux217/n/n42348a994488",
+      "sha256": "51bdd489040eb4b30fdfab2efacb84f919e7f5841fa81dde13d8e71d05ee0b61",
+      "seat": "self",
+      "roi_xywh": [
+        799,
+        453,
+        153,
+        103
+      ],
+      "scene_rules": "four_player_asura",
+      "expected": {
+        "type": "kakan",
+        "labels": [
+          "P",
+          "P",
+          "P",
+          "P"
+        ],
+        "target": null
+      },
+      "ground_truth_reviewed": true,
+      "review_method": "Human pixel inspection of native screenshot, with author narration where available; recognizer outputs are not ground truth."
+    },
+    {
+      "name": "self-P-added-late",
+      "path": "kan-scenes/images/note-added-20.png",
+      "source_page": "https://note.com/shinux217/n/n42348a994488",
+      "sha256": "f0e8a784d82961b4548afe5e92f4a848b08aa6f92c6df8b815e2750d24f5e947",
+      "seat": "self",
+      "roi_xywh": [
+        801,
+        456,
+        152,
+        97
+      ],
+      "scene_rules": "four_player_asura",
+      "expected": {
+        "type": "kakan",
+        "labels": [
+          "P",
+          "P",
+          "P",
+          "P"
+        ],
+        "target": null
+      },
+      "ground_truth_reviewed": true,
+      "review_method": "Human pixel inspection of native screenshot, with author narration where available; recognizer outputs are not ground truth."
+    },
+    {
+      "name": "left-C-open",
+      "path": "kan-scenes/images/note-added-20.png",
+      "source_page": "https://note.com/shinux217/n/n42348a994488",
+      "sha256": "f0e8a784d82961b4548afe5e92f4a848b08aa6f92c6df8b815e2750d24f5e947",
+      "seat": "left",
+      "roi_xywh": [
+        47,
+        281,
+        104,
+        114
+      ],
+      "scene_rules": "four_player_asura",
+      "expected": {
+        "type": "daiminkan",
+        "labels": [
+          "C",
+          "C",
+          "C",
+          "C"
+        ],
+        "target": 0
+      },
+      "ground_truth_reviewed": true,
+      "review_method": "Human pixel inspection of native screenshot, with author narration where available; recognizer outputs are not ground truth."
+    },
+    {
+      "name": "self-9s-open",
+      "path": "kan-scenes/images/note-open-16.png",
+      "source_page": "https://note.com/okuohouko/n/n66c05a0ed410",
+      "sha256": "47f6fbf45a8da5a5c9a1283d3b516f7cb6c0bfa2d5d01df82926b5fb83b202d0",
+      "seat": "self",
+      "roi_xywh": [
+        679,
+        610,
+        219,
+        95
+      ],
+      "scene_rules": "three_player",
+      "expected": {
+        "type": "daiminkan",
+        "labels": [
+          "9s",
+          "9s",
+          "9s",
+          "9s"
+        ],
+        "target": 3
+      },
+      "ground_truth_reviewed": true,
+      "review_method": "Human pixel inspection of native screenshot, with author narration where available; recognizer outputs are not ground truth."
+    },
+    {
+      "name": "self-9s-open-late",
+      "path": "kan-scenes/images/note-open-17.png",
+      "source_page": "https://note.com/okuohouko/n/n66c05a0ed410",
+      "sha256": "5119c5b9b50daea094c6b64d39c90037ead8b3f065be7ebf4404b567d407eccc",
+      "seat": "self",
+      "roi_xywh": [
+        679,
+        610,
+        219,
+        95
+      ],
+      "scene_rules": "three_player",
+      "expected": {
+        "type": "daiminkan",
+        "labels": [
+          "9s",
+          "9s",
+          "9s",
+          "9s"
+        ],
+        "target": 3
+      },
+      "ground_truth_reviewed": true,
+      "review_method": "Human pixel inspection of native screenshot, with author narration where available; recognizer outputs are not ground truth."
+    },
+    {
+      "name": "top-E-added",
+      "path": "kan-scenes/images/note-right-kan-17.png",
+      "source_page": "https://note.com/raccoondogs/n/n987c367f73b1",
+      "sha256": "37ed2ba9ce6734730496e267c8edb636db23fdede70d0e517967afbc0081a96b",
+      "seat": "top",
+      "roi_xywh": [
+        257,
+        12,
+        149,
+        69
+      ],
+      "scene_rules": "four_player",
+      "expected": {
+        "type": "kakan",
+        "labels": [
+          "E",
+          "E",
+          "E",
+          "E"
+        ],
+        "target": null
+      },
+      "ground_truth_reviewed": true,
+      "review_method": "Human pixel inspection of native screenshot, with author narration where available; recognizer outputs are not ground truth."
+    },
+    {
+      "name": "top-E-added-late",
+      "path": "kan-scenes/images/note-right-kan-18.png",
+      "source_page": "https://note.com/raccoondogs/n/n987c367f73b1",
+      "sha256": "de252e49ade69c71290cf47518d69dd30ec58b58d14bee4dbbbc9726520eaffa",
+      "seat": "top",
+      "roi_xywh": [
+        257,
+        12,
+        149,
+        75
+      ],
+      "scene_rules": "four_player",
+      "expected": {
+        "type": "kakan",
+        "labels": [
+          "E",
+          "E",
+          "E",
+          "E"
+        ],
+        "target": null
+      },
+      "ground_truth_reviewed": true,
+      "review_method": "Human pixel inspection of native screenshot, with author narration where available; recognizer outputs are not ground truth."
+    },
+    {
+      "name": "left-6p-closed-orange",
+      "path": "kan-scenes/images/note-left-closed-11.jpg",
+      "source_page": "https://note.com/amutan_mj/n/n058423d1de4c",
+      "sha256": "725b09641f23d62a735d08750886854c0a16ca25b66261114ff849ea6cfdca34",
+      "seat": "left",
+      "roi_xywh": [
+        40,
+        700,
+        180,
+        280
+      ],
+      "scene_rules": "four_player",
+      "expected": {
+        "type": "ankan",
+        "labels": [
+          "6p",
+          "6p",
+          "6p",
+          "6p"
+        ],
+        "target": null
+      },
+      "ground_truth_reviewed": true,
+      "review_method": "Human pixel inspection of native screenshot, with author narration where available; recognizer outputs are not ground truth."
+    },
+    {
+      "name": "top-5p-closed-red",
+      "path": "kan-scenes/images/note-top-closed-10.png",
+      "source_page": "https://note.com/cos13/n/n7a417fe34fd2",
+      "sha256": "102e86040ac657de364a00ebe2dd91be907ec4b47223fb85d3d65ccd01c6f92f",
+      "seat": "top",
+      "roi_xywh": [
+        318,
+        7,
+        141,
+        54
+      ],
+      "scene_rules": "three_player",
+      "expected": {
+        "type": "ankan",
+        "labels": [
+          "5p",
+          "5pr",
+          "5p",
+          "5p"
+        ],
+        "target": null
+      },
+      "ground_truth_reviewed": true,
+      "review_method": "Human pixel inspection of native screenshot, with author narration where available; recognizer outputs are not ground truth."
+    },
+    {
+      "name": "right-1p-closed-orange",
+      "path": "kan-scenes/images/note-right-closed-15.jpg",
+      "source_page": "https://note.com/fine_koala1007/n/n1a02f9d306b2",
+      "sha256": "18aacaa904aae31b10d372e3b953f91aee01ab8615e1c3c7ec7d72b0d0e290f7",
+      "seat": "right",
+      "roi_xywh": [
+        1690,
+        24,
+        150,
+        171
+      ],
+      "scene_rules": "four_player",
+      "expected": {
+        "type": "ankan",
+        "labels": [
+          "1p",
+          "1p",
+          "1p",
+          "1p"
+        ],
+        "target": null
+      },
+      "ground_truth_reviewed": true,
+      "review_method": "Human pixel inspection of native screenshot, with author narration where available; recognizer outputs are not ground truth."
+    },
+    {
+      "name": "right-1p-closed-orange-late",
+      "path": "kan-scenes/images/note-right-closed-16.jpg",
+      "source_page": "https://note.com/fine_koala1007/n/n1a02f9d306b2",
+      "sha256": "19f0cf37d0948421e4f4fadc1f5a631aebc29cbac8450387e1fb8aab47362a99",
+      "seat": "right",
+      "roi_xywh": [
+        1690,
+        24,
+        150,
+        171
+      ],
+      "scene_rules": "four_player",
+      "expected": {
+        "type": "ankan",
+        "labels": [
+          "1p",
+          "1p",
+          "1p",
+          "1p"
+        ],
+        "target": null
+      },
+      "ground_truth_reviewed": true,
+      "review_method": "Human pixel inspection of native screenshot, with author narration where available; recognizer outputs are not ground truth."
+    },
+    {
+      "name": "top-C-pon-negative",
+      "path": "kan-scenes/images/note-right-kan-20.png",
+      "source_page": "https://note.com/raccoondogs/n/n987c367f73b1",
+      "sha256": "a99031b88c87d07f6e62ec850d84d3e1d39c30b1e5c215b0f73e15d6bfcbc4f1",
+      "seat": "top",
+      "roi_xywh": [
+        258,
+        12,
+        153,
+        59
+      ],
+      "scene_rules": "four_player",
+      "expected": {
+        "type": "pon",
+        "labels": [
+          "C",
+          "C",
+          "C"
+        ],
+        "target": 0
+      },
+      "ground_truth_reviewed": true,
+      "review_method": "Human pixel inspection of native screenshot, with author narration where available; recognizer outputs are not ground truth."
+    },
+    {
+      "name": "self-P-pon-negative",
+      "path": "kan-scenes/images/note-added-10.png",
+      "source_page": "https://note.com/shinux217/n/n42348a994488",
+      "sha256": "6e7080826bcd922bb742a0e5e9433ef5c75d579eeb991430f837cee4321b2da7",
+      "seat": "self",
+      "roi_xywh": [
+        798,
+        476,
+        158,
+        72
+      ],
+      "scene_rules": "four_player_asura",
+      "expected": {
+        "type": "pon",
+        "labels": [
+          "P",
+          "P",
+          "P"
+        ],
+        "target": null
+      },
+      "ground_truth_reviewed": true,
+      "review_method": "Human pixel inspection of native screenshot, with author narration where available; recognizer outputs are not ground truth."
+    }
+  ]
+}

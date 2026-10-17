@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "majan-backend"
+version = "0.1.0"
+description = "Mahjong Soul capture, visual inspection and visible-information Mortal CUDA backend"
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy==2.2.6", "onnxruntime-gpu==1.23.2", "psutil==7.1.0", "opencv-python==4.11.0.86", "mss==10.1.0", "Pillow==11.3.0", "mahjong==1.3.0", "windows-capture==2.0.1; sys_platform == 'win32'"]
+
+[project.scripts]
+majan = "app.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--basetemp=.tools/pytest-tmp --capture=sys"
+markers = ["gpu: requires the pinned CUDA model and libriichi extension"]

@@ -1,0 +1,20 @@
+{
+  "source_capture": "reports\\screenshot-advice\\run-20261011T104322-5\\action-0002\\00000055.png",
+  "source_user_image": "C:/Users/16BITS~1/AppData/Local/Temp/codex-clipboard-c345106a-dcbb-4d3f-8c95-e778435a75e1.png",
+  "sha256": "a22e2aba1cb9461e5f16f7f33abcfdb11dbdb34a00bfead1c6f0e54838a63848",
+  "native_size": [
+    1920,
+    1080
+  ],
+  "role": "regression_fixture_not_training",
+  "expected_river_left": [
+    "9m",
+    "9s",
+    "9s",
+    "W",
+    "2s",
+    "7p",
+    "C"
+  ],
+  "failure_before_fix": "duplicate_river_slot: partial 7p face classified as 6p in 2s slot"
+}

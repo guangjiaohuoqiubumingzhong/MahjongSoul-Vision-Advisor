@@ -1,0 +1,7 @@
+{
+  "repository": "xdedss/cvmaj",
+  "revision": "6e2ca242b73b89adb52f9d374513b7178056278a",
+  "archive_sha256": "c9c225c2d5312e801c4c7f7888e1afafc7913ceb7ab96fab9fef3fe3ade341f9",
+  "imported_folder": "tiles/labeled/label",
+  "excluded": "Duplicate big/small folders and upstream Python code"
+}

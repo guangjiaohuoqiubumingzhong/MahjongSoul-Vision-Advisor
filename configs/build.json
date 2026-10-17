@@ -1,0 +1,20 @@
+{
+  "python": "3.12.7",
+  "python_architecture": "AMD64",
+  "mortal_commit": "0cff2b52982be5b1163aa9a62fb01f03ce91e0d2",
+  "mjai_reviewer_commit": "2dc5ec5c8b28517cfb45f57eb21536d9a8f67aa9",
+  "libriichi_sha256": "4629d58d73dd144a1fdd32e0d81f9aa6f0641e18884dbe1d9f6579b5ddb47e21",
+  "rust": "rustc 1.90.0 (1159e78c4 2025-09-14)",
+  "features": [
+    "pymod"
+  ],
+  "default_features": false,
+  "sdk_version": "10.0.26100.9169",
+  "snapshot_overlay": {
+    "manifest_sha256": "c35f1b74d6b64e8f33960fc3cd6bf8519c133c698e4b3a43bf15498665e65cfe",
+    "files": {
+      "third_party/Mortal/libriichi/src/state/mod.rs": "339752ee40a671ef79b2a0e096ef06b9ae8b0043b63df924410ac9194f8c64e8",
+      "third_party/Mortal/libriichi/src/state/snapshot.rs": "f847361e71a944a3c0085f508a7afa51f10cfb09b315f34b37660c87feaa75d7"
+    }
+  }
+}

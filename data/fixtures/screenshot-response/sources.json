@@ -1,0 +1,32 @@
+[
+  {
+    "image": "chi.png",
+    "source": "C:/Users/16BITS~1/AppData/Local/Temp/codex-clipboard-2f55d1d8-869a-476d-947b-3e47f3588fbe.png",
+    "source_sha256": "1929da370916cf131e100670cc2efe14c0ab250234aeb51fa0aecda49c98ba1e",
+    "client_crop": [
+      5,
+      48,
+      1920,
+      1080
+    ],
+    "purpose": "user_bug_regression_not_training"
+  },
+  {
+    "image": "ron-clipped.png",
+    "source": "C:/Users/16BITS~1/AppData/Local/Temp/codex-clipboard-372521d9-6f88-4584-8f92-5f20654748af.png",
+    "source_sha256": "a4f49bc3f4447769e67ab3f2e1ae941ba140426538a8807fb23294862d903953",
+    "client_crop": [
+      0,
+      32,
+      1920,
+      1080
+    ],
+    "purpose": "user_bug_regression_not_training"
+  },
+  {
+    "image": "ron.png",
+    "source": "reports\\screenshot-advice\\run-20261011T092203-8\\action-0001\\00000003.png",
+    "source_sha256": "19514bdb38b8e5fab6f428d1e3e64c65d9037c60a778744038b64c48330eb7be",
+    "purpose": "same_user_game_original_client_capture_regression_not_training"
+  }
+]

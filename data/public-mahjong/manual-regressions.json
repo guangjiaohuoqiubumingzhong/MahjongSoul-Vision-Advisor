@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "reviewed": true,
+  "reviewed_at": "2026-10-13",
+  "reference_size": [
+    1366,
+    768
+  ],
+  "review_method": "Labels visually checked against original glyphs, including Steam helper indices; boxes proposed by detector and manually checked against visible tile positions. Selected debugging cases, not a holdout accuracy set. Rechecked the native-size strip enlarged on 2026-10-13: called green tile is 4s (completes 2s3s4s), and the red five is 5sr; previous transcription corrected.",
+  "cases": [
+    {
+      "path": "data/public-mahjong/cvmaj/examples/templates/multiple/ingame02.png",
+      "image_sha256": "a6c025ae1008aec5a955295676bee4ce0950a7597a300f9e31a168772841d8b0",
+      "source": "cvmaj",
+      "regions": {
+        "hand": {
+          "targets": [
+            {
+              "label": "2m",
+              "bbox": [
+                158,
+                655,
+                67,
+                108
+              ]
+            },
+            {
+              "label": "2m",
+              "bbox": [
+                225,
+                655,
+                67,
+                108
+              ]
+            },
+            {
+              "label": "4m",
+              "bbox": [
+                292,
+                655,
+                67,
+                108
+              ]
+            },
+            {
+              "label": "7m",
+              "bbox": [
+                359,
+                655,
+                68,
+                108
+              ]
+            },
+            {
+              "label": "1p",
+              "bbox": [
+                427,
+                655,
+                67,
+                108
+              ]
+            },
+            {
+              "label": "1s",
+              "bbox": [
+                494,
+                655,
+                68,
+                108
+              ]
+            },
+            {
+              "label": "3s",
+              "bbox": [
+                562,
+                655,
+                67,
+                108
+              ]
+            },
+            {
+              "label": "3s",
+              "bbox": [
+                629,
+                655,
+                68,
+                108
+              ]
+            },
+            {
+              "label": "7s",
+              "bbox": [
+                697,
+                655,
+                67,
+                108
+              ]
+            },
+            {
+              "label": "9s",
+              "bbox": [
+                764,
+                655,
+                68,
+                108
+              ]
+            },
+            {
+              "label": "9s",
+              "bbox": [
+                832,
+                655,
+                67,
+                108
+              ]
+            },
+            {
+              "label": "S",
+              "bbox": [
+                899,
+                655,
+                68,
+                108
+              ]
+            },
+            {
+              "label": "S",
+              "bbox": [
+                967,
+                655,
+                68,
+                108
+              ]
+            }
+          ]
+        },
+        "dora": {
+          "targets": [
+            {
+              "label": "8p",
+              "bbox": [
+                20,
+                37,
+                38,
+                54
+              ]
+            }
+          ]
+        },
+        "river_self": {
+          "targets": [
+            {
+              "label": "N",
+              "bbox": [
+                547,
+                386,
+                44,
+                49
+              ]
+            },
+            {
+              "label": "P",
+              "bbox": [
+                591,
+                387,
+                43,
+                49
+              ]
+            },
+            {
+              "label": "4p",
+              "bbox": [
+                636,
+                387,
+                41,
+                48
+              ]
+            }
+          ]
+        },
+        "river_right": {
+          "targets": [
+            {
+              "label": "N",
+              "bbox": [
+                823,
+                348,
+                55,
+                38
+              ]
+            },
+            {
+              "label": "F",
+              "bbox": [
+                821,
+                317,
+                54,
+                30
+              ]
+            },
+            {
+              "label": "E",
+              "bbox": [
+                816,
+                290,
+                53,
+                28
+              ]
+            },
+            {
+              "label": "6m",
+              "bbox": [
+                816,
+                261,
+                53,
+                29
+              ]
+            }
+          ]
+        },
+        "river_top": {
+          "targets": [
+            {
+              "label": "E",
+              "bbox": [
+                761,
+                172,
+                36,
+                40
+              ]
+            },
+            {
+              "label": "4s",
+              "bbox": [
+                722,
+                172,
+                37,
+                40
+              ]
+            },
+            {
+              "label": "2p",
+              "bbox": [
+                684,
+                172,
+                37,
+                40
+              ]
+            },
+            {
+              "label": "1s",
+              "bbox": [
+                645,
+                172,
+                37,
+                39
+              ]
+            }
+          ]
+        },
+        "river_left": {
+          "targets": [
+            {
+              "label": "S",
+              "bbox": [
+                497,
+                207,
+                55,
+                26
+              ]
+            },
+            {
+              "label": "9s",
+              "bbox": [
+                497,
+                233,
+                55,
+                26
+              ]
+            },
+            {
+              "label": "2s",
+              "bbox": [
+                490,
+                259,
+                59,
+                32
+              ]
+            },
+            {
+              "label": "1m",
+              "bbox": [
+                490,
+                291,
+                59,
+                32
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "data/public-mahjong/steam-community/images/3803049411.jpg",
+      "image_sha256": "35906bc749cd977056a488759093cfb137c54d6e4820890d1ca49013eb273bf7",
+      "source": "steam-community",
+      "regions": {
+        "meld_top": {
+          "targets": [
+            {
+              "label": "5sr",
+              "bbox": [
+                462,
+                26,
+                44,
+                25
+              ]
+            },
+            {
+              "label": "6s",
+              "bbox": [
+                427,
+                26,
+                35,
+                31
+              ]
+            },
+            {
+              "label": "7s",
+              "bbox": [
+                393,
+                25,
+                36,
+                32
+              ]
+            },
+            {
+              "label": "4s",
+              "bbox": [
+                350,
+                25,
+                45,
+                26
+              ]
+            },
+            {
+              "label": "2s",
+              "bbox": [
+                314,
+                25,
+                37,
+                32
+              ]
+            },
+            {
+              "label": "3s",
+              "bbox": [
+                280,
+                25,
+                37,
+                32
+              ]
+            }
+          ]
+        },
+        "meld_right": {
+          "targets": []
+        }
+      }
+    }
+  ]
+}

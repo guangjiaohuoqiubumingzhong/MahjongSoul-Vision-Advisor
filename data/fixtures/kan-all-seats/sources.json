@@ -1,0 +1,17 @@
+{
+  "source": "user-self-F-kakan-desktop.png",
+  "sha256": "ab8e4c293d29ee96876a52069e875da82d2367f79919901fb8b87cfd84438a90",
+  "source_size": [
+    2508,
+    1112
+  ],
+  "client_crop_xywh": [
+    1,
+    31,
+    1920,
+    1080
+  ],
+  "native_client": "user-self-F-kakan-1920.png",
+  "native_sha256": "53cc34a46a4dbe429b91de5967b19cade1bff9ff2c7993777b548f849f94cde8",
+  "derived_1366": "INTER_AREA resize of native client; not a second independently captured game"
+}

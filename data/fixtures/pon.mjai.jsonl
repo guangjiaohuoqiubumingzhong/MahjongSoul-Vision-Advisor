@@ -1,0 +1,4 @@
+{"type": "start_game", "names": ["self", "shimocha", "toimen", "kamicha"]}
+{"type": "start_kyoku", "bakaze": "E", "dora_marker": "C", "kyoku": 1, "honba": 0, "kyotaku": 0, "oya": 3, "scores": [25000, 25000, 25000, 25000], "tehais": [["E", "E", "1m", "2m", "3m", "4p", "5pr", "6p", "7s", "8s", "9s", "N", "N"], ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?"], ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?"], ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?"]]}
+{"type": "tsumo", "actor": 3, "pai": "?"}
+{"type": "dahai", "actor": 3, "pai": "E", "tsumogiri": false}

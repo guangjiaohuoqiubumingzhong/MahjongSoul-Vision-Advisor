@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "scope": "development_verifier_not_independent_acceptance",
+  "opencv_version": "4.11.0",
+  "classes": [
+    "1m",
+    "1p",
+    "1s",
+    "2m",
+    "2p",
+    "2s",
+    "3m",
+    "3p",
+    "3s",
+    "4m",
+    "4p",
+    "4s",
+    "5m",
+    "5mr",
+    "5p",
+    "5pr",
+    "5s",
+    "5sr",
+    "6m",
+    "6p",
+    "6s",
+    "7m",
+    "7p",
+    "7s",
+    "8m",
+    "8p",
+    "8s",
+    "9m",
+    "9p",
+    "9s",
+    "C",
+    "E",
+    "F",
+    "N",
+    "P",
+    "S",
+    "W"
+  ],
+  "sources": [
+    {
+      "annotation": "data\\replays\\user-251228-train-recording-01\\screenshots\\00001362.annotation.json",
+      "game_id": "user-251228-f82d20f0",
+      "split": "train",
+      "reviewed": true,
+      "annotation_sha256": "a6e93a6684c085e39b3381ae7de73aed6c61a73adab069ceaca52b8f1f5ddc64",
+      "image_sha256": "45216bcc090cd1c35815b8027a11169cba03fb768c3546996e0c4fcf7703da12"
+    },
+    {
+      "annotation": "data\\replays\\user-251228-train-recording-01\\screenshots\\00002269.annotation.json",
+      "game_id": "user-251228-f82d20f0",
+      "split": "train",
+      "reviewed": true,
+      "annotation_sha256": "12ff11acb77e2204e169de691059577c255074d6e1136ff3fad7fc24e3d25e7e",
+      "image_sha256": "3713a7d8955605d07425ea17270c5b19e12124228ea3f70b540b7a22705dbc9b"
+    },
+    {
+      "annotation": "data\\screenshots\\user-250819-train\\alternate-top-kyoku02\\00000001.annotation.json",
+      "game_id": "user-250819-2005",
+      "split": "train",
+      "reviewed": true,
+      "annotation_sha256": "4eb24d51369aa40110883cb13b56feb6f00ade928201c26a38dd53eaddf9f9f2",
+      "image_sha256": "357520d1d7fb4d23df10ab4afab16508b5a41996cebd1fb7f73a3b3f7e21657b"
+    },
+    {
+      "annotation": "data\\screenshots\\user-250819-train\\kyoku01\\00000001.annotation.json",
+      "game_id": "user-250819-2005",
+      "split": "train",
+      "reviewed": true,
+      "annotation_sha256": "4e734e031094adc3271d3edf37e61617d82a28517dc87f7600b2118f729d3a69",
+      "image_sha256": "45863ff3c0ac6c4af3fe3799a5aeb6809f9969e434b004b124218779d76929f7"
+    },
+    {
+      "annotation": "data\\screenshots\\user-250819-train\\kyoku02\\00000001.annotation.json",
+      "game_id": "user-250819-2005",
+      "split": "train",
+      "reviewed": true,
+      "annotation_sha256": "a16f495d8c0ce12197b84a2aad6169161f4cba30e32d1ff01a02db9282571f02",
+      "image_sha256": "fe56d1eefe654bf53c8a76f3365c1046316a8cb5f0a794b70e328e2e3bfd4214"
+    },
+    {
+      "annotation": "data\\screenshots\\user-250819-train\\kyoku02-turn06\\00000001.annotation.json",
+      "game_id": "user-250819-2005",
+      "split": "train",
+      "reviewed": true,
+      "annotation_sha256": "5144958518aa4ca6f51c5c37b882c79ae2cc6b18377887762c2c04db39142580",
+      "image_sha256": "70d9ea427bde9a96a4c161ee3d7364a79131cd18e032f83c01f10bb3cae24e59"
+    },
+    {
+      "annotation": "data\\screenshots\\user-250819-train\\kyoku03\\00000001.annotation.json",
+      "game_id": "user-250819-2005",
+      "split": "train",
+      "reviewed": true,
+      "annotation_sha256": "02d810de628e0bb929731643b4be5de9ee1df12eb02eee150643303bb71276ec",
+      "image_sha256": "ff59f6e49494a9c37265fbbcb14f09a26996f35a7898b7076ad27a5cbf11c6bc"
+    },
+    {
+      "annotation": "data\\screenshots\\user-250819-train\\kyoku04\\00000001.annotation.json",
+      "game_id": "user-250819-2005",
+      "split": "train",
+      "reviewed": true,
+      "annotation_sha256": "b0c651166c3bb8383ced7f345c7de519ce2ad50f1cc905a6ee68347a5359641a",
+      "image_sha256": "8b7a199fe6706b3bebcf53486d6cb5eb1aaea12aa91f2df19b01e3a04d16dab1"
+    },
+    {
+      "annotation": "data\\screenshots\\user-250819-train\\kyoku05\\00000001.annotation.json",
+      "game_id": "user-250819-2005",
+      "split": "train",
+      "reviewed": true,
+      "annotation_sha256": "f202e4be528a5e5542e66669ffaab2d32d6e2b5ca1ce095d0a4903b71b1b1516",
+      "image_sha256": "10f27c4e6c315e8703398365ba1c310f67a2bce6b977004cea843882626ebdef"
+    },
+    {
+      "annotation": "data\\screenshots\\user-250819-train\\kyoku06\\00000001.annotation.json",
+      "game_id": "user-250819-2005",
+      "split": "train",
+      "reviewed": true,
+      "annotation_sha256": "9eeadcd10980b202b6ea620eeecec244671fa04469c0374c69fa3beb0b46a3b7",
+      "image_sha256": "3addcffe5bc2abc4cb79ece4695ccec946f432a7e4afe8020b16002f5dc2035d"
+    },
+    {
+      "annotation": "data\\screenshots\\user-251228-calibration\\00000001.annotation.json",
+      "game_id": "user-251228-f82d20f0",
+      "split": "train",
+      "reviewed": true,
+      "annotation_sha256": "2ba376ad5fe8288b79cae9032bd8d2a08589263266398f0bf24a6f79b1ee3e1a",
+      "image_sha256": "ae88f0a9d162008a20099531c2879f149fcd0d78d888a128cf07abeeb1725e2e"
+    }
+  ],
+  "seed": 20261009,
+  "source_code_sha256": "fa19eeff030829187e672247e629a2e2f0a7e06f8baf7e0d26125c66ae92215a",
+  "selection": "C=10, gamma=.01/.05/.1 fixed from train-only cross-role results; no test selection",
+  "feature_version": "rectified-glyph-hog-colour-projection-v2",
+  "feature_parameters": {
+    "face": {
+      "background_percentile": 85,
+      "minimum_background": 64,
+      "minimum_crop_side": 8,
+      "white_min_channel": 0.94,
+      "polygon_epsilon": 0.03,
+      "minimum_area_fraction": 0.2,
+      "warp_size": [
+        40,
+        60
+      ],
+      "face_trim": 3,
+      "glyph_min_channel": 0.7,
+      "blank_ink_min_channel": 0.96,
+      "blank_max_ink_fraction": 0.01,
+      "glyph_size": [
+        30,
+        50
+      ],
+      "glyph_padding": 2,
+      "blur_kernel": [
+        3,
+        3
+      ],
+      "blur_sigma": 1.0,
+      "ink_offset": 0.15,
+      "ink_contrast": 0.45,
+      "red_contrast": 0.3,
+      "green_contrast": 0.2,
+      "correlation_weight": 0.65,
+      "mse_weight": 0.35,
+      "mse_scale": 6,
+      "constant_mse_scale": 5,
+      "fallback_white_min_channel": 0.84,
+      "fallback_minimum_area_fraction": 0.5
+    },
+    "hog": {
+      "win": [
+        32,
+        48
+      ],
+      "block": [
+        16,
+        16
+      ],
+      "stride": [
+        8,
+        8
+      ],
+      "cell": [
+        8,
+        8
+      ],
+      "bins": 9
+    },
+    "coarse_colour": [
+      4,
+      6
+    ],
+    "coarse_weight": 0.5,
+    "projection_weight": 0.5
+  },
+  "policy": {
+    "model_count": 3,
+    "minimum_template_proposal_score": 0.75,
+    "required_agreement": "all_models_and_existing_template_proposal",
+    "blank_white_dragon_requires_blank_face": true
+  },
+  "models": [
+    {
+      "C": 10,
+      "gamma": 0.01,
+      "path": "svm-43ecdace2adfc83b83fec4703abcb32c5c01e22f6a06e030b141edca7edfbfad.xml",
+      "sha256": "43ecdace2adfc83b83fec4703abcb32c5c01e22f6a06e030b141edca7edfbfad"
+    },
+    {
+      "C": 10,
+      "gamma": 0.05,
+      "path": "svm-2f524526d078d2d6e01448767512fb69ff9b78b8a04ac197ed27f2f509dc232e.xml",
+      "sha256": "2f524526d078d2d6e01448767512fb69ff9b78b8a04ac197ed27f2f509dc232e"
+    },
+    {
+      "C": 10,
+      "gamma": 0.1,
+      "path": "svm-4817c19c33e3cc76ee8c036e64daa7dcb9cdee3862589c3f245802120a4b69e8.xml",
+      "sha256": "4817c19c33e3cc76ee8c036e64daa7dcb9cdee3862589c3f245802120a4b69e8"
+    }
+  ]
+}

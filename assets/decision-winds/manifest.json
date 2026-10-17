@@ -1,0 +1,43 @@
+{
+  "scope": "manually reviewed seat-wind crops from existing train games only",
+  "rect": [
+    563,
+    349,
+    45,
+    37
+  ],
+  "templates": [
+    {
+      "wind": "E",
+      "file": "E.png",
+      "sha256": "75387ac0c88b617d07b2abbd3404248a4f2297e9b65eba96d83789dbb7012431",
+      "source": "data/screenshots/user-250819-train/kyoku01/00000001.png",
+      "source_sha256": "45863ff3c0ac6c4af3fe3799a5aeb6809f9969e434b004b124218779d76929f7",
+      "split": "train"
+    },
+    {
+      "wind": "N",
+      "file": "N.png",
+      "sha256": "991fd864c0d9808308dd73c33ad7ec18e8913e9c7337ac59620cac26a4105566",
+      "source": "data/screenshots/user-250819-train/kyoku04/00000001.png",
+      "source_sha256": "8b7a199fe6706b3bebcf53486d6cb5eb1aaea12aa91f2df19b01e3a04d16dab1",
+      "split": "train"
+    },
+    {
+      "wind": "W",
+      "file": "W.png",
+      "sha256": "c30bbdf54974df72c542aa96029f1ddb5434292f7f9674ba31a07decb678d0eb",
+      "source": "data/screenshots/user-250819-train/kyoku05/00000001.png",
+      "source_sha256": "10f27c4e6c315e8703398365ba1c310f67a2bce6b977004cea843882626ebdef",
+      "split": "train"
+    },
+    {
+      "wind": "S",
+      "file": "S.png",
+      "sha256": "c45bfaa0dfd9667bd903251c1d235b1a56ca89fbbcd7adc80d6a965b095c2aef",
+      "source": "data/screenshots/user-250819-train/kyoku06/00000001.png",
+      "source_sha256": "3addcffe5bc2abc4cb79ece4695ccec946f432a7e4afe8020b16002f5dc2035d",
+      "split": "train"
+    }
+  ]
+}

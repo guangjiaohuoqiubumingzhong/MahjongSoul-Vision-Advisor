@@ -1,0 +1,782 @@
+{
+  "version": "steam-1366x768-pjura-snapshot-draft-25",
+  "client": "Mahjong Soul Steam Windows",
+  "client_size": [
+    1366,
+    768
+  ],
+  "dpi": 96,
+  "tile_skin": "default",
+  "calibrated": false,
+  "seat_mapping": {
+    "self": 0,
+    "right": 1,
+    "top": 2,
+    "left": 3
+  },
+  "templates": "assets\\templates\\steam-default-v5\\manifest.json",
+  "thresholds": {
+    "tile": 0.9,
+    "margin": 0.04,
+    "ocr": 0.9,
+    "button": 0.94,
+    "text_template": 0.98
+  },
+  "regions": {
+    "hand": {
+      "kind": "hand",
+      "player": 0,
+      "rect": [
+        0.11200585651537336,
+        0.8385416666666666,
+        0.7225475841874085,
+        0.16145833333333334
+      ],
+      "rotation": 0,
+      "min_size": [
+        30,
+        45
+      ],
+      "max_size": [
+        90,
+        120
+      ],
+      "required": true,
+      "tile_width": 67.5,
+      "slots": [
+        [
+          5,
+          11,
+          67,
+          108
+        ],
+        [
+          72,
+          11,
+          67,
+          108
+        ],
+        [
+          139,
+          11,
+          67,
+          108
+        ],
+        [
+          206,
+          11,
+          68,
+          108
+        ],
+        [
+          274,
+          11,
+          67,
+          108
+        ],
+        [
+          341,
+          11,
+          68,
+          108
+        ],
+        [
+          409,
+          11,
+          67,
+          108
+        ],
+        [
+          476,
+          11,
+          68,
+          108
+        ],
+        [
+          544,
+          11,
+          67,
+          108
+        ],
+        [
+          611,
+          11,
+          68,
+          108
+        ],
+        [
+          679,
+          11,
+          67,
+          108
+        ],
+        [
+          746,
+          11,
+          68,
+          108
+        ],
+        [
+          814,
+          11,
+          68,
+          108
+        ]
+      ],
+      "body_presence_bands": [
+        [
+          0.08,
+          0.15
+        ],
+        [
+          0.91,
+          0.98
+        ]
+      ],
+      "hand_layout": {
+        "draw_region": "draw",
+        "draw_gap": 22,
+        "concealed_counts": [
+          1,
+          4,
+          7,
+          10,
+          13
+        ],
+        "gap_fill_max": 0.25
+      }
+    },
+    "draw": {
+      "kind": "draw",
+      "player": 0,
+      "rect": [
+        0.77,
+        0.838,
+        0.081,
+        0.162
+      ],
+      "rotation": 0,
+      "min_size": [
+        30,
+        45
+      ],
+      "max_size": [
+        90,
+        120
+      ],
+      "required": true
+    },
+    "dora": {
+      "kind": "dora",
+      "rect": [
+        0.011,
+        0.037,
+        0.154,
+        0.09
+      ],
+      "rotation": 0,
+      "min_size": [
+        18,
+        25
+      ],
+      "max_size": [
+        50,
+        75
+      ],
+      "required": true,
+      "tile_width": 39.5
+    },
+    "river_self": {
+      "kind": "river",
+      "player": 0,
+      "rect": [
+        0.3806734992679356,
+        0.4947916666666667,
+        0.24011713030746706,
+        0.2721354166666667
+      ],
+      "rotation": 0,
+      "min_size": [
+        15,
+        20
+      ],
+      "max_size": [
+        68,
+        68
+      ],
+      "required": true,
+      "min_fill": 0.3,
+      "grid": {
+        "anchor": "center",
+        "origin": [
+          49,
+          28
+        ],
+        "basis": [
+          [
+            44.5,
+            0
+          ],
+          [
+            -3,
+            49
+          ]
+        ],
+        "rows": 4,
+        "columns": 6,
+        "tolerance": 13
+      },
+      "body_saturation_max": 40,
+      "reject_boundary_fragments": true
+    },
+    "river_right": {
+      "kind": "river",
+      "player": 1,
+      "rect": [
+        0.590044,
+        0.235677,
+        0.178624,
+        0.277344
+      ],
+      "rotation": 270,
+      "min_size": [
+        15,
+        20
+      ],
+      "max_size": [
+        58,
+        68
+      ],
+      "required": true,
+      "min_fill": 0.3,
+      "grid": {
+        "anchor": "center",
+        "origin": [
+          26,
+          42
+        ],
+        "basis": [
+          [
+            28.8,
+            -2.2
+          ],
+          [
+            0,
+            56
+          ]
+        ],
+        "rows": 4,
+        "columns": 6,
+        "tolerance": 13
+      },
+      "body_saturation_max": 40,
+      "reject_boundary_fragments": true
+    },
+    "river_top": {
+      "kind": "river",
+      "player": 2,
+      "rect": [
+        0.396779,
+        0.085938,
+        0.190337,
+        0.200521
+      ],
+      "rotation": 180,
+      "min_size": [
+        15,
+        20
+      ],
+      "max_size": [
+        58,
+        68
+      ],
+      "required": true,
+      "min_fill": 0.3,
+      "grid": {
+        "anchor": "center",
+        "origin": [
+          23,
+          25.5
+        ],
+        "basis": [
+          [
+            38,
+            0
+          ],
+          [
+            1.5,
+            35
+          ]
+        ],
+        "rows": 4,
+        "columns": 6,
+        "tolerance": 13
+      },
+      "body_saturation_max": 40,
+      "reject_boundary_fragments": true
+    },
+    "river_left": {
+      "kind": "river",
+      "player": 3,
+      "rect": [
+        0.245242,
+        0.265625,
+        0.162518,
+        0.272135
+      ],
+      "rotation": 90,
+      "min_size": [
+        15,
+        20
+      ],
+      "max_size": [
+        58,
+        68
+      ],
+      "required": true,
+      "min_fill": 0.3,
+      "grid": {
+        "anchor": "center",
+        "origin": [
+          15.5,
+          30
+        ],
+        "basis": [
+          [
+            30,
+            2.5
+          ],
+          [
+            0,
+            53
+          ]
+        ],
+        "rows": 4,
+        "columns": 6,
+        "tolerance": 13
+      },
+      "body_saturation_max": 40,
+      "reject_boundary_fragments": true
+    },
+    "meld_self": {
+      "kind": "meld",
+      "player": 0,
+      "rect": [
+        0.43923865300146414,
+        0.8268229166666666,
+        0.5607613469985359,
+        0.17317708333333334
+      ],
+      "rotation": 0,
+      "min_size": [
+        15,
+        20
+      ],
+      "max_size": [
+        90,
+        100
+      ],
+      "required": true,
+      "body_saturation_max": 40,
+      "reject_boundary_fragments": true,
+      "min_fill": 0.3,
+      "chi_source_by_called_position": {
+        "0": 3
+      },
+      "pon_source_by_called_position": {
+        "0": 3,
+        "1": 2,
+        "2": 1
+      },
+      "kan_source_by_called_position": {
+        "0": 3,
+        "1": 2,
+        "2": 2,
+        "3": 1
+      },
+      "kan_back_colours": [
+        "orange"
+      ],
+      "split_touching_meld_faces": true
+    },
+    "meld_right": {
+      "kind": "meld",
+      "player": 1,
+      "rect": [
+        0.7598828696925329,
+        0.0,
+        0.13177159590043924,
+        0.4453125
+      ],
+      "rotation": 270,
+      "min_size": [
+        15,
+        20
+      ],
+      "max_size": [
+        90,
+        100
+      ],
+      "required": true,
+      "body_saturation_max": 40,
+      "reject_boundary_fragments": true,
+      "min_fill": 0.18,
+      "chi_source_by_called_position": {
+        "0": 0
+      },
+      "pon_source_by_called_position": {
+        "0": 0,
+        "1": 3,
+        "2": 2
+      },
+      "concealed_hand_exclusions": [
+        [
+          [
+            0.8294289897510981,
+            0.18880208333333334
+          ],
+          [
+            0.8565153733528551,
+            0.18880208333333334
+          ],
+          [
+            0.9004392386530015,
+            0.4453125
+          ],
+          [
+            0.8565153733528551,
+            0.4453125
+          ]
+        ]
+      ],
+      "kan_source_by_called_position": {
+        "0": 0,
+        "1": 3,
+        "2": 3,
+        "3": 2
+      },
+      "kan_back_colours": [
+        "orange"
+      ],
+      "split_touching_meld_faces": true
+    },
+    "meld_top": {
+      "kind": "meld",
+      "player": 2,
+      "rect": [
+        0.17569546120058566,
+        0,
+        0.2027818448023426,
+        0.1015625
+      ],
+      "rotation": 180,
+      "min_size": [
+        15,
+        16
+      ],
+      "max_size": [
+        90,
+        100
+      ],
+      "required": true,
+      "body_saturation_max": 40,
+      "reject_boundary_fragments": true,
+      "min_fill": 0.3,
+      "body_value_min": 175,
+      "chi_source_by_called_position": {
+        "0": 1
+      },
+      "pon_source_by_called_position": {
+        "0": 1,
+        "1": 0,
+        "2": 3
+      },
+      "kan_source_by_called_position": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 3
+      },
+      "kan_back_colours": [
+        "orange"
+      ],
+      "split_touching_meld_faces": true
+    },
+    "meld_left": {
+      "kind": "meld",
+      "player": 3,
+      "rect": [
+        0.021961932650073207,
+        0.5338541666666666,
+        0.1281112737920937,
+        0.39453125
+      ],
+      "rotation": 90,
+      "min_size": [
+        15,
+        20
+      ],
+      "max_size": [
+        90,
+        100
+      ],
+      "required": true,
+      "body_saturation_max": 40,
+      "reject_boundary_fragments": true,
+      "min_fill": 0.3,
+      "chi_source_by_called_position": {
+        "0": 2
+      },
+      "pon_source_by_called_position": {
+        "0": 2,
+        "1": 1,
+        "2": 0
+      },
+      "exclude_polygons": [
+        [
+          [
+            0.0,
+            0.5338541666666666
+          ],
+          [
+            0.043923865300146414,
+            0.5338541666666666
+          ],
+          [
+            0.043923865300146414,
+            0.78125
+          ],
+          [
+            0.0,
+            0.78125
+          ]
+        ],
+        [
+          [
+            0.10980966325036604,
+            0.8333333333333334
+          ],
+          [
+            0.1500732064421669,
+            0.8333333333333334
+          ],
+          [
+            0.1500732064421669,
+            0.9283854166666666
+          ],
+          [
+            0.10980966325036604,
+            0.9283854166666666
+          ]
+        ]
+      ],
+      "concealed_hand_exclusions": [
+        [
+          [
+            0.07686676427525622,
+            0.5338541666666666
+          ],
+          [
+            0.1500732064421669,
+            0.5338541666666666
+          ],
+          [
+            0.1500732064421669,
+            0.5794270833333334
+          ],
+          [
+            0.07686676427525622,
+            0.5794270833333334
+          ]
+        ]
+      ],
+      "kan_source_by_called_position": {
+        "0": 2,
+        "1": 1,
+        "2": 1,
+        "3": 0
+      },
+      "kan_back_colours": [
+        "orange"
+      ],
+      "split_touching_meld_faces": true
+    },
+    "score_self": {
+      "kind": "text",
+      "field": "score",
+      "player": 0,
+      "rect": [
+        0.472,
+        0.432,
+        0.058,
+        0.03
+      ],
+      "rotation": 0,
+      "required": true
+    },
+    "score_right": {
+      "kind": "text",
+      "field": "score",
+      "player": 1,
+      "rect": [
+        0.534,
+        0.351,
+        0.025,
+        0.078
+      ],
+      "rotation": 270,
+      "required": true
+    },
+    "score_top": {
+      "kind": "text",
+      "field": "score",
+      "player": 2,
+      "rect": [
+        0.472,
+        0.321,
+        0.058,
+        0.03
+      ],
+      "rotation": 180,
+      "required": true
+    },
+    "score_left": {
+      "kind": "text",
+      "field": "score",
+      "player": 3,
+      "rect": [
+        0.445,
+        0.351,
+        0.025,
+        0.078
+      ],
+      "rotation": 90,
+      "required": true
+    },
+    "round": {
+      "kind": "text",
+      "field": "round",
+      "rect": [
+        0.47584187408491946,
+        0.359375,
+        0.05124450951683748,
+        0.032552083333333336
+      ],
+      "rotation": 0,
+      "required": true
+    },
+    "remaining": {
+      "kind": "text",
+      "field": "remaining",
+      "rect": [
+        0.471,
+        0.394,
+        0.06,
+        0.03
+      ],
+      "rotation": 0,
+      "required": true
+    },
+    "honba": {
+      "kind": "text",
+      "field": "honba",
+      "rect": [
+        0.13177159590043924,
+        0.125,
+        0.020497803806734993,
+        0.037760416666666664
+      ],
+      "rotation": 0,
+      "required": true
+    },
+    "kyotaku": {
+      "kind": "text",
+      "field": "kyotaku",
+      "rect": [
+        0.060029282576866766,
+        0.125,
+        0.01903367496339678,
+        0.037760416666666664
+      ],
+      "rotation": 0,
+      "required": true
+    },
+    "buttons": {
+      "kind": "buttons",
+      "enabled_text_ocr": true,
+      "rect": [
+        0.327,
+        0.645,
+        0.627,
+        0.188
+      ],
+      "required": true,
+      "banner_rect": [
+        0.06,
+        0.645,
+        0.894,
+        0.188
+      ]
+    },
+    "choices": {
+      "kind": "choices",
+      "rect": [
+        0.26,
+        0.526,
+        0.69,
+        0.231
+      ],
+      "rotation": 0,
+      "min_size": [
+        18,
+        25
+      ],
+      "max_size": [
+        90,
+        120
+      ],
+      "required": false
+    }
+  },
+  "notes": "Actual client calibration draft: visible draw gap after open melds; four rotated public meld regions. Pon source uses the single sideways tile position only for a known three-tile pon; left/middle/right layout verified against public call sequences and WRC section 8.12. Touching groups require a unique identity partition. Kan structure/source and gameplay buttons remain incomplete; calibrated=false. Draft 7 reuses all existing region coordinates and training images; v4 fallback handles specular stripes only after failed primary geometry. Three frozen train SVMs may verify an unknown existing template proposal; incomplete regions still pause. Stage 2 gate remains unpassed. Pjura integration: pinned 34-class ViT ONNX is primary for tile identity; legacy colour evidence resolves fives and matching templates alone confirm orientation. Enabled by explicit user request irrespective of acceptance metrics. No local test training or threshold tuning. Draft-14: top/left/right river rects grown away from each grid origin (origins unchanged) to hold four rows plus a riichi tile; own river was grown in draft-13. Draft-15: buttons.banner_rect reads coloured reaction banners (吃 green, 碰 teal, 和 red) up to three slots left of 跳過. Draft-16: meld_left grown upward (to y=410) and right for a second call; blue-backed left-wall bodies at its top are excluded (理和鸣切 panel excluded); river_self max width 68 for a sideways riichi tile (measured 59x47). Draft-17: uncertain clearly sideways identities may be verified by both quarter-turns, three train-only glyph SVMs and their nearest-reference votes; original ViT, confidence threshold and five-colour policy unchanged. Draft-18: aligned full blue-back/face/face/blue-back structures confirm closed kan and four consumed copies; marked river glyphs may use the existing template plus three unanimous train SVM votes agreeing with the primary proposal. Unsplit non-face table art is retained as rejected background evidence. Ambiguous open/added kan and unmarked weak tiles remain unresolved. Draft-19: four matching faces require an independently proven one-called-tile row for daiminkan or an adjacent called pair with a valid three-tile base for kakan. Preserve the added exact tile; ambiguous red/normal layers stay unresolved. Four-seat kan source mappings are explicit. Fitted-face relative geometry handles perspective when glyph orientation is unconfirmed. Thin top stacked bodies use a 16px minimum height; two touching meld faces require neighbour body width and two independently fitted white quadrilaterals. Solid orange backs are detected separately from white bodies and can only join a complete closed-kan row, including coherent side-seat slopes. Two weak faces require network and accepted legacy-template agreement as well as kan geometry; primary network weights and global confidence remain unchanged. Public examples cover all four seats but not every seat/type combination; dark result frames and custom red backs remain unresolved. Draft-20: side-river width splits require a nearly full upright row height, preserving thick sideways riichi bodies. A bounded overlap between adjacent river cells may be cropped only when the neighbour is a geometrically evidenced sideways tile and both cells fit the grid; keep original body boxes in neighbour_crops. This removes a neighbouring riichi glyph from the prior upright classifier crop without changing model weights or acceptance thresholds.",
+  "meld_source_review": "reports/vision/meld-source-review.json",
+  "classifier_manifest": "models\\vision-svm-prototype\\manifest-9c43bebec7e43b579a6b4bfbf1da099a52de973eeeeabcf5c239c0b00b7e16ed.json",
+  "tile_classifier": {
+    "name": "pjura",
+    "manifest": "models/pjura-vision/accelerated/manifest.json",
+    "provider": "CUDAExecutionProvider",
+    "batch_size": 16,
+    "confidence": 0.9,
+    "margin": 0.04,
+    "sideways_verifier_manifest": "models/sideways-glyph/manifest.json",
+    "dominant_candidate": {
+      "minimum_confidence": 0.5,
+      "minimum_ratio": 3.0
+    }
+  },
+  "action_timer": {
+    "rect": [
+      0.7320644216691069,
+      0.70703125,
+      0.1683748169838946,
+      0.11458333333333333
+    ],
+    "threshold": 0.95,
+    "style": "white/orange digits present; unrestricted digit count and seconds; one board capture per countdown appearance"
+  },
+  "self_wind": {
+    "rect": [
+      0.41215226939970717,
+      0.4544270833333333,
+      0.03294289897510981,
+      0.048177083333333336
+    ],
+    "threshold": 0.96,
+    "manifest": "assets/decision-winds/manifest.json"
+  },
+  "kan_source_review": "reports/kan-all-seats-fix/report.json",
+  "river_polygons": {
+    "manifest": "configs/river-polygons.json",
+    "sha256": "4292ed71af87638057ea149c2da5539ed928a0888b1117580acbb31e8f6e6173"
+  }
+}

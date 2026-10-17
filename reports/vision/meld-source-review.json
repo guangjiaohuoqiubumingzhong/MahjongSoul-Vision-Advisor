@@ -1,0 +1,61 @@
+{
+  "scope": "manual_public_layout_and_recorded_call_review_not_reference_mjai_or_automated_tracking",
+  "rules_reference": {
+    "url": "https://www.worldriichi.org/s/WRC_Rules_2022_20220708_site.pdf",
+    "section": "8.12",
+    "page": 30,
+    "notes": "Called left/middle/right tile denotes left/opposite/right discarder. Only this display convention is used; it does not replace MahjongSoul game rules."
+  },
+  "confirmed_sources": [
+    {
+      "game_id": "user-250821-1613",
+      "actor": 3,
+      "tile": "3m",
+      "type": "pon",
+      "source": 1,
+      "called_position": 1,
+      "frames": [
+        683,
+        729
+      ],
+      "evidence": "Frame 683 shows right river 3m and left pon animation; frame 729 has the 3m removed and left pon present."
+    },
+    {
+      "game_id": "user-250821-1613",
+      "actor": 2,
+      "tile": "5m",
+      "type": "pon",
+      "source": 0,
+      "called_position": 1,
+      "frames": [
+        864,
+        909
+      ],
+      "evidence": "Frame 864 shows self river 5m and top pon animation; frame 909 has the 5m removed and top red-five pon present."
+    },
+    {
+      "game_id": "user-250821-1613",
+      "actor": 0,
+      "tile": "2m",
+      "type": "pon",
+      "source": 2,
+      "called_position": 1,
+      "frames": [
+        909,
+        954
+      ],
+      "evidence": "Enlarged frame 909 shows top river 2m and own two 2m; frame 954 has that top 2m removed, own concealed hand shortened and own pon present."
+    },
+    {
+      "game_id": "user-250819-2005",
+      "actor": 3,
+      "tile": "8s",
+      "type": "pon",
+      "source": 0,
+      "called_position": 2,
+      "evidence": "Rightmost sideways tile in normalized left-player meld view; consistent with the public display convention and absence of the opening own 8s after the call. This source is based on public layout, not an independently exported reference event."
+    }
+  ],
+  "camera_validation": "Canonical clockwise player ids self=0,right=1,top=2,left=3; rotations preserve each player-facing left/middle/right. Existing chi layouts independently agree with leftmost called tile.",
+  "unconfirmed": "Exact kan structures/sources and complete reference events remain unavailable. No source emitted for unknown tile identities, ambiguous groups, multiple sideways tiles or four-tile groups."
+}

@@ -1,0 +1,764 @@
+{
+  "date": "2026-10-13",
+  "config_version": "steam-1366x768-pjura-snapshot-draft-19",
+  "tests_passed": 474,
+  "user_screenshot": {
+    "rows": [
+      {
+        "size": [
+          1920,
+          1080
+        ],
+        "status": "ready",
+        "reason": null,
+        "group": [
+          {
+            "type": "kakan",
+            "labels": [
+              "F",
+              "F",
+              "F",
+              "F"
+            ],
+            "called_positions": [
+              1,
+              2
+            ],
+            "added_position": 1,
+            "target": 2
+          }
+        ],
+        "corrections": {},
+        "context": {},
+        "recommendation": {
+          "type": "dahai",
+          "actor": 0,
+          "pai": "S",
+          "tsumogiri": true
+        }
+      },
+      {
+        "size": [
+          1366,
+          768
+        ],
+        "status": "ready",
+        "reason": null,
+        "group": [
+          {
+            "type": "kakan",
+            "labels": [
+              "F",
+              "F",
+              "F",
+              "F"
+            ],
+            "called_positions": [
+              1,
+              2
+            ],
+            "added_position": 1,
+            "target": 2
+          }
+        ],
+        "corrections": {},
+        "context": {},
+        "recommendation": {
+          "type": "dahai",
+          "actor": 0,
+          "pai": "S",
+          "tsumogiri": true
+        }
+      }
+    ],
+    "config_version": "steam-1366x768-pjura-snapshot-draft-19"
+  },
+  "downloaded_files": 212,
+  "additional_unique_images": 207,
+  "dataset_validation": {
+    "valid_images": 3132,
+    "unique_images": 2890,
+    "screenshot_examples": 432,
+    "unique_screenshot_examples": 427,
+    "by_source": {
+      "cvmaj": 743,
+      "steam-kan-research": 30,
+      "kan-note": 181,
+      "kan-reddit": 1,
+      "pjura": 1977,
+      "steam-community": 200
+    },
+    "scene_counts": {
+      "processed": 8,
+      "board": 185,
+      "hand_closeup": 4,
+      "lobby": 57,
+      "tile_crop": 2700,
+      "unreviewed": 30,
+      "win_result": 148
+    },
+    "unique_board_images": 182,
+    "clear_board_images": 28,
+    "sha256_verified": true,
+    "decode_verified": true
+  },
+  "public_reviewed_component_before": {
+    "cases": 13,
+    "correct": 2,
+    "wrong_confirmation": 1,
+    "unresolved": 10
+  },
+  "public_reviewed_component_after": {
+    "cases": 13,
+    "correct": 11,
+    "wrong_confirmation": 0,
+    "unresolved": 2
+  },
+  "seat_coverage": {
+    "self": [
+      "daiminkan",
+      "kakan",
+      "pon"
+    ],
+    "right": [
+      "ankan"
+    ],
+    "top": [
+      "ankan",
+      "kakan",
+      "pon"
+    ],
+    "left": [
+      "ankan",
+      "daiminkan"
+    ]
+  },
+  "passed_kan_types_by_seat": {
+    "self": [
+      "daiminkan",
+      "kakan"
+    ],
+    "right": [
+      "ankan"
+    ],
+    "top": [
+      "kakan"
+    ],
+    "left": [
+      "ankan",
+      "daiminkan"
+    ]
+  },
+  "public_corpus_full_layout_diagnostics": {
+    "samples": 138,
+    "input_errors": 48,
+    "incomplete_regions": {
+      "river_right": 48,
+      "buttons": 88,
+      "choices": 86,
+      "river_top": 58,
+      "meld_left": 62,
+      "score_right": 18,
+      "round": 30,
+      "river_left": 57,
+      "remaining": 2,
+      "river_self": 32,
+      "dora": 9,
+      "meld_right": 22,
+      "hand": 5,
+      "draw": 2,
+      "meld_self": 3,
+      "meld_top": 16,
+      "score_self": 1,
+      "score_top": 2,
+      "score_left": 2
+    }
+  },
+  "previous_public_regressions": {
+    "manual": {
+      "expected_tiles": 35,
+      "counts": {
+        "accepted_correct": 32,
+        "accepted_wrong": 0,
+        "unknown": 3,
+        "missing": 0,
+        "unprocessed": 0,
+        "extra_accepted": 0
+      },
+      "cases": [
+        {
+          "path": "data/public-mahjong/cvmaj/examples/templates/multiple/ingame02.png",
+          "regions": {
+            "hand": [
+              {
+                "expected": "2m",
+                "bbox": [
+                  158,
+                  655,
+                  67,
+                  108
+                ],
+                "status": "accepted_correct",
+                "label": "2m",
+                "best_label": "2m",
+                "score": 0.9573413729667664
+              },
+              {
+                "expected": "2m",
+                "bbox": [
+                  225,
+                  655,
+                  67,
+                  108
+                ],
+                "status": "accepted_correct",
+                "label": "2m",
+                "best_label": "2m",
+                "score": 0.9567580819129944
+              },
+              {
+                "expected": "4m",
+                "bbox": [
+                  292,
+                  655,
+                  67,
+                  108
+                ],
+                "status": "accepted_correct",
+                "label": "4m",
+                "best_label": "4m",
+                "score": 0.9634443521499634
+              },
+              {
+                "expected": "7m",
+                "bbox": [
+                  359,
+                  655,
+                  68,
+                  108
+                ],
+                "status": "accepted_correct",
+                "label": "7m",
+                "best_label": "7m",
+                "score": 0.9611982703208923
+              },
+              {
+                "expected": "1p",
+                "bbox": [
+                  427,
+                  655,
+                  67,
+                  108
+                ],
+                "status": "accepted_correct",
+                "label": "1p",
+                "best_label": "1p",
+                "score": 0.9596073031425476
+              },
+              {
+                "expected": "1s",
+                "bbox": [
+                  494,
+                  655,
+                  68,
+                  108
+                ],
+                "status": "accepted_correct",
+                "label": "1s",
+                "best_label": "1s",
+                "score": 0.9606904983520508
+              },
+              {
+                "expected": "3s",
+                "bbox": [
+                  562,
+                  655,
+                  67,
+                  108
+                ],
+                "status": "accepted_correct",
+                "label": "3s",
+                "best_label": "3s",
+                "score": 0.9651565551757812
+              },
+              {
+                "expected": "3s",
+                "bbox": [
+                  629,
+                  655,
+                  68,
+                  108
+                ],
+                "status": "accepted_correct",
+                "label": "3s",
+                "best_label": "3s",
+                "score": 0.9648140072822571
+              },
+              {
+                "expected": "7s",
+                "bbox": [
+                  697,
+                  655,
+                  67,
+                  108
+                ],
+                "status": "accepted_correct",
+                "label": "7s",
+                "best_label": "7s",
+                "score": 0.9724140763282776
+              },
+              {
+                "expected": "9s",
+                "bbox": [
+                  764,
+                  655,
+                  68,
+                  108
+                ],
+                "status": "accepted_correct",
+                "label": "9s",
+                "best_label": "9s",
+                "score": 0.975281298160553
+              },
+              {
+                "expected": "9s",
+                "bbox": [
+                  832,
+                  655,
+                  67,
+                  108
+                ],
+                "status": "accepted_correct",
+                "label": "9s",
+                "best_label": "9s",
+                "score": 0.9754801988601685
+              },
+              {
+                "expected": "S",
+                "bbox": [
+                  899,
+                  655,
+                  68,
+                  108
+                ],
+                "status": "accepted_correct",
+                "label": "S",
+                "best_label": "S",
+                "score": 0.9564847946166992
+              },
+              {
+                "expected": "S",
+                "bbox": [
+                  967,
+                  655,
+                  68,
+                  108
+                ],
+                "status": "accepted_correct",
+                "label": "S",
+                "best_label": "S",
+                "score": 0.9568297863006592
+              }
+            ],
+            "dora": [
+              {
+                "expected": "8p",
+                "bbox": [
+                  20,
+                  37,
+                  38,
+                  54
+                ],
+                "status": "accepted_correct",
+                "label": "8p",
+                "best_label": "8p",
+                "score": 0.9439828991889954
+              }
+            ],
+            "river_self": [
+              {
+                "expected": "N",
+                "bbox": [
+                  547,
+                  386,
+                  44,
+                  49
+                ],
+                "status": "accepted_correct",
+                "label": "N",
+                "best_label": "N",
+                "score": 0.940502941608429
+              },
+              {
+                "expected": "P",
+                "bbox": [
+                  591,
+                  387,
+                  43,
+                  49
+                ],
+                "status": "accepted_correct",
+                "label": "P",
+                "best_label": "P",
+                "score": 0.9482376575469971
+              },
+              {
+                "expected": "4p",
+                "bbox": [
+                  636,
+                  387,
+                  41,
+                  48
+                ],
+                "status": "accepted_correct",
+                "label": "4p",
+                "best_label": "4p",
+                "score": 0.9294889569282532
+              }
+            ],
+            "river_right": [
+              {
+                "expected": "N",
+                "bbox": [
+                  823,
+                  348,
+                  55,
+                  38
+                ],
+                "status": "accepted_correct",
+                "label": "N",
+                "best_label": "N",
+                "score": 0.9388701915740967
+              },
+              {
+                "expected": "F",
+                "bbox": [
+                  821,
+                  317,
+                  54,
+                  30
+                ],
+                "status": "accepted_correct",
+                "label": "F",
+                "best_label": "F",
+                "score": 0.9646793007850647
+              },
+              {
+                "expected": "E",
+                "bbox": [
+                  816,
+                  290,
+                  53,
+                  28
+                ],
+                "status": "accepted_correct",
+                "label": "E",
+                "best_label": "E",
+                "score": 0.9486857652664185
+              },
+              {
+                "expected": "6m",
+                "bbox": [
+                  816,
+                  261,
+                  53,
+                  29
+                ],
+                "status": "accepted_correct",
+                "label": "6m",
+                "best_label": "6m",
+                "score": 0.9078406095504761
+              }
+            ],
+            "river_top": [
+              {
+                "expected": "E",
+                "bbox": [
+                  761,
+                  172,
+                  36,
+                  40
+                ],
+                "status": "accepted_correct",
+                "label": "E",
+                "best_label": "E",
+                "score": 0.9456530213356018
+              },
+              {
+                "expected": "4s",
+                "bbox": [
+                  722,
+                  172,
+                  37,
+                  40
+                ],
+                "status": "accepted_correct",
+                "label": "4s",
+                "best_label": "4s",
+                "score": 0.941409707069397
+              },
+              {
+                "expected": "2p",
+                "bbox": [
+                  684,
+                  172,
+                  37,
+                  40
+                ],
+                "status": "accepted_correct",
+                "label": "2p",
+                "best_label": "2p",
+                "score": 0.909226655960083
+              },
+              {
+                "expected": "1s",
+                "bbox": [
+                  645,
+                  172,
+                  37,
+                  39
+                ],
+                "status": "accepted_correct",
+                "label": "1s",
+                "best_label": "1s",
+                "score": 0.9122397303581238
+              }
+            ],
+            "river_left": [
+              {
+                "expected": "S",
+                "bbox": [
+                  497,
+                  207,
+                  55,
+                  26
+                ],
+                "status": "accepted_correct",
+                "label": "S",
+                "best_label": "S",
+                "score": 0.940157949924469
+              },
+              {
+                "expected": "9s",
+                "bbox": [
+                  497,
+                  233,
+                  55,
+                  26
+                ],
+                "status": "accepted_correct",
+                "label": "9s",
+                "best_label": "9s",
+                "score": 0.9704102873802185
+              },
+              {
+                "expected": "2s",
+                "bbox": [
+                  490,
+                  259,
+                  59,
+                  32
+                ],
+                "status": "accepted_correct",
+                "label": "2s",
+                "best_label": "2s",
+                "score": 0.9615859985351562
+              },
+              {
+                "expected": "1m",
+                "bbox": [
+                  490,
+                  291,
+                  59,
+                  32
+                ],
+                "status": "accepted_correct",
+                "label": "1m",
+                "best_label": "1m",
+                "score": 0.9574469327926636
+              }
+            ]
+          }
+        },
+        {
+          "path": "data/public-mahjong/steam-community/images/3803049411.jpg",
+          "regions": {
+            "meld_top": [
+              {
+                "expected": "5sr",
+                "bbox": [
+                  462,
+                  26,
+                  44,
+                  25
+                ],
+                "status": "unknown",
+                "label": "?",
+                "best_label": "5s",
+                "score": 0.6501251459121704
+              },
+              {
+                "expected": "6s",
+                "bbox": [
+                  427,
+                  26,
+                  35,
+                  31
+                ],
+                "status": "unknown",
+                "label": "?",
+                "best_label": "7s",
+                "score": 0.7006463408470154
+              },
+              {
+                "expected": "7s",
+                "bbox": [
+                  393,
+                  25,
+                  36,
+                  32
+                ],
+                "status": "accepted_correct",
+                "label": "7s",
+                "best_label": "7s",
+                "score": 0.9330684542655945
+              },
+              {
+                "expected": "4s",
+                "bbox": [
+                  350,
+                  25,
+                  45,
+                  26
+                ],
+                "status": "accepted_correct",
+                "label": "4s",
+                "best_label": "4s",
+                "score": 0.9446353912353516
+              },
+              {
+                "expected": "2s",
+                "bbox": [
+                  314,
+                  25,
+                  37,
+                  32
+                ],
+                "status": "accepted_correct",
+                "label": "2s",
+                "best_label": "2s",
+                "score": 0.9442799091339111
+              },
+              {
+                "expected": "3s",
+                "bbox": [
+                  280,
+                  25,
+                  37,
+                  32
+                ],
+                "status": "unknown",
+                "label": "?",
+                "best_label": "3s",
+                "score": 0.8205041289329529
+              }
+            ],
+            "meld_right": []
+          }
+        }
+      ]
+    },
+    "sideways": {
+      "expected_tiles": 2,
+      "counts": {
+        "accepted_correct": 2,
+        "accepted_wrong": 0,
+        "unknown": 0,
+        "missing": 0,
+        "unprocessed": 0,
+        "extra_accepted": 0
+      },
+      "cases": [
+        {
+          "path": "data/public-mahjong/steam-community/images/3803049411.jpg",
+          "regions": {
+            "meld_top": [
+              {
+                "expected": "4s",
+                "bbox": [
+                  350,
+                  25,
+                  45,
+                  26
+                ],
+                "status": "accepted_correct",
+                "label": "4s",
+                "best_label": "4s",
+                "score": 0.9446353912353516
+              }
+            ]
+          }
+        },
+        {
+          "path": "data/public-mahjong/steam-community/images/3803368031.jpg",
+          "regions": {
+            "meld_self": [
+              {
+                "expected": "8s",
+                "bbox": [
+                  1121,
+                  687,
+                  73,
+                  48
+                ],
+                "status": "accepted_correct",
+                "label": "8s",
+                "best_label": "8s",
+                "score": 0.9768944382667542
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "negative_back_edges": [
+      {
+        "path": "data/public-mahjong/steam-community/images/3800908090.jpg",
+        "labels": [
+          "?"
+        ]
+      },
+      {
+        "path": "data/public-mahjong/steam-community/images/3803922882.jpg",
+        "labels": [
+          "?"
+        ]
+      },
+      {
+        "path": "data/public-mahjong/steam-community/images/3812161238.jpg",
+        "labels": [
+          "?"
+        ]
+      }
+    ]
+  },
+  "code_sha256": {
+    "app/vision/kan.py": "288e0d8c0801af9199cdb3551d3ed84e06ba9e6c754c9972a88370725e8e49c8",
+    "app/vision/detector.py": "f18a0009a90b45687d00592fab8c0be02610909ea7a68be1fd967a39c1e40608",
+    "app/vision/recognizer.py": "8e4768fd4d339e5a73e2f2efdd0625a015b2e5201d7948202aa04d23c20cff84",
+    "app/vision/config.py": "25be8cdbe0c1a4b9a73a75b05d23363750f356f93337b4cd8c0ff5a91f8e1f82",
+    "app/state/snapshot.py": "82cb141e58938b440cc21ebb3a1c235a8f97e8e003365f538968928d67d13807",
+    "configs/window-steam-1366-v2.json": "62deb9655eb07996cee09209a2ef29161cca8c7624e12d1fbe4c2d02458f2713",
+    "configs/window-steam-1366-pjura.json": "62deb9655eb07996cee09209a2ef29161cca8c7624e12d1fbe4c2d02458f2713"
+  },
+  "model_sha256": "f34e4537a7b9ff41ea12fdb4843cf0ec8a6109def22ca3eabb51045b492fc75c",
+  "global_confidence": 0.9,
+  "global_margin": 0.04,
+  "limitations": [
+    "13 hand-selected, partially labelled component regressions are not a held-out overall accuracy estimate",
+    "public ROI calibrations preserve native aspect/pixels; they do not prove default window layouts or four-player backend compatibility",
+    "not all 12 seat/type combinations have real public examples; independent unit cases exercise every actor and called source position",
+    "darkened top-E result frame and custom-red-back top-5p closed kan remain unresolved",
+    "self-P late ROI includes an unlabelled clipped neighbour; group correctness does not imply entire ROI completeness"
+  ]
+}

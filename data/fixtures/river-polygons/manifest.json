@@ -1,0 +1,32 @@
+{
+  "scope": "Existing regression screenshots. Labels verified against enlarged native pixels or earlier frozen fixture truth; never used to calibrate polygons. Resized variants are not independent images.",
+  "cases": [
+    {
+      "name": "user-282",
+      "path": "data/fixtures/dominant-candidate/client-1920.png",
+      "sha256": "817dd4b8fb6bbb424e62e43e7d939a5cb9f292ed2d58041674320e78a77e1429",
+      "source": "User screenshot, all four rivers visually reviewed at native resolution on 2026-10-16.",
+      "regions": {
+        "river_self": ["N", "S", "C", "W", "F", "E", "P", "1m", "2m", "3s", "F", "8m"],
+        "river_right": ["C", "9s", "4m", "8m", "1m", "1m", "3s", "E", "9m", "P", "5p", "8p"],
+        "river_top": ["F", "9m", "7s", "7m", "S", "1p", "1p", "8p", "5p", "4p", "6p", "S", "3m"],
+        "river_left": ["W", "P", "3p", "W", "9p", "8m", "7m", "6p", "9m", "W", "E", "F", "7p"]
+      },
+      "horizontal_slots": {}
+    },
+    {
+      "name": "left-late-riichi",
+      "path": "data/fixtures/river-left-late/client-1920.png",
+      "source": "Earlier frozen data/fixtures/river-left-late/labels.json, native-pixel manual truth.",
+      "regions": {"river_left": ["F", "5sr", "P", "7p", "9m", "6m", "8s", "8m", "3p", "2p", "4s", "C", "E", "9p", "7p", "E"]},
+      "horizontal_slots": {"river_left": [[2, 3]]}
+    },
+    {
+      "name": "left-pon-arrow",
+      "path": "data/fixtures/kan-recognition/top-C-pon-arrow-1920.png",
+      "source": "Earlier native-pixel fixture truth in tests/test_kan_recognition.py; includes the arrow-overlapped 1p.",
+      "regions": {"river_left": ["W", "N", "S", "2p", "4m", "2s", "2p", "1p", "9p"]},
+      "horizontal_slots": {}
+    }
+  ]
+}

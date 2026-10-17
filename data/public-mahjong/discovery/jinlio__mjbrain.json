@@ -1,0 +1,881 @@
+{
+  "repository": {
+    "id": 1381188300,
+    "node_id": "R_kgDOUlNCzA",
+    "name": "mjbrain",
+    "full_name": "jinlio/mjbrain",
+    "private": false,
+    "owner": {
+      "login": "jinlio",
+      "id": 167381583,
+      "node_id": "U_kgDOCfoKTw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167381583?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jinlio",
+      "html_url": "https://github.com/jinlio",
+      "followers_url": "https://api.github.com/users/jinlio/followers",
+      "following_url": "https://api.github.com/users/jinlio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jinlio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jinlio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jinlio/subscriptions",
+      "organizations_url": "https://api.github.com/users/jinlio/orgs",
+      "repos_url": "https://api.github.com/users/jinlio/repos",
+      "events_url": "https://api.github.com/users/jinlio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jinlio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/jinlio/mjbrain",
+    "description": "基于 LAYA 微调的立直麻将实时决策推荐系统 — real-time mahjong decision advisor (recommend-only, zero injection), LAYA-finetuned",
+    "fork": false,
+    "url": "https://api.github.com/repos/jinlio/mjbrain",
+    "forks_url": "https://api.github.com/repos/jinlio/mjbrain/forks",
+    "keys_url": "https://api.github.com/repos/jinlio/mjbrain/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/jinlio/mjbrain/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/jinlio/mjbrain/teams",
+    "hooks_url": "https://api.github.com/repos/jinlio/mjbrain/hooks",
+    "issue_events_url": "https://api.github.com/repos/jinlio/mjbrain/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/jinlio/mjbrain/events",
+    "assignees_url": "https://api.github.com/repos/jinlio/mjbrain/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/jinlio/mjbrain/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/jinlio/mjbrain/tags",
+    "blobs_url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/jinlio/mjbrain/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/jinlio/mjbrain/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/jinlio/mjbrain/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/jinlio/mjbrain/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/jinlio/mjbrain/languages",
+    "stargazers_url": "https://api.github.com/repos/jinlio/mjbrain/stargazers",
+    "contributors_url": "https://api.github.com/repos/jinlio/mjbrain/contributors",
+    "subscribers_url": "https://api.github.com/repos/jinlio/mjbrain/subscribers",
+    "subscription_url": "https://api.github.com/repos/jinlio/mjbrain/subscription",
+    "commits_url": "https://api.github.com/repos/jinlio/mjbrain/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/jinlio/mjbrain/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/jinlio/mjbrain/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/jinlio/mjbrain/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/jinlio/mjbrain/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/jinlio/mjbrain/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/jinlio/mjbrain/merges",
+    "archive_url": "https://api.github.com/repos/jinlio/mjbrain/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/jinlio/mjbrain/downloads",
+    "issues_url": "https://api.github.com/repos/jinlio/mjbrain/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/jinlio/mjbrain/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/jinlio/mjbrain/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/jinlio/mjbrain/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/jinlio/mjbrain/labels{/name}",
+    "releases_url": "https://api.github.com/repos/jinlio/mjbrain/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/jinlio/mjbrain/deployments",
+    "created_at": "2026-09-22T09:20:31Z",
+    "updated_at": "2026-09-26T03:06:44Z",
+    "pushed_at": "2026-09-26T03:06:41Z",
+    "git_url": "git://github.com/jinlio/mjbrain.git",
+    "ssh_url": "git@github.com:jinlio/mjbrain.git",
+    "clone_url": "https://github.com/jinlio/mjbrain.git",
+    "svn_url": "https://github.com/jinlio/mjbrain",
+    "homepage": null,
+    "size": 316,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": false,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [
+      "decision-model",
+      "jev",
+      "laya",
+      "mahjong",
+      "mahjong-soul",
+      "majsoul",
+      "riichi"
+    ],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 4,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 0,
+    "subscribers_count": 0
+  },
+  "tree": {
+    "sha": "07d3d98884a9a9e04b2fca730ab01731ba582630",
+    "url": "https://api.github.com/repos/jinlio/mjbrain/git/trees/07d3d98884a9a9e04b2fca730ab01731ba582630",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "077000953b8aca92aec2b0bdf499a77ff704e3e3",
+        "size": 319,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/077000953b8aca92aec2b0bdf499a77ff704e3e3"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "68b7d66c97d66c58de883ed0c451af2b3183e6f3",
+        "size": 11418,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/68b7d66c97d66c58de883ed0c451af2b3183e6f3"
+      },
+      {
+        "path": "LICENSES.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c0ed5c47733570f4393d464a43bc6b35f9023f68",
+        "size": 2711,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/c0ed5c47733570f4393d464a43bc6b35f9023f68"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e13b7002573069a03b32dea8f2a27fdbfb45009e",
+        "size": 15222,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/e13b7002573069a03b32dea8f2a27fdbfb45009e"
+      },
+      {
+        "path": "advisor",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bbadc06b828d5dcdf068e41999d12ff16eaf9eee",
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/trees/bbadc06b828d5dcdf068e41999d12ff16eaf9eee"
+      },
+      {
+        "path": "advisor/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "72dbebd089ca1a4c21c7bd49a2494fa22690b554",
+        "size": 106,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/72dbebd089ca1a4c21c7bd49a2494fa22690b554"
+      },
+      {
+        "path": "advisor/build_state.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "43b36788c461f768e3029ae6b6ea1bb38558f6b5",
+        "size": 18865,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/43b36788c461f768e3029ae6b6ea1bb38558f6b5"
+      },
+      {
+        "path": "advisor/hints.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8aa34a6862d1581920af78c2037f54be8e4855fd",
+        "size": 6588,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/8aa34a6862d1581920af78c2037f54be8e4855fd"
+      },
+      {
+        "path": "advisor/recommend.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a641bcf55744c63f03a12629a2d00f2436d791ed",
+        "size": 3113,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/a641bcf55744c63f03a12629a2d00f2436d791ed"
+      },
+      {
+        "path": "advisor/server.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "64fecd7e062e2dd10fde8b3023c0edb7d5491c59",
+        "size": 8039,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/64fecd7e062e2dd10fde8b3023c0edb7d5491c59"
+      },
+      {
+        "path": "advisor/zh.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd7d75dffe37857731c0f083f013f68e1a1624cc",
+        "size": 2957,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/bd7d75dffe37857731c0f083f013f68e1a1624cc"
+      },
+      {
+        "path": "brain",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "87188e0aad292131c708032134929b9bfde32344",
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/trees/87188e0aad292131c708032134929b9bfde32344"
+      },
+      {
+        "path": "brain/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "811e2c3bfaf5d42bf90a0309aebe06ff70dc288c",
+        "size": 347,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/811e2c3bfaf5d42bf90a0309aebe06ff70dc288c"
+      },
+      {
+        "path": "brain/infer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "149f7a21b935d8bd68b4374b6a8ae938caa08ab4",
+        "size": 2617,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/149f7a21b935d8bd68b4374b6a8ae938caa08ab4"
+      },
+      {
+        "path": "brain/net.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5a2ffdedf8274f197d817abc690c578c8628684b",
+        "size": 2003,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/5a2ffdedf8274f197d817abc690c578c8628684b"
+      },
+      {
+        "path": "brain/runlog.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dcca56e358a94d9a7d72318452451dcaafe4b075",
+        "size": 6420,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/dcca56e358a94d9a7d72318452451dcaafe4b075"
+      },
+      {
+        "path": "brain/serialize.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7dcfeee8c81279709d170f600bea8ed91bac59e5",
+        "size": 4920,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/7dcfeee8c81279709d170f600bea8ed91bac59e5"
+      },
+      {
+        "path": "capture",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "69269048734c15547839a3934d119dc676486f5a",
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/trees/69269048734c15547839a3934d119dc676486f5a"
+      },
+      {
+        "path": "capture/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dc62fe4bae3fce46d2cca6d31e1f4775c39b6fa6",
+        "size": 183,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/dc62fe4bae3fce46d2cca6d31e1f4775c39b6fa6"
+      },
+      {
+        "path": "capture/chromium",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "36f9d1c87695568ee87dd10d59c58deb35dee211",
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/trees/36f9d1c87695568ee87dd10d59c58deb35dee211"
+      },
+      {
+        "path": "capture/chromium/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "capture/chromium/cdp_client.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fc6e3a82a4de7991a22118fe2309a25a31e6899c",
+        "size": 6392,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/fc6e3a82a4de7991a22118fe2309a25a31e6899c"
+      },
+      {
+        "path": "capture/chromium/launch.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "074f6c6e977c7c962251ac351ca8cd67c9d10dd3",
+        "size": 7626,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/074f6c6e977c7c962251ac351ca8cd67c9d10dd3"
+      },
+      {
+        "path": "capture/liqi",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "175f3df130260b0fc89a05fa7263e0c90926bbfd",
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/trees/175f3df130260b0fc89a05fa7263e0c90926bbfd"
+      },
+      {
+        "path": "capture/liqi/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d8e8e20b17b9ce25f6e2a733fb7d1bf59d75745b",
+        "size": 531,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/d8e8e20b17b9ce25f6e2a733fb7d1bf59d75745b"
+      },
+      {
+        "path": "capture/liqi/decode.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d39c8b55f52aadf0929bc981dc5a85b8fafadda6",
+        "size": 6842,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/d39c8b55f52aadf0929bc981dc5a85b8fafadda6"
+      },
+      {
+        "path": "capture/liqi/runtime.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c2edaab8438fc2dc638f28aebdd8244d7b2d88b7",
+        "size": 1988,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/c2edaab8438fc2dc638f28aebdd8244d7b2d88b7"
+      },
+      {
+        "path": "capture/mjai",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c1ea37a63404a3ee78696f9fcb0a8fa640b6bc29",
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/trees/c1ea37a63404a3ee78696f9fcb0a8fa640b6bc29"
+      },
+      {
+        "path": "capture/mjai/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c0eb026e976b439e7ffc2f7ba0c7c1c4059b410",
+        "size": 90,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/6c0eb026e976b439e7ffc2f7ba0c7c1c4059b410"
+      },
+      {
+        "path": "capture/mjai/state.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "664f24b85940b1d21c4aee4261de4cac1b88f007",
+        "size": 24581,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/664f24b85940b1d21c4aee4261de4cac1b88f007"
+      },
+      {
+        "path": "capture/mjai/tile.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1e92468d134f1cf6aa3a8f253d00fdbc8ff93237",
+        "size": 2039,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/1e92468d134f1cf6aa3a8f253d00fdbc8ff93237"
+      },
+      {
+        "path": "conftest.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+        "size": 1,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+      },
+      {
+        "path": "data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0e4ad96fdcf5df8f77ec311f2ff14c1d5d67bbf5",
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/trees/0e4ad96fdcf5df8f77ec311f2ff14c1d5d67bbf5"
+      },
+      {
+        "path": "data/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e6c5bfa5fe96f1dd91a5640cc216911dcffb2cfb",
+        "size": 247,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/e6c5bfa5fe96f1dd91a5640cc216911dcffb2cfb"
+      },
+      {
+        "path": "data/build_decisions.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "de3c3c3da86dcefececfda548ccf7c07a1aa84aa",
+        "size": 5638,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/de3c3c3da86dcefececfda548ccf7c07a1aa84aa"
+      },
+      {
+        "path": "engine",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cdbadb244869900b28695345a6747de36668f54d",
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/trees/cdbadb244869900b28695345a6747de36668f54d"
+      },
+      {
+        "path": "engine/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "375938efc081aa6392c0a7d7ebd96d464f755196",
+        "size": 431,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/375938efc081aa6392c0a7d7ebd96d464f755196"
+      },
+      {
+        "path": "engine/replay.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "873e75325bc8e65c52dafe830ec2a3a5258a8176",
+        "size": 9471,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/873e75325bc8e65c52dafe830ec2a3a5258a8176"
+      },
+      {
+        "path": "engine/sim.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "907ff93e5156b3d26870aacc1a5da1135da6f66a",
+        "size": 5105,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/907ff93e5156b3d26870aacc1a5da1135da6f66a"
+      },
+      {
+        "path": "environment.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "41e81bdbf717f12ea272c17e90e2e1e8243e903d",
+        "size": 1484,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/41e81bdbf717f12ea272c17e90e2e1e8243e903d"
+      },
+      {
+        "path": "eval",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "679330c29245a9d9263f7279bb8f10747aaa7af7",
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/trees/679330c29245a9d9263f7279bb8f10747aaa7af7"
+      },
+      {
+        "path": "eval/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9285a3374c264c503d1d23867d8c41b0c2cf4f11",
+        "size": 6852,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/9285a3374c264c503d1d23867d8c41b0c2cf4f11"
+      },
+      {
+        "path": "eval/arena.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c379560bc6b74cf1710976b0b096ee2d0ba35a4",
+        "size": 7539,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/6c379560bc6b74cf1710976b0b096ee2d0ba35a4"
+      },
+      {
+        "path": "eval/laya_bot.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "60dc1b6312730e6ecdafa84b3aaa5e41698d7471",
+        "size": 7811,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/60dc1b6312730e6ecdafa84b3aaa5e41698d7471"
+      },
+      {
+        "path": "hud",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0a638e5b51603bb97ee21e4db21e1d5e73dae673",
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/trees/0a638e5b51603bb97ee21e4db21e1d5e73dae673"
+      },
+      {
+        "path": "hud/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b9bfd35936fbafb268809289b67117ce704edca",
+        "size": 103,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/8b9bfd35936fbafb268809289b67117ce704edca"
+      },
+      {
+        "path": "hud/float.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84c2f77da20b780a4b33600c59f6c515fc403a97",
+        "size": 13356,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/84c2f77da20b780a4b33600c59f6c515fc403a97"
+      },
+      {
+        "path": "pyproject.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bb4ebf33f879fa641f9c2345947fab44277c313a",
+        "size": 682,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/bb4ebf33f879fa641f9c2345947fab44277c313a"
+      },
+      {
+        "path": "reference",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ca394f7f0a0a4e7160fe70b5074d352744b8da3c",
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/trees/ca394f7f0a0a4e7160fe70b5074d352744b8da3c"
+      },
+      {
+        "path": "reference/akagi-v3",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ffa6c4ec57453605a8d8db6b3ea38c49904f59cc",
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/trees/ffa6c4ec57453605a8d8db6b3ea38c49904f59cc"
+      },
+      {
+        "path": "reference/akagi-v3/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1c40d0272307236dff85945ae69e8f813624c028",
+        "size": 1008,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/1c40d0272307236dff85945ae69e8f813624c028"
+      },
+      {
+        "path": "reference/akagi-v3/bridge",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d5b053f6d8c77f1382c54484e13161512ed8aa40",
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/trees/d5b053f6d8c77f1382c54484e13161512ed8aa40"
+      },
+      {
+        "path": "reference/akagi-v3/bridge/liqi.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "69ed848de2bcbc775bebf12009d42217f3c9359a",
+        "size": 43522,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/69ed848de2bcbc775bebf12009d42217f3c9359a"
+      },
+      {
+        "path": "reference/akagi-v3/bridge/liqi.proto",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2bd6301eff9bcef5d08b13ff407abdbe30c863e8",
+        "size": 246532,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/2bd6301eff9bcef5d08b13ff407abdbe30c863e8"
+      },
+      {
+        "path": "reference/akagi-v3/bridge/mod.rs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f711e21e0592002537ebcee0b32f6c7bad9f65d5",
+        "size": 177590,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/f711e21e0592002537ebcee0b32f6c7bad9f65d5"
+      },
+      {
+        "path": "reference/akagi-v3/bridge/parser.rs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0225df5848b7947853afa8ba0835e8a6daeee45e",
+        "size": 17873,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/0225df5848b7947853afa8ba0835e8a6daeee45e"
+      },
+      {
+        "path": "reference/akagi-v3/bridge/tile.rs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e2790e47012901e365287326b3dfdb8f735ffd7",
+        "size": 3392,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/3e2790e47012901e365287326b3dfdb8f735ffd7"
+      },
+      {
+        "path": "reference/akagi-v3/flow.rs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e81c1e6375cf229f5385957c89604c7570324dab",
+        "size": 4453,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/e81c1e6375cf229f5385957c89604c7570324dab"
+      },
+      {
+        "path": "run_demo.bat",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c49b7bd1914761928fd4d37238f032c31c7b16b6",
+        "size": 1378,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/c49b7bd1914761928fd4d37238f032c31c7b16b6"
+      },
+      {
+        "path": "scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f70a7e7cc65e668415c935b364ea2349e7752512",
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/trees/f70a7e7cc65e668415c935b364ea2349e7752512"
+      },
+      {
+        "path": "scripts/compare_advise.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2c491f5c820628c06f830b18be6315db83b8d227",
+        "size": 14889,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/2c491f5c820628c06f830b18be6315db83b8d227"
+      },
+      {
+        "path": "scripts/compile_liqi_proto.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "691615d6ab39f94876432e8acfc30a865dfd11eb",
+        "size": 1304,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/691615d6ab39f94876432e8acfc30a865dfd11eb"
+      },
+      {
+        "path": "scripts/live_advisor.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0d7d1fabe9f08f7fecca48c8b2e9dd0cf994f424",
+        "size": 9525,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/0d7d1fabe9f08f7fecca48c8b2e9dd0cf994f424"
+      },
+      {
+        "path": "scripts/live_from_capture.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ee91f62be76f70d646d1ad9cfb1485fb9fc217bf",
+        "size": 12729,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/ee91f62be76f70d646d1ad9cfb1485fb9fc217bf"
+      },
+      {
+        "path": "scripts/package_release.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "20c138e58d87d3835e111f1e57fd9d06756ac312",
+        "size": 6224,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/20c138e58d87d3835e111f1e57fd9d06756ac312"
+      },
+      {
+        "path": "scripts/precision_parity.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1940a13df7d67814ba3f16fa4ec8ca0c7657f076",
+        "size": 4290,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/1940a13df7d67814ba3f16fa4ec8ca0c7657f076"
+      },
+      {
+        "path": "scripts/run_capture.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b3472d8e4a5552241f7ce8b8dd61d1cc5a638c7",
+        "size": 8106,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/5b3472d8e4a5552241f7ce8b8dd61d1cc5a638c7"
+      },
+      {
+        "path": "scripts/run_demo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c3a97d0d80477b0be510725434708211c63c75b2",
+        "size": 12374,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/c3a97d0d80477b0be510725434708211c63c75b2"
+      },
+      {
+        "path": "scripts/smoke_laya.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7be95ecd3e65df4990cec10edbfc7d9f0e73f5f9",
+        "size": 2245,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/7be95ecd3e65df4990cec10edbfc7d9f0e73f5f9"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fb71510fe26ef6ed540b72e28e1b86937ae2501c",
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/trees/fb71510fe26ef6ed540b72e28e1b86937ae2501c"
+      },
+      {
+        "path": "tests/test_advisor_build.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d6280547cd9944d7db3daf15b50d3f897d310ce5",
+        "size": 8119,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/d6280547cd9944d7db3daf15b50d3f897d310ce5"
+      },
+      {
+        "path": "tests/test_advisor_server.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cab7ff5f7621785fec7beac3de173edb9e7b781d",
+        "size": 5225,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/cab7ff5f7621785fec7beac3de173edb9e7b781d"
+      },
+      {
+        "path": "tests/test_capture_pipeline.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "af0d9e8a60f0e630802b56d98dc053baf5674799",
+        "size": 7109,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/af0d9e8a60f0e630802b56d98dc053baf5674799"
+      },
+      {
+        "path": "tests/test_ckpt_verify.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e599c2f30ebe8a53de353c6e52b674f287942fc2",
+        "size": 2726,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/e599c2f30ebe8a53de353c6e52b674f287942fc2"
+      },
+      {
+        "path": "tests/test_compare_advise.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0a8c5534d82eb07b9d75403a4dabaf3c80790b80",
+        "size": 3951,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/0a8c5534d82eb07b9d75403a4dabaf3c80790b80"
+      },
+      {
+        "path": "tests/test_hints.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c93710cddc543b94344a503d64c68619af0a6670",
+        "size": 5911,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/c93710cddc543b94344a503d64c68619af0a6670"
+      },
+      {
+        "path": "tests/test_hints_replay.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "061772cd5060ad4ba2dccafd356fe50b506e188b",
+        "size": 4646,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/061772cd5060ad4ba2dccafd356fe50b506e188b"
+      },
+      {
+        "path": "tests/test_hud.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "349de62e48db502c994b6da318ce9dcd71653e16",
+        "size": 3774,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/349de62e48db502c994b6da318ce9dcd71653e16"
+      },
+      {
+        "path": "tests/test_infer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1ad678a28f4e82dca23de5be71ff1bf013361c18",
+        "size": 2544,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/1ad678a28f4e82dca23de5be71ff1bf013361c18"
+      },
+      {
+        "path": "tests/test_launch.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db504728645d080b0516cfdfa841743b5e1f86a9",
+        "size": 5371,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/db504728645d080b0516cfdfa841743b5e1f86a9"
+      },
+      {
+        "path": "tests/test_liqi_decode.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f328c4ae1fbe2f3f455ba0529905b6c7024ae7ed",
+        "size": 3957,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/f328c4ae1fbe2f3f455ba0529905b6c7024ae7ed"
+      },
+      {
+        "path": "tests/test_liqi_routes.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "970b6cecf7ae544c2e63118db776ee3d984cadec",
+        "size": 8409,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/970b6cecf7ae544c2e63118db776ee3d984cadec"
+      },
+      {
+        "path": "tests/test_mjai_state.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a85def1af200702ca1cf553c7209837206d5b95f",
+        "size": 16293,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/a85def1af200702ca1cf553c7209837206d5b95f"
+      },
+      {
+        "path": "tests/test_mjai_tile.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "acb662b8d63cdb4a873fbbd3c00b861756dd9b06",
+        "size": 1883,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/acb662b8d63cdb4a873fbbd3c00b861756dd9b06"
+      },
+      {
+        "path": "tests/test_net.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c740eb0d27a632ea2ff74f583e5898156d1a9697",
+        "size": 1296,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/c740eb0d27a632ea2ff74f583e5898156d1a9697"
+      },
+      {
+        "path": "tests/test_recommend.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3fd81b698e3d756afb79163c79494e9ae7e4fb47",
+        "size": 3299,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/3fd81b698e3d756afb79163c79494e9ae7e4fb47"
+      },
+      {
+        "path": "tests/test_rlcd_targets.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "424ce49bb8cbbe4550ed0f32b66fe59ec6da9045",
+        "size": 3177,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/424ce49bb8cbbe4550ed0f32b66fe59ec6da9045"
+      },
+      {
+        "path": "tests/test_run_demo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "98e88ad1d8d6e032dd3b296ee6c2d9eb02de4988",
+        "size": 3094,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/98e88ad1d8d6e032dd3b296ee6c2d9eb02de4988"
+      },
+      {
+        "path": "tests/test_runlog.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9637d1aee3336acc025d3d2ae5596571eaf586d5",
+        "size": 1152,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/9637d1aee3336acc025d3d2ae5596571eaf586d5"
+      },
+      {
+        "path": "tests/test_serialize.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a1df5bb28579fa9162259acc1264d86d353bedd7",
+        "size": 2199,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/a1df5bb28579fa9162259acc1264d86d353bedd7"
+      },
+      {
+        "path": "tests/test_sim.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "707a2500127ddf5f920e92beb73a9bf08208aaec",
+        "size": 2881,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/707a2500127ddf5f920e92beb73a9bf08208aaec"
+      },
+      {
+        "path": "tests/test_smoke.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8c99b7b90f2acb986b8576401763fc43a1db8c8",
+        "size": 207,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/e8c99b7b90f2acb986b8576401763fc43a1db8c8"
+      },
+      {
+        "path": "tests/test_zh.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3b60ac2f548d0c170399e32371bebc2d4149aa0",
+        "size": 1803,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/e3b60ac2f548d0c170399e32371bebc2d4149aa0"
+      },
+      {
+        "path": "train",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c677dfb6cc25f745dba508ffcc026e2074a51181",
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/trees/c677dfb6cc25f745dba508ffcc026e2074a51181"
+      },
+      {
+        "path": "train/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f810b478ea0310db71781cf2991d2e85da485915",
+        "size": 86,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/f810b478ea0310db71781cf2991d2e85da485915"
+      },
+      {
+        "path": "train/rlcd_sft.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5d21602883c7571a95d58761c404c7cb0ff24c8a",
+        "size": 31272,
+        "url": "https://api.github.com/repos/jinlio/mjbrain/git/blobs/5d21602883c7571a95d58761c404c7cb0ff24c8a"
+      }
+    ],
+    "truncated": false
+  }
+}

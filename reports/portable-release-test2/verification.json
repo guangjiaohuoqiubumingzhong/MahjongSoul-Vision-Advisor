@@ -1,0 +1,307 @@
+{
+  "status": "passed",
+  "frozen": false,
+  "bundled_runtime": true,
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "resources": "D:\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal",
+  "executable": "D:\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\pythonw.exe",
+  "config": "steam-1366x768-pjura-snapshot-draft-25",
+  "checks": {
+    "panel": {
+      "title": "Majan · 雀魂助手",
+      "buttons": [
+        "刷新雀魂窗口",
+        "整理窗口",
+        "开始自动建议",
+        "刷新截图"
+      ]
+    },
+    "screen_capture": {
+      "monitors": 1
+    },
+    "windows_capture_import": "WindowsCapture",
+    "mortal_cuda": {
+      "path": "D:\\py_project\\Majan\\dist\\Majan-portable-test2\\userdata\\profiles\\cuda-1792211089151446900_2026-10-17_12-24-49.json",
+      "provider_node_executions": {
+        "CUDAExecutionProvider": 4296
+      },
+      "core_node_executions": 988,
+      "core_all_cuda": true,
+      "non_cuda_nodes": {},
+      "available_providers": [
+        "TensorrtExecutionProvider",
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ],
+      "session_providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ],
+      "cuda_options": {
+        "device_id": "0",
+        "has_user_compute_stream": "0",
+        "cudnn_conv1d_pad_to_nc1d": "0",
+        "user_compute_stream": "0",
+        "gpu_external_alloc": "0",
+        "gpu_mem_limit": "18446744073709551615",
+        "enable_cuda_graph": "0",
+        "gpu_external_free": "0",
+        "gpu_external_empty_cache": "0",
+        "arena_extend_strategy": "kNextPowerOfTwo",
+        "cudnn_conv_algo_search": "HEURISTIC",
+        "do_copy_in_default_stream": "1",
+        "cudnn_conv_use_max_workspace": "1",
+        "tunable_op_enable": "0",
+        "tunable_op_tuning_enable": "0",
+        "tunable_op_max_tuning_duration_ms": "0",
+        "enable_skip_layer_norm_strict_mode": "0",
+        "prefer_nhwc": "0",
+        "use_ep_level_unified_stream": "0",
+        "use_tf32": "0",
+        "sdpa_kernel": "0",
+        "fuse_conv_bias": "0"
+      },
+      "creation_ms": 141.94279999992432,
+      "first_inference_ms": 268.7261999999464,
+      "warmup_ms": [
+        24.31330000001708,
+        21.64560000005622,
+        22.66100000008464
+      ],
+      "model_version": "mortal3-b40c192-t23032505@7784a9deddf63df03f023474116f715850d3c7a0",
+      "gpu_id": 0
+    },
+    "tile_classifier": {
+      "provider": "CUDAExecutionProvider",
+      "fp32_reference_loaded": true
+    },
+    "ocr": [
+      "CPUExecutionProvider"
+    ],
+    "screenshot_advice": {
+      "status": "ready",
+      "message": "打出 南",
+      "recommendation": {
+        "action_id": 28,
+        "semantic": "discard",
+        "model_score": 0.43475794792175293,
+        "event": {
+          "type": "dahai",
+          "actor": 0,
+          "pai": "S",
+          "tsumogiri": false
+        }
+      },
+      "total_ms": 502.91390000006686,
+      "reason": null
+    },
+    "window_capture": {
+      "status": "passed",
+      "fully_occluded": true,
+      "changed_while_covered": true,
+      "occlusion": "目标客户区被其他窗口遮挡（Majan capture cover）。",
+      "focus_unchanged": true,
+      "client_size": [
+        1366,
+        768
+      ],
+      "probe_size": [
+        230,
+        88
+      ],
+      "before_samples": [
+        [
+          20,
+          80,
+          150
+        ],
+        [
+          100,
+          180,
+          30
+        ],
+        [
+          180,
+          40,
+          100
+        ],
+        [
+          30,
+          120,
+          210
+        ]
+      ],
+      "after_samples": [
+        [
+          210,
+          120,
+          30
+        ],
+        [
+          30,
+          180,
+          100
+        ],
+        [
+          100,
+          40,
+          180
+        ],
+        [
+          150,
+          80,
+          20
+        ]
+      ],
+      "capture_api": "PrintWindow",
+      "frame_age_ms": null
+    }
+  },
+  "warnings": [
+    "窗口采集使用 PrintWindow 兼容路径；Windows.Graphics.Capture 后台采集尚未通过。"
+  ],
+  "native_modules": [
+    "\\Windows\\System32\\CoreMessaging.dll",
+    "\\Windows\\System32\\DXCore.dll",
+    "\\Windows\\System32\\DriverStore\\FileRepository\\nv_dispi.inf_amd64_feedb8c0271ca811\\Display.NvContainer\\NvMessageBus.dll",
+    "\\Windows\\System32\\DriverStore\\FileRepository\\nv_dispi.inf_amd64_feedb8c0271ca811\\nvapi64_impl.dll",
+    "\\Windows\\System32\\DriverStore\\FileRepository\\nv_dispi.inf_amd64_feedb8c0271ca811\\nvcuda64.dll",
+    "\\Windows\\System32\\DriverStore\\FileRepository\\nv_dispi.inf_amd64_feedb8c0271ca811\\nvdiagclt64.dll",
+    "\\Windows\\System32\\DriverStore\\FileRepository\\nv_dispi.inf_amd64_feedb8c0271ca811\\nvdxgdmal64.dll",
+    "\\Windows\\System32\\DriverStore\\FileRepository\\nv_dispi.inf_amd64_feedb8c0271ca811\\nvobjectloader64.dll",
+    "\\Windows\\System32\\DriverStore\\FileRepository\\nv_dispi.inf_amd64_feedb8c0271ca811\\nvppex.dll",
+    "\\Windows\\System32\\GraphicsCapture.dll",
+    "\\Windows\\System32\\IPHLPAPI.DLL",
+    "\\Windows\\System32\\KernelBase.dll",
+    "\\Windows\\System32\\Microsoft.Internal.WarpPal.dll",
+    "\\Windows\\System32\\RTWorkQ.dll",
+    "\\Windows\\System32\\SHCore.dll",
+    "\\Windows\\System32\\TextShaping.dll",
+    "\\Windows\\System32\\advapi32.dll",
+    "\\Windows\\System32\\bcrypt.dll",
+    "\\Windows\\System32\\bcryptprimitives.dll",
+    "\\Windows\\System32\\cfgmgr32.dll",
+    "\\Windows\\System32\\combase.dll",
+    "\\Windows\\System32\\comdlg32.dll",
+    "\\Windows\\System32\\crypt32.dll",
+    "\\Windows\\System32\\cryptbase.dll",
+    "\\Windows\\System32\\cryptnet.dll",
+    "\\Windows\\System32\\cryptsp.dll",
+    "\\Windows\\System32\\d3d11.dll",
+    "\\Windows\\System32\\dbghelp.dll",
+    "\\Windows\\System32\\dcomp.dll",
+    "\\Windows\\System32\\devobj.dll",
+    "\\Windows\\System32\\directxdatabasehelper.dll",
+    "\\Windows\\System32\\drvstore.dll",
+    "\\Windows\\System32\\dwmapi.dll",
+    "\\Windows\\System32\\dxgi.dll",
+    "\\Windows\\System32\\gdi32.dll",
+    "\\Windows\\System32\\gdi32full.dll",
+    "\\Windows\\System32\\gpapi.dll",
+    "\\Windows\\System32\\imagehlp.dll",
+    "\\Windows\\System32\\imm32.dll",
+    "\\Windows\\System32\\kernel.appcore.dll",
+    "\\Windows\\System32\\kernel32.dll",
+    "\\Windows\\System32\\logoncli.dll",
+    "\\Windows\\System32\\mf.dll",
+    "\\Windows\\System32\\mfcore.dll",
+    "\\Windows\\System32\\mfplat.dll",
+    "\\Windows\\System32\\mfreadwrite.dll",
+    "\\Windows\\System32\\msasn1.dll",
+    "\\Windows\\System32\\msctf.dll",
+    "\\Windows\\System32\\msvcp_win.dll",
+    "\\Windows\\System32\\msvcrt.dll",
+    "\\Windows\\System32\\netapi32.dll",
+    "\\Windows\\System32\\netutils.dll",
+    "\\Windows\\System32\\ntdll.dll",
+    "\\Windows\\System32\\ntmarta.dll",
+    "\\Windows\\System32\\nvapi64.dll",
+    "\\Windows\\System32\\nvcuda.dll",
+    "\\Windows\\System32\\nvspcap64.dll",
+    "\\Windows\\System32\\ole32.dll",
+    "\\Windows\\System32\\oleaut32.dll",
+    "\\Windows\\System32\\pdh.dll",
+    "\\Windows\\System32\\powrprof.dll",
+    "\\Windows\\System32\\profapi.dll",
+    "\\Windows\\System32\\profext.dll",
+    "\\Windows\\System32\\propsys.dll",
+    "\\Windows\\System32\\psapi.dll",
+    "\\Windows\\System32\\rpcrt4.dll",
+    "\\Windows\\System32\\rsaenh.dll",
+    "\\Windows\\System32\\samcli.dll",
+    "\\Windows\\System32\\sechost.dll",
+    "\\Windows\\System32\\setupapi.dll",
+    "\\Windows\\System32\\shell32.dll",
+    "\\Windows\\System32\\shlwapi.dll",
+    "\\Windows\\System32\\sspicli.dll",
+    "\\Windows\\System32\\ucrtbase.dll",
+    "\\Windows\\System32\\umpdc.dll",
+    "\\Windows\\System32\\user32.dll",
+    "\\Windows\\System32\\userenv.dll",
+    "\\Windows\\System32\\uxtheme.dll",
+    "\\Windows\\System32\\version.dll",
+    "\\Windows\\System32\\win32u.dll",
+    "\\Windows\\System32\\windows.storage.dll",
+    "\\Windows\\System32\\winmm.dll",
+    "\\Windows\\System32\\wintrust.dll",
+    "\\Windows\\System32\\wldp.dll",
+    "\\Windows\\System32\\ws2_32.dll",
+    "\\Windows\\System32\\wsock32.dll",
+    "\\Windows\\System32\\wtsapi32.dll",
+    "\\Windows\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.9711_none_3e07b8b0e334e825\\comctl32.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\LIBBZ2.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\PIL\\_imaging.cp312-win_amd64.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\PIL\\_imagingtk.cp312-win_amd64.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\_bz2.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\_ctypes.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\_hashlib.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\_lzma.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\_queue.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\_socket.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\_tkinter.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\_uuid.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\_wmi.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\cv2\\cv2.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\ffi.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\libcrypto-3-x64.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\liblzma.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\libriichi.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\msvcp140.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\msvcp140_1.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\numpy.libs\\libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\numpy.libs\\msvcp140-263139962577ecda4cd9469ca360a746.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\numpy\\_core\\_multiarray_umath.cp312-win_amd64.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\numpy\\linalg\\_umath_linalg.cp312-win_amd64.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\nvidia\\cublas\\bin\\cublas64_12.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\nvidia\\cublas\\bin\\cublasLt64_12.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\nvidia\\cuda_runtime\\bin\\cudart64_12.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\nvidia\\cudnn\\bin\\cudnn64_9.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\nvidia\\cudnn\\bin\\cudnn_adv64_9.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\nvidia\\cudnn\\bin\\cudnn_engines_precompiled64_9.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\nvidia\\cudnn\\bin\\cudnn_engines_runtime_compiled64_9.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\nvidia\\cudnn\\bin\\cudnn_engines_tensor_ir64_9.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\nvidia\\cudnn\\bin\\cudnn_graph64_9.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\nvidia\\cudnn\\bin\\cudnn_heuristic64_9.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\nvidia\\cudnn\\bin\\cudnn_ops64_9.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\nvidia\\cufft\\bin\\cufft64_11.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\onnxruntime\\capi\\onnxruntime_providers_cuda.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\onnxruntime\\capi\\onnxruntime_providers_shared.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\onnxruntime\\capi\\onnxruntime_pybind11_state.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\psutil\\_psutil_windows.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\python3.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\python312.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\select.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\tcl86t.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\tk86t.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\unicodedata.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\vcruntime140.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\vcruntime140_1.dll",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\windows_capture\\windows_capture.pyd",
+    "\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\zlib.dll"
+  ],
+  "sys_path": [
+    "D:\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal\\python312.zip",
+    "D:\\py_project\\Majan\\dist\\Majan-portable-test2\\_internal"
+  ],
+  "checked_at_utc": "2026-10-17T04:24:51.730734+00:00"
+}

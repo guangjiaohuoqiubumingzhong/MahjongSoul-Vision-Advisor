@@ -1,0 +1,160 @@
+{
+  "tag": "mortal3-b40c192-t23032505",
+  "version": 3,
+  "num_blocks": 40,
+  "conv_channels": 192,
+  "steps": 107200,
+  "trained_utc": "2023-03-25T05:46:28.818823+00:00",
+  "best_perf_during_training": {
+    "avg_rank": 2.416,
+    "avg_pt": 6.3
+  },
+  "params": {
+    "mortal": 10773713,
+    "current_dqn": 536879
+  },
+  "total_params": 11310592,
+  "source_checkpoint": {
+    "name": "baseline.pth",
+    "bytes": 149220774,
+    "sha256": "475f95ab144e7870ee072301fc76f025eb03d7c67e3efd8d4a06a6a3b45e20e7"
+  },
+  "release_checkpoint": {
+    "name": "mortal.pth",
+    "bytes": 45464696,
+    "sha256": "ec679c428766af25fe2c0520938fffc7047f6c8016e3930f3b6c61fdabe48559"
+  },
+  "dropped_keys": [
+    "best_perf",
+    "next_rank_pred",
+    "optimizer",
+    "scaler",
+    "scheduler",
+    "steps"
+  ],
+  "training_config": {
+    "control": {
+      "version": 3,
+      "online": false,
+      "state_file": "logs/mortal.pth",
+      "best_state_file": "logs/best.pth",
+      "tensorboard_dir": "logs/",
+      "device": "cuda:0",
+      "enable_cudnn_benchmark": false,
+      "enable_amp": false,
+      "batch_size": 2048,
+      "opt_step_every": 1,
+      "save_every": 400,
+      "test_every": 20000,
+      "submit_every": 400
+    },
+    "train_play": {
+      "default": {
+        "games": 1600,
+        "log_dir": "challenger/train_play",
+        "boltzmann_epsilon": 0.005,
+        "boltzmann_temp": 0.05,
+        "repeats": 2
+      }
+    },
+    "test_play": {
+      "games": 3000,
+      "log_dir": "challenger/test_play"
+    },
+    "env": {
+      "gamma": 1,
+      "pts": [
+        3.0,
+        1.5,
+        0.0,
+        -4.5
+      ]
+    },
+    "resnet": {
+      "conv_channels": 192,
+      "num_blocks": 40
+    },
+    "cql": {
+      "min_q_weight": 5
+    },
+    "aux": {
+      "next_rank_weight": 0.2
+    },
+    "freeze_bn": {
+      "mortal": false
+    },
+    "bn_attrs": {
+      "momentum": 0.01,
+      "eps": 0.001
+    },
+    "optim": {
+      "eps": 1e-08,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "weight_decay": 0.1,
+      "max_grad_norm": 0,
+      "scheduler": {
+        "peak": 1e-05,
+        "final": 1e-06,
+        "warm_up_steps": 100,
+        "max_steps": 100000
+      }
+    },
+    "baseline": {
+      "train": {
+        "device": "cuda:0",
+        "state_file": "logs/mortal.pth"
+      },
+      "test": {
+        "device": "cuda:0",
+        "state_file": "logs/baseline.pth"
+      }
+    },
+    "online": {
+      "history_window": 50,
+      "remote": {
+        "host": "127.0.0.1",
+        "port": 8826
+      },
+      "server": {
+        "buffer_dir": "online/buffer",
+        "drain_dir": "online/drain",
+        "sample_reuse_rate": 0,
+        "sample_reuse_threshold": 0,
+        "capacity": 1600,
+        "force_sequential": false
+      }
+    },
+    "test": {
+      "stochastic_latent": false
+    },
+    "1v3": {
+      "games_per_iter": 2000,
+      "iters": 500,
+      "log_dir": "challenger/1v3",
+      "challenger": {
+        "device": "cuda:0",
+        "name": "mortal",
+        "state_file": "logs/challenger.pth",
+        "stochastic_latent": false,
+        "enable_amp": true,
+        "enable_rule_based_agari_guard": true
+      },
+      "champion": {
+        "device": "cuda:0",
+        "name": "baseline",
+        "state_file": "logs/baseline.pth",
+        "stochastic_latent": false,
+        "enable_amp": true,
+        "enable_rule_based_agari_guard": true
+      },
+      "akochan": {
+        "enabled": false,
+        "dir": "/path/to/akochan",
+        "tactics": "/path/to/tactics.json"
+      }
+    }
+  }
+}

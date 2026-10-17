@@ -1,0 +1,44 @@
+{
+  "chi-buttons-1920": {
+    "source": "fig2-chi-buttons.png",
+    "crop": [
+      0,
+      31,
+      1920,
+      1112
+    ],
+    "client": [
+      1920,
+      1081
+    ],
+    "output": "chi-buttons-1920.png"
+  },
+  "ron-buttons-1920": {
+    "source": "fig3-ron-buttons.png",
+    "crop": [
+      0,
+      31,
+      1918,
+      1111
+    ],
+    "client": [
+      1918,
+      1080
+    ],
+    "output": "ron-buttons-1920.png"
+  },
+  "after-chi-no-advice-1920": {
+    "source": "fig1-after-chi-no-advice.png",
+    "crop": [
+      0,
+      31,
+      1918,
+      1110
+    ],
+    "client": [
+      1918,
+      1079
+    ],
+    "output": "after-chi-no-advice-1920.png"
+  }
+}

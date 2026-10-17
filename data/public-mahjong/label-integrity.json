@@ -1,0 +1,381 @@
+{
+  "duplicate_files": 237,
+  "label_conflicts": [],
+  "upstream_split_overlaps": [
+    {
+      "sha256": "980a24f367d2fe06f6d8a8c198fcd9c881b8f010a966ba5e1be0cc8d64b25ec8",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/1b/1b.png",
+        "pjura/dataset/train/1b/1b.png"
+      ]
+    },
+    {
+      "sha256": "d0ee1c0ea9d23814ccd0caaf25481d96e8d7d73b14bdb054c81e5ba2fbadbee5",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/1n/1n.png",
+        "pjura/dataset/train/1n/1n.png"
+      ]
+    },
+    {
+      "sha256": "df5c3e61de143a29544c9862532914aea91e8e84044390cde11535f172b922f0",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/1p/1p.png",
+        "pjura/dataset/train/1p/1p.png"
+      ]
+    },
+    {
+      "sha256": "3ee749dfd0488080621967be88c156cd7afa4460f2d6c437233dacd79e7c990a",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/2b/2b.png",
+        "pjura/dataset/train/2b/2b.png"
+      ]
+    },
+    {
+      "sha256": "e56df78ce0ead25164d13a8dad86aa25e00afeef1786341327c99bf04d2ad461",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/2n/2n.png",
+        "pjura/dataset/train/2n/2n.png"
+      ]
+    },
+    {
+      "sha256": "6adbf6be80972973a6701cdb717c90be61351596fb1c730f85c50de5a69c8325",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/2p/2p.png",
+        "pjura/dataset/train/2p/2p.png"
+      ]
+    },
+    {
+      "sha256": "0f22d369f7654392061af285ac90725868027e8a14e296beb24f5607b83eacd8",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/3b/3b.png",
+        "pjura/dataset/train/3b/3b.png"
+      ]
+    },
+    {
+      "sha256": "3f8105c215063e8d6c854f8b742b57cf9cd7dc893dd58eeb78d0303d96c78525",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/3n/3n.png",
+        "pjura/dataset/train/3n/3n.png"
+      ]
+    },
+    {
+      "sha256": "e66b2f0828c77b24cd947af8b85181af9198b4e141a9740eafbad06f88f7068a",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/3p/3p.png",
+        "pjura/dataset/train/3p/3p.png"
+      ]
+    },
+    {
+      "sha256": "392d3d095de0d63b3257385ded66e26b32efda2ec8c918759f365f89070d21b6",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/4b/4b.png",
+        "pjura/dataset/train/4b/4b.png"
+      ]
+    },
+    {
+      "sha256": "57820b9037f01b6f03541ef263b56d560bb3b2232442c34ff2dd1d18da7bca27",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/4n/4n.png",
+        "pjura/dataset/train/4n/4n.png"
+      ]
+    },
+    {
+      "sha256": "143a0d1b5cbb4669ec73d34817279b0f0a519f8d932f4a1053c3e750464ff938",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/4p/4p.png",
+        "pjura/dataset/train/4p/4p.png"
+      ]
+    },
+    {
+      "sha256": "ee361a1a50c7ae6b998b7742b3d8084819f59466c60e92655be33e9304c539b4",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/5b/5b.png",
+        "pjura/dataset/train/5b/5b.png"
+      ]
+    },
+    {
+      "sha256": "2f8aaa96910ee6c2791f5585dd5eb705685eee2d40e7640be010279ac3694892",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/5n/5n.png",
+        "pjura/dataset/train/5n/5n.png"
+      ]
+    },
+    {
+      "sha256": "e2e4199ce013ce843d9d3a869884e7d9d2f7912794aef034afa9fd2d3ce02785",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/5p/5p.png",
+        "pjura/dataset/train/5p/5p.png"
+      ]
+    },
+    {
+      "sha256": "f89c7b6cb123aecfdd12e446014e3dfdb0321fb677a0c62a78c668fafc28604d",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/6b/6b.png",
+        "pjura/dataset/train/6b/6b.png"
+      ]
+    },
+    {
+      "sha256": "64fd637b8ce3b7d4842acab28ede10f0cd46068ff15d9acedddd10e396c55308",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/6n/6n.png",
+        "pjura/dataset/train/6n/6n.png"
+      ]
+    },
+    {
+      "sha256": "a982349c486444fd0fd155e3b89f8eab8c62ed043fa8260dcb90e81103f65316",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/6p/6p.png",
+        "pjura/dataset/train/6p/6p.png"
+      ]
+    },
+    {
+      "sha256": "74e58a78a3db956e755b6e4426603b85d10ece2f3c0088f7cf6bdfcf12f29c83",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/7b/7b.png",
+        "pjura/dataset/train/7b/7b.png"
+      ]
+    },
+    {
+      "sha256": "4b2cc479f46ccd8f8b5ab9150f645ed41d71e04efe0080d93fda8004e7ffb6d8",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/7n/7n.png",
+        "pjura/dataset/train/7n/7n.png"
+      ]
+    },
+    {
+      "sha256": "f53c2c5e819fba94d184c0a1909f0b7e51c73c56ba32d043db7ef7fb1a4f50fe",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/7p/7p.png",
+        "pjura/dataset/train/7p/7p.png"
+      ]
+    },
+    {
+      "sha256": "e518b05aaecf8084b95183ac80dbdc84f81ff460d2c9a77d3f26ea8ad8c70d34",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/8b/8b.png",
+        "pjura/dataset/train/8b/8b.png"
+      ]
+    },
+    {
+      "sha256": "4403d5b10af7ed169f5952ee112c017c2210ff8aee5a32c20e1173a453b0a6eb",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/8n/8n.png",
+        "pjura/dataset/train/8n/8n.png"
+      ]
+    },
+    {
+      "sha256": "2a27fb697e82a7bb001d2b1d9686c79966a7ddffea894d5f29ea789faec1d909",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/8p/8p.png",
+        "pjura/dataset/train/8p/8p.png"
+      ]
+    },
+    {
+      "sha256": "45e4f273e33591f2c787eb2d479c800fe28909f54983fff547371f282431032b",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/9b/9b.png",
+        "pjura/dataset/train/9b/9b.png"
+      ]
+    },
+    {
+      "sha256": "5277d5c0e27e12f99c7e53540fe67023c27586cfd505d259192066f8050821c4",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/9n/9n.png",
+        "pjura/dataset/train/9n/9n.png"
+      ]
+    },
+    {
+      "sha256": "78476dd3ac3cb75bec23c6e4ce130db3f263645ea525611c5dcb5f2caf65030a",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/9p/9p.png",
+        "pjura/dataset/train/9p/9p.png"
+      ]
+    },
+    {
+      "sha256": "30f4ceb6da73421b5295012145cbe76c539793220f21019a2c4957290ffc609a",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/ew/ew.png",
+        "pjura/dataset/train/ew/ew.png"
+      ]
+    },
+    {
+      "sha256": "2766ea41f5fb91e03d49575b6a67a4ad20b030abcdafe5c271bda5d7b3d68cfd",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/gd/gd.png",
+        "pjura/dataset/train/gd/gd.png"
+      ]
+    },
+    {
+      "sha256": "499a0da27e88a2b3592eb4c3758519d3ae3b5c213064a382a5d9c27f1adfee33",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/nw/nw.png",
+        "pjura/dataset/train/nw/nw.png"
+      ]
+    },
+    {
+      "sha256": "b054c649b35c223d726a4b9ad07c66e90748553a56e10ca83a3bad7ffc2b6042",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/rd/rd.png",
+        "pjura/dataset/train/rd/rd.png"
+      ]
+    },
+    {
+      "sha256": "8ee1ec7fe14d3fac9b385d24b8afd39a351f0bbd8b1090d3df3faec64f905065",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/sw/sw.png",
+        "pjura/dataset/train/sw/sw.png"
+      ]
+    },
+    {
+      "sha256": "f649d8d7f7453a8787eededda9dec3117d8a4bdf2dcf7ac5575475e284807898",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/wd/wd.png",
+        "pjura/dataset/train/wd/wd.png"
+      ]
+    },
+    {
+      "sha256": "bb3cf04ad2e72dad139de2dba1349fa4aa0a3938b0091f9e89ab44f451d9ea0d",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "paths": [
+        "pjura/dataset/test/ww/ww.png",
+        "pjura/dataset/train/ww/ww.png"
+      ]
+    }
+  ],
+  "label_mjai_mapping_is_not_human_ground_truth": true
+}

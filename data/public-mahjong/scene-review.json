@@ -1,0 +1,3242 @@
+{
+  "cvmaj/examples/img/bwborder.png": {
+    "scene": "processed",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/img/bwmap.png": {
+    "scene": "processed",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/img/e2.png": {
+    "scene": "board",
+    "tags": [
+      "clear_board"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/img/model.png": {
+    "scene": "processed",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/img/n.png": {
+    "scene": "board",
+    "tags": [
+      "clear_board"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/img/p.png": {
+    "scene": "hand_closeup",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/img/samples.png": {
+    "scene": "processed",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/img/scan.png": {
+    "scene": "hand_closeup",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/img/v.png": {
+    "scene": "processed",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/templates/05.png": {
+    "scene": "processed",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/templates/ingameTemplate.png": {
+    "scene": "processed",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/templates/mainTemplate.png": {
+    "scene": "processed",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/templates/multiple/ingame01.png": {
+    "scene": "board",
+    "tags": [
+      "clear_board"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/templates/multiple/ingame02.png": {
+    "scene": "board",
+    "tags": [
+      "clear_board"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/templates/multiple/ingame03.png": {
+    "scene": "board",
+    "tags": [
+      "clear_board"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/templates/multiple/load.png": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/templates/multiple/title01.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/templates/multiple/title02.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/templates/multiple/title03.png": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "cvmaj/examples/templates/patch1.png": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3799662422.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3799875797.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3800059021.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3800059201.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3800714852.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3800783811.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3800908090.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3801182885.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3801185303.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3801425097.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3801425139.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3801425192.jpg": {
+    "scene": "hand_closeup",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3801425241.jpg": {
+    "scene": "hand_closeup",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3801669295.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3801720632.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3801772233.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3801807629.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3801886662.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3801953889.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3801974287.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3802050908.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3802141968.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3802311519.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3802391371.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board",
+      "custom_tablecloth",
+      "tsumo",
+      "skip"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3802428362.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3802884654.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3803049411.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3803366633.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3803368031.jpg": {
+    "scene": "board",
+    "tags": [
+      "overlay"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3803424934.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3803457344.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3803508000.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3803922882.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board",
+      "pon",
+      "ron",
+      "skip"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3803984515.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3804056890.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3804057010.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3804341056.jpg": {
+    "scene": "board",
+    "tags": [
+      "overlay"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3804367471.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3804582694.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3804665495.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3804811357.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3804811410.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3804830437.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3804896680.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3804896777.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3805041403.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3805285638.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3805319863.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3805320035.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board",
+      "custom_tablecloth",
+      "skip"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3806032709.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3806053538.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3806075407.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3806092178.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3806226774.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3806470444.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3806541387.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3806568775.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3806596382.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3806832474.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3806832668.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3806842714.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3806852901.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807016470.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807016523.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807016626.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807077160.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807116375.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807294527.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807294553.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807294570.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807294604.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807427644.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807428164.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807428485.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807455745.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807455782.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807467847.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807467939.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807468906.jpg": {
+    "scene": "board",
+    "tags": [
+      "overlay",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807470185.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807470829.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807499419.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807508917.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807643323.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807659332.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807716899.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807725694.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807740857.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807958332.jpg": {
+    "scene": "board",
+    "tags": [
+      "overlay"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3807965583.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808077206.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808123566.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808123584.jpg": {
+    "scene": "board",
+    "tags": [
+      "overlay",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808177807.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808254971.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808278395.jpg": {
+    "scene": "board",
+    "tags": [
+      "overlay"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808292515.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808371831.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808383257.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808414883.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808484129.jpg": {
+    "scene": "board",
+    "tags": [
+      "overlay"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808616222.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808661492.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808714033.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808714117.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808856017.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board",
+      "tsumo",
+      "skip"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808988373.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3808988524.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3809036317.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3809163689.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3809163743.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3809196125.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3809401759.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3809416652.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3809450528.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3809514533.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3809514696.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3809516052.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3809765009.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3809791615.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810008008.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810192022.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810192047.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810218820.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810218861.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810218897.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810218947.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810218977.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810219010.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810278768.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810341432.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810445575.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810452825.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810537009.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810552482.jpg": {
+    "scene": "board",
+    "tags": [
+      "overlay",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810554037.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810598692.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810623264.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810758746.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3810880979.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3811603118.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3811603189.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3811603275.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3811603360.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3811639932.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3811666813.jpg": {
+    "scene": "board",
+    "tags": [
+      "overlay"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3811666965.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3811690897.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3811794354.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3812161238.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3812184081.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3812331061.jpg": {
+    "scene": "board",
+    "tags": [
+      "overlay",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3812331096.jpg": {
+    "scene": "board",
+    "tags": [
+      "overlay",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3812331112.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3812494335.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3812528913.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3812547668.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3812754770.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3813000061.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3813000237.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3813032790.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3813057716.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board",
+      "custom_tablecloth",
+      "riichi",
+      "skip"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3813062463.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3813099210.jpg": {
+    "scene": "board",
+    "tags": [
+      "overlay"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3813443094.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3813546268.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board",
+      "custom_tablecloth",
+      "riichi"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3813872621.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3813938697.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3813971725.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3814209810.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3814311748.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3814330354.jpg": {
+    "scene": "board",
+    "tags": [
+      "overlay",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3814455423.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3814455538.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3814455773.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3814489283.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3814601138.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3814601843.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3814636239.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3814636435.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3814920471.jpg": {
+    "scene": "board",
+    "tags": [
+      "overlay",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3815005327.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3815497998.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3815683772.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3816051775.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3816399035.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3816567394.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3816654221.jpg": {
+    "scene": "board",
+    "tags": [
+      "overlay",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3816816696.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3817087045.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3817141720.jpg": {
+    "scene": "board",
+    "tags": [
+      "clear_board",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3817141808.jpg": {
+    "scene": "board",
+    "tags": [
+      "overlay",
+      "custom_tablecloth"
+    ],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3817268357.jpg": {
+    "scene": "lobby",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3817491693.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3817553037.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3817553314.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3817712503.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3818363143.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3818371393.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "steam-community/images/3818373627.jpg": {
+    "scene": "win_result",
+    "tags": [],
+    "review_basis": "visual scene-type review of original-image contact sheets; tile contents not annotated"
+  },
+  "kan-scenes/images/note-added-0.png": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player_asura",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-added-10.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player_asura",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-added-11.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player_asura",
+      "replay_overlay",
+      "kan",
+      "kakan",
+      "self_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-added-12.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player_asura",
+      "replay_overlay",
+      "kan",
+      "kakan",
+      "self_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-added-13.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player_asura",
+      "replay_overlay",
+      "kan",
+      "kakan",
+      "self_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-added-14.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player_asura",
+      "replay_overlay",
+      "kan",
+      "kakan",
+      "self_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-added-15.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player_asura",
+      "replay_overlay",
+      "kan",
+      "kakan",
+      "self_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-added-16.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player_asura",
+      "replay_overlay",
+      "kan",
+      "kakan",
+      "self_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-added-17.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player_asura",
+      "replay_overlay",
+      "kan",
+      "kakan",
+      "self_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-added-18.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player_asura",
+      "replay_overlay",
+      "kan",
+      "kakan",
+      "self_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-added-19.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player_asura",
+      "replay_overlay",
+      "kan",
+      "kakan",
+      "self_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-added-2.png": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player_asura",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-added-20.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player_asura",
+      "replay_overlay",
+      "kan",
+      "kakan",
+      "self_kan",
+      "daiminkan",
+      "left_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-added-21.png": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player_asura",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-added-22.png": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player_asura",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-added-9.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player_asura",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-open-0.png": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-open-10.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-open-11.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-open-12.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-open-13.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-open-14.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-open-15.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-open-16.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "replay_overlay",
+      "kan",
+      "daiminkan",
+      "self_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-open-17.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "replay_overlay",
+      "kan",
+      "daiminkan",
+      "self_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-open-18.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "replay_overlay",
+      "kan",
+      "daiminkan",
+      "self_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-open-19.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "replay_overlay",
+      "kan",
+      "daiminkan",
+      "self_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-open-20.jpg": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-open-21.png": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-open-23.jpeg": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-open-35.png": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-open-9.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/reddit-four-quads-direct.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "ultrawide",
+      "replay_overlay",
+      "kan",
+      "self_kan",
+      "ankan",
+      "kakan",
+      "daiminkan",
+      "custom_back"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-left-closed-0.jpeg": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-left-closed-10.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-left-closed-11.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "kan",
+      "ankan",
+      "left_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-left-closed-12.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-left-closed-13.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-left-closed-14.png": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-left-closed-9.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-0.jpeg": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-10.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-11.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-12.png": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-13.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-14.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-15.png": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-16.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-17.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay",
+      "kan",
+      "kakan",
+      "top_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-18.png": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay",
+      "kan",
+      "kakan",
+      "top_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-19.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-2.png": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-20.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-21.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-22.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-23.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-24.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-25.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-26.png": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-27.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-28.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-29.png": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-30.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-31.png": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-32.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-33.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-34.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-35.png": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-36.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-37.png": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-38.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-39.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-40.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-41.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-42.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-43.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-44.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-45.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-46.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-47.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-48.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-49.png": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-50.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-51.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-52.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-53.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-54.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-55.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-56.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-57.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-58.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-59.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-60.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-61.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-62.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-63.png": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-64.png": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-65.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-66.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-67.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-68.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-69.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-70.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-71.png": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-72.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-73.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-74.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-75.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-76.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-77.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-78.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-79.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-80.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-81.png": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-82.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-83.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-84.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-85.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-86.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-87.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-88.png": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-89.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-9.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-90.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-91.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-92.png": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-93.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-94.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-95.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-96.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-97.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-98.png": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-kan-99.jpeg": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-top-closed-0.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "custom_skin",
+      "red_back",
+      "replay_overlay",
+      "kan",
+      "ankan",
+      "top_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-top-closed-10.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "custom_skin",
+      "red_back",
+      "replay_overlay",
+      "kan",
+      "ankan",
+      "top_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-top-closed-11.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "custom_skin",
+      "red_back",
+      "replay_overlay",
+      "kan",
+      "ankan",
+      "top_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-top-closed-14.png": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "custom_skin",
+      "red_back",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-top-closed-9.png": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "three_player",
+      "custom_skin",
+      "red_back",
+      "replay_overlay"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-0.jpeg": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-10.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-11.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-12.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-13.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-14.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-15.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide",
+      "kan",
+      "ankan",
+      "right_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-16.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide",
+      "kan",
+      "ankan",
+      "right_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-17.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide",
+      "kan",
+      "ankan",
+      "right_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-18.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide",
+      "kan",
+      "ankan",
+      "right_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-19.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide",
+      "kan",
+      "ankan",
+      "right_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-2.png": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-20.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide",
+      "kan",
+      "ankan",
+      "right_kan",
+      "top_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-21.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide",
+      "kan",
+      "ankan",
+      "right_kan",
+      "top_kan"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-22.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-23.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-24.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-25.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-26.jpg": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-27.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-28.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-29.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-30.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-31.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-32.jpg": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-33.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-34.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-35.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-36.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-37.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-38.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-39.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-40.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-41.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-42.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-43.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-45.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-46.jpg": {
+    "scene": "win_result",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-47.jpg": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-48.jpg": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-49.jpg": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-50.png": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-9.jpg": {
+    "scene": "lobby",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  },
+  "kan-scenes/images/note-right-closed-44.jpg": {
+    "scene": "board",
+    "tags": [
+      "kan_search_candidate",
+      "public_kan_collection",
+      "four_player",
+      "orange_back",
+      "replay_overlay",
+      "ultrawide"
+    ],
+    "review_scope": "Scene category only; tile truth is limited to kan-scenes/regressions.json."
+  }
+}

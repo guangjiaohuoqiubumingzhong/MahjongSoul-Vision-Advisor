@@ -1,0 +1,567 @@
+{
+  "repository": {
+    "id": 1117700841,
+    "node_id": "R_kgDOQp7C6Q",
+    "name": "AutoMajsoul",
+    "full_name": "yuhao7370/AutoMajsoul",
+    "private": false,
+    "owner": {
+      "login": "yuhao7370",
+      "id": 53969724,
+      "node_id": "MDQ6VXNlcjUzOTY5NzI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53969724?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yuhao7370",
+      "html_url": "https://github.com/yuhao7370",
+      "followers_url": "https://api.github.com/users/yuhao7370/followers",
+      "following_url": "https://api.github.com/users/yuhao7370/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yuhao7370/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yuhao7370/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yuhao7370/subscriptions",
+      "organizations_url": "https://api.github.com/users/yuhao7370/orgs",
+      "repos_url": "https://api.github.com/users/yuhao7370/repos",
+      "events_url": "https://api.github.com/users/yuhao7370/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yuhao7370/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/yuhao7370/AutoMajsoul",
+    "description": "使用adb+opencv+torch实现的雀魂自动打牌框架",
+    "fork": false,
+    "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul",
+    "forks_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/forks",
+    "keys_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/teams",
+    "hooks_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/hooks",
+    "issue_events_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/events",
+    "assignees_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/tags",
+    "blobs_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/languages",
+    "stargazers_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/stargazers",
+    "contributors_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/contributors",
+    "subscribers_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/subscribers",
+    "subscription_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/subscription",
+    "commits_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/merges",
+    "archive_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/downloads",
+    "issues_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/labels{/name}",
+    "releases_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/deployments",
+    "created_at": "2025-12-16T17:30:53Z",
+    "updated_at": "2026-08-01T04:08:23Z",
+    "pushed_at": "2025-12-21T14:12:22Z",
+    "git_url": "git://github.com/yuhao7370/AutoMajsoul.git",
+    "ssh_url": "git@github.com:yuhao7370/AutoMajsoul.git",
+    "clone_url": "https://github.com/yuhao7370/AutoMajsoul.git",
+    "svn_url": "https://github.com/yuhao7370/AutoMajsoul",
+    "homepage": "",
+    "size": 11728,
+    "stargazers_count": 16,
+    "watchers_count": 16,
+    "language": "Python",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 3,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 1,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [],
+    "visibility": "public",
+    "forks": 3,
+    "open_issues": 1,
+    "watchers": 16,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 3,
+    "subscribers_count": 0
+  },
+  "tree": {
+    "sha": "1ea1f065fd31800495819d29eb6bb66458c1700a",
+    "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/trees/1ea1f065fd31800495819d29eb6bb66458c1700a",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "039d8667015b673b32b0b81617caa8a9ec60594d",
+        "size": 864,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/039d8667015b673b32b0b81617caa8a9ec60594d"
+      },
+      {
+        "path": "Android",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8280538758f127fdf3d51c5666cf3b18dae7ea5c",
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/trees/8280538758f127fdf3d51c5666cf3b18dae7ea5c"
+      },
+      {
+        "path": "Android/board_state.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e975eccd02741ffdc07351b08389ea1925d3bff",
+        "size": 4689,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/3e975eccd02741ffdc07351b08389ea1925d3bff"
+      },
+      {
+        "path": "Android/config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df57e1d20ac2f61cbad98b30962db712f7d15e42",
+        "size": 3014,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/df57e1d20ac2f61cbad98b30962db712f7d15e42"
+      },
+      {
+        "path": "Android/game_manager.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5fa525fa582b13381addb1867ab000649710525d",
+        "size": 18674,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/5fa525fa582b13381addb1867ab000649710525d"
+      },
+      {
+        "path": "Android/ingame_recognizer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59c98b087dad8b73de07b78bb8307d8ebc7210b0",
+        "size": 10539,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/59c98b087dad8b73de07b78bb8307d8ebc7210b0"
+      },
+      {
+        "path": "Android/login_automator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "00ab44aa6b12f0926e03f1dc856d879b54eeeb39",
+        "size": 6374,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/00ab44aa6b12f0926e03f1dc856d879b54eeeb39"
+      },
+      {
+        "path": "Android/main.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e21d6b51e5b14e4eae0273d3c4029a7bd8fa2ec7",
+        "size": 5534,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/e21d6b51e5b14e4eae0273d3c4029a7bd8fa2ec7"
+      },
+      {
+        "path": "Android/maj_vision",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d505c818b0eb42c6382d04c122e501520f5eb52c",
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/trees/d505c818b0eb42c6382d04c122e501520f5eb52c"
+      },
+      {
+        "path": "Android/maj_vision/classifier.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3be605d141e5c14aa5eca15e07f01c7ee7032960",
+        "size": 4012,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/3be605d141e5c14aa5eca15e07f01c7ee7032960"
+      },
+      {
+        "path": "Android/maj_vision/utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0909ab02c418219c404f9f79c613c3a7c8d8f2f6",
+        "size": 34224,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/0909ab02c418219c404f9f79c613c3a7c8d8f2f6"
+      },
+      {
+        "path": "Android/mj_cnn",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "746cb3339b34725f0113fb0f87b31399153f7d66",
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/trees/746cb3339b34725f0113fb0f87b31399153f7d66"
+      },
+      {
+        "path": "Android/mj_cnn/checkpoints",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d6c1867063779d22433dc51ad477568f00680624",
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/trees/d6c1867063779d22433dc51ad477568f00680624"
+      },
+      {
+        "path": "Android/mj_cnn/checkpoints/best_model.pt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ccf258ee6f1ea9390af42d21e8b49e1b582db786",
+        "size": 1611509,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/ccf258ee6f1ea9390af42d21e8b49e1b582db786"
+      },
+      {
+        "path": "Android/mj_cnn/dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8fbe47243077e3d4f5f2123da991aa4b463eb3e2",
+        "size": 1636,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/8fbe47243077e3d4f5f2123da991aa4b463eb3e2"
+      },
+      {
+        "path": "Android/mj_cnn/model.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4ef851af3354847275832e8285039261d755e467",
+        "size": 1275,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/4ef851af3354847275832e8285039261d755e467"
+      },
+      {
+        "path": "Android/mj_cnn/plot_history.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c3269fa181c68b169d4412d096d12d913e666570",
+        "size": 1615,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/c3269fa181c68b169d4412d096d12d913e666570"
+      },
+      {
+        "path": "Android/mj_cnn/predict.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "273f53cafebbff143feb20cc120afe70f1cdc664",
+        "size": 2474,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/273f53cafebbff143feb20cc120afe70f1cdc664"
+      },
+      {
+        "path": "Android/mj_cnn/predict_test.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "25fda940a354eae7059c02592ee60eccadd93dd2",
+        "size": 4437,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/25fda940a354eae7059c02592ee60eccadd93dd2"
+      },
+      {
+        "path": "Android/mj_cnn/train.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c8e46375e0785b72fb5c8e976c8319c8c1c77caf",
+        "size": 5661,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/c8e46375e0785b72fb5c8e976c8319c8c1c77caf"
+      },
+      {
+        "path": "Android/recognizer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e484ae272b927fe9e640c1f4facc4c90893abe6f",
+        "size": 10156,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/e484ae272b927fe9e640c1f4facc4c90893abe6f"
+      },
+      {
+        "path": "Android/strategies.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "536b4e0cfbf645a8180b078653e1fc2b988d2791",
+        "size": 10762,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/536b4e0cfbf645a8180b078653e1fc2b988d2791"
+      },
+      {
+        "path": "Android/templates",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "eff93d9a8200b3360f08af215dc596b133959660",
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/trees/eff93d9a8200b3360f08af215dc596b133959660"
+      },
+      {
+        "path": "Android/templates/ingame",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "18a135bb6e5b6c0bdd1adaae93295d9ce881298f",
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/trees/18a135bb6e5b6c0bdd1adaae93295d9ce881298f"
+      },
+      {
+        "path": "Android/templates/ingame/reach.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec7942b5bc4917fab7bdf61139b19f517b4d0445",
+        "size": 129710,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/ec7942b5bc4917fab7bdf61139b19f517b4d0445"
+      },
+      {
+        "path": "Android/templates/ingame/ron.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7850f3122ca406c6132690eb639ea8ae71f6c4c3",
+        "size": 107916,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/7850f3122ca406c6132690eb639ea8ae71f6c4c3"
+      },
+      {
+        "path": "Android/templates/ingame/skip.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0715782a00d1dbe08909b52211dbf366862fdfa3",
+        "size": 181594,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/0715782a00d1dbe08909b52211dbf366862fdfa3"
+      },
+      {
+        "path": "Android/templates/ingame/tsumo.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8aab672605661feb3f1d92d15343e5f32c0c29de",
+        "size": 61783,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/8aab672605661feb3f1d92d15343e5f32c0c29de"
+      },
+      {
+        "path": "Android/templates/lobby",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "109814c89cdfbd57b63802c8c7ddcefc6cccfa94",
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/trees/109814c89cdfbd57b63802c8c7ddcefc6cccfa94"
+      },
+      {
+        "path": "Android/templates/lobby/comp.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e9b0deae2247286ba0c7ddd7e9c9948a8b3874b",
+        "size": 509318,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/8e9b0deae2247286ba0c7ddd7e9c9948a8b3874b"
+      },
+      {
+        "path": "Android/templates/lobby/friend.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f53e90314ff9128cd3bf1c8369f5ccbf2db80c64",
+        "size": 476611,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/f53e90314ff9128cd3bf1c8369f5ccbf2db80c64"
+      },
+      {
+        "path": "Android/templates/lobby/rank.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "19b9dc5640316c9f2423f0b512573c166645d3d4",
+        "size": 619539,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/19b9dc5640316c9f2423f0b512573c166645d3d4"
+      },
+      {
+        "path": "Android/templates/lobby_rank",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "60e11a1f9fa959bac02f4fc27b6b06bd07e44777",
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/trees/60e11a1f9fa959bac02f4fc27b6b06bd07e44777"
+      },
+      {
+        "path": "Android/templates/lobby_rank/jin.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d97cb39a87572cc6154a9d121fca471f0b22e2b1",
+        "size": 250693,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/d97cb39a87572cc6154a9d121fca471f0b22e2b1"
+      },
+      {
+        "path": "Android/templates/lobby_rank/tong.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "784c0b5f1833b43a04f32fad984c69d38612aa1f",
+        "size": 245717,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/784c0b5f1833b43a04f32fad984c69d38612aa1f"
+      },
+      {
+        "path": "Android/templates/lobby_rank/yin.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4492c2a528e81d6322478634a27967cc397073ca",
+        "size": 243086,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/4492c2a528e81d6322478634a27967cc397073ca"
+      },
+      {
+        "path": "Android/templates/lobby_rank_choose",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "43c0336c01385560606f50e1eb34b64907f12ad2",
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/trees/43c0336c01385560606f50e1eb34b64907f12ad2"
+      },
+      {
+        "path": "Android/templates/lobby_rank_choose/sanrendong.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6de28ff0f8b4ee71e86587c3a425666e0f952d14",
+        "size": 166359,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/6de28ff0f8b4ee71e86587c3a425666e0f952d14"
+      },
+      {
+        "path": "Android/templates/lobby_rank_choose/sirendong.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f51ecc672b218e79b36f2de2aa874cbb071a52f",
+        "size": 183334,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/4f51ecc672b218e79b36f2de2aa874cbb071a52f"
+      },
+      {
+        "path": "Android/templates/lobby_rank_choose/sirennan.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "17732a8c7b698919e79f2274a52921ac048c9126",
+        "size": 172144,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/17732a8c7b698919e79f2274a52921ac048c9126"
+      },
+      {
+        "path": "Android/type_definitions.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "964fd331612e0deb9e85b57d7e8eb39a40d21adc",
+        "size": 1714,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/964fd331612e0deb9e85b57d7e8eb39a40d21adc"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cbe5ad1670406e4402217edfb82d2c56af7e8631",
+        "size": 20849,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/cbe5ad1670406e4402217edfb82d2c56af7e8631"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a775a8dfd7fd52fbca9e402748f18a04a5b5764",
+        "size": 22988,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/1a775a8dfd7fd52fbca9e402748f18a04a5b5764"
+      },
+      {
+        "path": "README",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2384aaf67af8a3bc7dfd7d5d6f3a2afdcf285ac7",
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/trees/2384aaf67af8a3bc7dfd7d5d6f3a2afdcf285ac7"
+      },
+      {
+        "path": "README/color_mask_after.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7250ed177f98d776474609b4247373565fb86c5f",
+        "size": 31728,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/7250ed177f98d776474609b4247373565fb86c5f"
+      },
+      {
+        "path": "README/color_mask_before.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eea91baea0b626984eb0a80f866ab2d045ee5d14",
+        "size": 39466,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/eea91baea0b626984eb0a80f866ab2d045ee5d14"
+      },
+      {
+        "path": "README/handmask.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9186b95a8eff5e47c321fe787ad333799a838d9a",
+        "size": 7477,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/9186b95a8eff5e47c321fe787ad333799a838d9a"
+      },
+      {
+        "path": "README/handselect.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "39b3fae522a4c08edca6da0fca2ac91f1a062246",
+        "size": 1587607,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/39b3fae522a4c08edca6da0fca2ac91f1a062246"
+      },
+      {
+        "path": "README/matches.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c1ff013e0bfbe61189abfe5be1eda5cc0048c916",
+        "size": 1443904,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/c1ff013e0bfbe61189abfe5be1eda5cc0048c916"
+      },
+      {
+        "path": "README/model.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "924c263b81d3a5b0fcb8bc6d977418a1741acbd0",
+        "size": 86668,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/924c263b81d3a5b0fcb8bc6d977418a1741acbd0"
+      },
+      {
+        "path": "README/preset.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d7328d9de686dbdd19d4595ed1e7d69790ff2948",
+        "size": 1016791,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/d7328d9de686dbdd19d4595ed1e7d69790ff2948"
+      },
+      {
+        "path": "README/quad.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cc2f075d120b442e689570a585b5b2b827d96d9a",
+        "size": 2509385,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/cc2f075d120b442e689570a585b5b2b827d96d9a"
+      },
+      {
+        "path": "README/selfcut.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8fe5552b25da89f44aa521598318adcf02864b77",
+        "size": 55668,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/8fe5552b25da89f44aa521598318adcf02864b77"
+      },
+      {
+        "path": "README/selfscan.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3db542fd74e55f4bf55c3ba956cedd98f8c45f9",
+        "size": 51066,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/e3db542fd74e55f4bf55c3ba956cedd98f8c45f9"
+      },
+      {
+        "path": "README/template.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b07aac026062cd0d7236603711eed4492416920d",
+        "size": 72881,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/b07aac026062cd0d7236603711eed4492416920d"
+      },
+      {
+        "path": "README/training_curves.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29d13ffead2ffff8c7904304a7b3007846d8fff6",
+        "size": 49188,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/29d13ffead2ffff8c7904304a7b3007846d8fff6"
+      },
+      {
+        "path": "README/warped.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1190f77a146692eab00d39f23c2fe591f9038094",
+        "size": 1006544,
+        "url": "https://api.github.com/repos/yuhao7370/AutoMajsoul/git/blobs/1190f77a146692eab00d39f23c2fe591f9038094"
+      }
+    ],
+    "truncated": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "repository": "hhim8826/mortal3-b40c192",
+  "files": {
+    "mortal.onnx": {
+      "url": "https://huggingface.co/hhim8826/mortal3-b40c192/resolve/7784a9deddf63df03f023474116f715850d3c7a0/mortal.onnx",
+      "sha256": "ce6c44cb25f9381cb31065a035556df2ea5e86107b44151a8eff8c266e40971e",
+      "bytes": 45437193
+    },
+    "model_meta.json": {
+      "url": "https://huggingface.co/hhim8826/mortal3-b40c192/resolve/7784a9deddf63df03f023474116f715850d3c7a0/model_meta.json",
+      "sha256": "9712316a6992df453ceaa0c2b06cecd1ab3c0c18b8667087e80636cdb2d9f2f5",
+      "bytes": 3703
+    },
+    "README.md": {
+      "url": "https://huggingface.co/hhim8826/mortal3-b40c192/resolve/7784a9deddf63df03f023474116f715850d3c7a0/README.md",
+      "sha256": "5016f45071a12a7dd295584c96610d72cddfffbd533b5ec018e071b39898b381",
+      "bytes": 8104
+    }
+  },
+  "source_commit": "0cff2b52982be5b1163aa9a62fb01f03ce91e0d2",
+  "revision": "7784a9deddf63df03f023474116f715850d3c7a0"
+}

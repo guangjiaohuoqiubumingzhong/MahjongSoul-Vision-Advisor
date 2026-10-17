@@ -1,0 +1,90 @@
+{
+  "scope": "Five changed candidates from unlabelled public boards, manually rechecked from pixels; not independent selection. Original labels are preserved, including two errors of the baseline reader.",
+  "cases": [
+    {
+      "path": "data/public-mahjong/kan-scenes/images/note-right-kan-68.png",
+      "sha256": "b841e989a1b8966a142a084ebcf6539abe660301db8f44880ebb8a01a50648f0",
+      "region": "river_top",
+      "slot": [
+        2,
+        2
+      ],
+      "bbox": [
+        684,
+        110,
+        34,
+        29
+      ],
+      "label": "6m",
+      "review": "Manual enlarged native-pixel review on 2026-10-16, after inspecting changed model outputs. Development regression, not a holdout."
+    },
+    {
+      "path": "data/public-mahjong/kan-scenes/images/note-right-kan-79.png",
+      "sha256": "97f02b3b8caeac84220442a851e2ccf42b884af235a96fe77ec5d88c8a09d9c9",
+      "region": "river_self",
+      "slot": [
+        1,
+        5
+      ],
+      "bbox": [
+        784,
+        431,
+        44,
+        45
+      ],
+      "label": "7m",
+      "review": "Manual enlarged native-pixel review on 2026-10-16, after inspecting changed model outputs. Development regression, not a holdout."
+    },
+    {
+      "path": "data/public-mahjong/kan-scenes/images/note-right-kan-80.png",
+      "sha256": "4222df4e98336e02ee108796d0812b20c9c2a37f6070060b572131f14f9eae60",
+      "region": "river_top",
+      "slot": [
+        0,
+        4
+      ],
+      "bbox": [
+        609,
+        172,
+        37,
+        39
+      ],
+      "label": "4s",
+      "review": "Manual enlarged native-pixel review on 2026-10-16, after inspecting changed model outputs. Development regression, not a holdout."
+    },
+    {
+      "path": "data/public-mahjong/steam-community/images/3803049411.jpg",
+      "sha256": "35906bc749cd977056a488759093cfb137c54d6e4820890d1ca49013eb273bf7",
+      "region": "river_top",
+      "slot": [
+        0,
+        3
+      ],
+      "bbox": [
+        647,
+        172,
+        36,
+        39
+      ],
+      "label": "2m",
+      "review": "Manual enlarged native-pixel review on 2026-10-16, after inspecting changed model outputs. Development regression, not a holdout."
+    },
+    {
+      "path": "data/public-mahjong/steam-community/images/3817141720.jpg",
+      "sha256": "c278551d0511a63f86300c7fcce5e33393a74fd6e7ee0617e1863a0f9d74e1fe",
+      "region": "river_right",
+      "slot": [
+        0,
+        5
+      ],
+      "bbox": [
+        811,
+        208,
+        50,
+        25
+      ],
+      "label": "P",
+      "review": "Manual enlarged native-pixel review on 2026-10-16, after inspecting changed model outputs. Development regression, not a holdout."
+    }
+  ]
+}

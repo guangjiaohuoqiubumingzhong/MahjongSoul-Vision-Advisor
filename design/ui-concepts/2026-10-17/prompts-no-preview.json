@@ -1,0 +1,27 @@
+{
+  "generator": "built-in image_gen",
+  "purpose": "Compact revised concepts: remove screenshot preview, preserve refresh screenshot button",
+  "prompt": "Use case: ui-mockup edit.\nThe attached image is the EDIT TARGET: an existing Majan Mahjong advice app visual concept. Make a focused revision to this design: completely REMOVE the entire \"当前截图\" section, its heading, game screenshot, surrounding card, and any screenshot preview image. Reflow the window so it ENDS immediately below the fifth candidate row, with only a very slim footer \"示例数据\". Shorten the actual app window and the image canvas to fit this more compact content, approximately 560x640 logical pixels; no tall empty region at bottom. The resulting whole window must be fully visible on a quiet background, front-on as a crisp high fidelity UI mockup, with a small margin.\nPRESERVE the existing concept's specific color palette, overall visual style, fonts, borders, corners and shadows. Preserve title \"Majan 雀魂助手\", game window and resolution selectors with \"雀魂麻将\" and \"1920×1080\", green \"已连接\" status. Preserve exactly FOUR action buttons with legible Simplified Chinese text: \"刷新雀魂窗口\", \"整理窗口\", \"开始自动建议\", \"刷新截图\". NOTE: keep the \"刷新截图\" BUTTON, only remove the screenshot PREVIEW section.\nPreserve the clear main recommendation \"当前建议\" and \"打出六万\", a six-character Mahjong tile with black 六 and red 萬, and the small \"识别完成\" status. Preserve \"候选操作 · Top 5\" with \"相对评分\" and exactly these five rows: 六万 82.6%; 二筒 9.3%; 三筒 4.8%; 四筒 2.1%; 八索 1.2%. Keep row 1 highlighted. Do not expand these cards to fill the deleted screenshot space; keep a compact, practical companion panel with balanced whitespace.\nRemove decorative slogans or explanatory marketing sentences from the recommendation card, title bar and footer; leave only useful labels, statuses and data described above. Do not add tabs, sidebar, extra buttons, charts, paragraphs, screenshots or additional features. No watermark.",
+  "variants": [
+    {
+      "id": "A",
+      "name": "白蓝原生",
+      "path": "D:/py_project/Majan/design/ui-concepts/2026-10-17/A-fluent-light.png"
+    },
+    {
+      "id": "B",
+      "name": "石墨深色",
+      "path": "D:/py_project/Majan/design/ui-concepts/2026-10-17/B-graphite-dark.png"
+    },
+    {
+      "id": "C",
+      "name": "米白和风",
+      "path": "D:/py_project/Majan/design/ui-concepts/2026-10-17/C-ivory-japanese.png"
+    },
+    {
+      "id": "D",
+      "name": "蓝紫轻透",
+      "path": "D:/py_project/Majan/design/ui-concepts/2026-10-17/D-lavender-glass.png"
+    }
+  ]
+}

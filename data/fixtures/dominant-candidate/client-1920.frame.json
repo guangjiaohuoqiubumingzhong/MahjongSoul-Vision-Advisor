@@ -1,0 +1,37 @@
+{
+  "frame_id": 1,
+  "captured_at": "2026-10-15T15:30:31.116494+00:00",
+  "capture_monotonic_ns": 26139889689200,
+  "capture_clock": "perf_counter_ns",
+  "capture_ms": 166.3105,
+  "client": {
+    "hwnd": 330462,
+    "title": "雀魂麻將",
+    "pid": 31480,
+    "left": 16,
+    "top": 39,
+    "width": 1920,
+    "height": 1080,
+    "dpi": 96
+  },
+  "client_size": [
+    1920,
+    1080
+  ],
+  "calibrated_size": [
+    1366,
+    768
+  ],
+  "region_config_version": "steam-1366x768-pjura-snapshot-draft-23",
+  "region_config_sha256": "3ff32554ae7119ff242f5905bbb4347c820b57452dbb8c0aa9e2ab3f236d2e49",
+  "source": "window_graphics_capture",
+  "capture_api": "Windows.Graphics.Capture",
+  "keyed_overlays": [],
+  "capture_quality": "window_content",
+  "graphics_timespan": 261398849566,
+  "frame_age_ms": 1.8856,
+  "capture_trigger": "manual_screenshot_button",
+  "action_serial": 1,
+  "region_config_snapshot": "D:\\py_project\\Majan\\reports\\screenshot-advice\\manual-20261015T153032-8\\capture-config-3ff32554ae7119ff242f5905bbb4347c820b57452dbb8c0aa9e2ab3f236d2e49.json",
+  "image_path": "D:\\py_project\\Majan\\reports\\screenshot-advice\\manual-20261015T153032-8\\00000001.png"
+}

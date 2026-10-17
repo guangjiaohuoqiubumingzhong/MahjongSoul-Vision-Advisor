@@ -1,0 +1,22 @@
+{
+  "draw-with-stale-pass": {
+    "source": "draw-with-stale-pass-desktop.png",
+    "sha256": "65c8452e1acba6e4f8badd337a34c1f4129d1b5d2aab31e7b1344793d0927d51",
+    "crop_xywh": [
+      1,
+      31,
+      1920,
+      1080
+    ]
+  },
+  "pon-with-stale-discard": {
+    "source": "pon-with-stale-discard-desktop.png",
+    "sha256": "bbcd70aa2fffac8c79113476cc31d3c2d9de4de73251b95b7c5c6d59d2ff674e",
+    "crop_xywh": [
+      1,
+      31,
+      1920,
+      1080
+    ]
+  }
+}

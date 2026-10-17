@@ -1,0 +1,12 @@
+{
+  "id": "mortal-four-player-aka-hanchan-v1",
+  "players": 4,
+  "red_fives": [1, 1, 1],
+  "match": "hanchan",
+  "engine_rules": "Tenhou rules implemented by pinned libriichi",
+  "majsoul_scope": "converted confirmed events; local action mechanics only",
+  "terminal_authority": "confirmed replay events",
+  "supported_bakaze": ["E", "S"],
+  "unsupported": ["sanma", "tonpuu", "west_extension", "custom_red_fives", "unverified_room_rules"],
+  "notes": "Stage 1 does not predict dealer continuation, game termination, scoring or live Mahjong Soul room legality. See reports/rule-differences.md."
+}

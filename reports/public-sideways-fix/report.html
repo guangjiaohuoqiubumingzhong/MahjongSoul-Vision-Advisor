@@ -1,0 +1,21 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>横放牌识别修复</title>
+<style>body{max-width:1040px;margin:38px auto;padding:0 25px;font:16px/1.7 system-ui,sans-serif;background:#f4f7f8;color:#18292e}section{background:white;border-radius:10px;padding:20px 28px;margin:20px 0}h1{font-size:30px}h2{font-size:22px}table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:10px;border-bottom:1px solid #dde5e8}a{color:#006b78}.images{display:flex;gap:20px;flex-wrap:wrap}figure{margin:0}img{width:440px;max-width:100%;image-rendering:auto}small{color:#5c7078}code,pre{background:#eef4f5}</style>
+<h1>横放牌识别修复</h1><p>2026-10-13 · steam-1366x768-pjura-snapshot-draft-17</p>
+<section><h2>原图里的横放四索已识别正确</h2><p>上一轮人工核对误记为二索。放大原始像素确认它是四索，与旁边二索、三索组成吃牌；同组截图的赤五索标注也已更正为 5sr。</p>
+<p>主网络对该牌仍给出七索的低置信度结果。新字形校验在两个合理朝向下，三个形状模型及最近参考牌面都投四索，才补判为四索。横放八索的另一张真实截图也已恢复正确识别。</p>
+<div class="images"><figure><figcaption>上一轮：横放四索仍未知</figcaption><img src="top-meld-before.png"></figure><figure><figcaption>本轮：四索，横放方向已确认</figcaption><img src="top-meld-after.png"></figure></div>
+<p>图中补判牌的分数是字形余弦相似度，不是主网络概率。原始网络读数、两方向投票和参考图路径都保存在识别 JSON 中。</p></section>
+<section><h2>外部图片的横放控制实验</h2><p>519 张 cvmaj 去重原始图片分别生成两个横向朝向、两个短轴压缩比例，共 2,076 个样本。仅比较基础牌种，上游未提供独立赤五真值。</p><table><tr><th>结果</th><th>补判关闭</th><th>补判开启</th></tr><tr><td>正确识别</td><td>1371</td><td>1771</td></tr><tr><td>未知</td><td>705</td><td>305</td></tr><tr><td>错误确认</td><td>0</td><td>0</td></tr></table>
+<p>新增补判 400 个，全部与原始标签一致。相对于辅助模型训练集，原始 cvmaj 图片完全留出；这是受控重投影的结果，不能代替真实对局准确率。</p>
+<a href="external-poses/summary.json">控制实验详细结果</a></section>
+<section><h2>只在证据充分的横牌上补判</h2><p>主网络、原始归一化、0.90 置信度和 0.04 类别间隔保持不变。新增模型使用 1,029 张公开 train 图的字形特征，训练了三套 SVM 并保存参考特征。公开 test 和外部来源的完全重复哈希均排除在训练外。</p>
+<p>仅牌河或副露中明确横放、主网络尚未确认的牌可触发。两个朝向都须通过三模型投票、三个最近参考图的同类投票、0.94 相似度和 0.01 类别间隔。赤五继续由原始颜色证据决定；正常手牌、摸牌、宝牌指示牌及选牌区域沿用原流程。</p>
+<p>白板没有独立字形，已排除出补判路径。开发中发现的三个真实绿色牌背白边反例均保持未知，避免把隐藏牌侧面当成白板。</p></section>
+<section><h2>回归与剩余问题</h2><p>全部 357 项测试通过。2,457 张原始单牌的网络输出与上一轮一致，首选正确率仍为 99.84%；部分 pjura 图片可能与上游模型训练重合。</p>
+<p>35 张已人工核对的固定牌面：正确确认从 31 张增加到 32 张，错误确认仍为零，未知从 4 张降到 3 张。补充核对的真实四索、八索均正确。</p>
+<p>这两张实机样本是修复回归，不是独立准确率验证。第一张副露中的赤五索、六索、三索仍未知，副露分组未全部确认；其他过度模糊、遮挡或尺寸不匹配的截图仍需继续处理。</p>
+<a href="tests.txt">完整测试记录</a> · <a href="report.json">完整修复报告 JSON</a> · <a href="after/scenes/013-3803049411/observation.json">真实四索的投票证据</a> · <a href="after/scenes/014-3803368031/observation.json">真实八索的投票证据</a></section>
+<section><h2>复现</h2><p>在项目根目录运行：</p><pre>.venv\Scripts\python.exe -m scripts.train_sideways_verifier
+.venv\Scripts\python.exe -m scripts.benchmark_public_sideways
+.venv\Scripts\python.exe -m scripts.evaluate_public_vision --output reports/public-sideways-latest
+.venv\Scripts\python.exe -m pytest -q</pre></section></html>

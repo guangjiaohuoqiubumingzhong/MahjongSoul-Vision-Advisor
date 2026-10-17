@@ -1,0 +1,331 @@
+[
+  {
+    "name": "discard_red",
+    "file": "discard_red.mjai.jsonl",
+    "player_id": 0,
+    "source": "constructed legal event prefix",
+    "expectations": [
+      {
+        "event_seq": 3,
+        "legal_ids": [
+          0,
+          34
+        ],
+        "illegal_ids": [
+          37
+        ],
+        "semantics": [
+          "discard"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "chi_red_choices",
+    "file": "chi_red_choices.mjai.jsonl",
+    "player_id": 0,
+    "source": "constructed legal event prefix",
+    "expectations": [
+      {
+        "event_seq": 4,
+        "legal_ids": [
+          38,
+          39,
+          40,
+          45
+        ],
+        "semantics": [
+          "chi",
+          "pass"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "chi_then_discard",
+    "file": "chi_then_discard.mjai.jsonl",
+    "player_id": 0,
+    "source": "constructed legal event prefix",
+    "expectations": [
+      {
+        "event_seq": 4,
+        "legal_ids": [
+          38,
+          45
+        ]
+      },
+      {
+        "event_seq": 5,
+        "semantics": [
+          "discard"
+        ],
+        "illegal_ids": [
+          2,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "name": "pon",
+    "file": "pon.mjai.jsonl",
+    "player_id": 0,
+    "source": "constructed legal event prefix",
+    "expectations": [
+      {
+        "event_seq": 4,
+        "legal_ids": [
+          41,
+          45
+        ],
+        "semantics": [
+          "pon",
+          "pass"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "daiminkan",
+    "file": "daiminkan.mjai.jsonl",
+    "player_id": 0,
+    "source": "constructed legal event prefix",
+    "expectations": [
+      {
+        "event_seq": 4,
+        "legal_ids": [
+          42,
+          45
+        ],
+        "semantics": [
+          "daiminkan",
+          "pass"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ankan",
+    "file": "ankan.mjai.jsonl",
+    "player_id": 0,
+    "source": "constructed legal event prefix",
+    "expectations": [
+      {
+        "event_seq": 3,
+        "legal_ids": [
+          42
+        ],
+        "semantics": [
+          "ankan"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ankan_rinshan_dora",
+    "file": "ankan_rinshan_dora.mjai.jsonl",
+    "player_id": 0,
+    "source": "constructed legal event prefix",
+    "expectations": [
+      {
+        "event_seq": 3,
+        "legal_ids": [
+          42
+        ]
+      },
+      {
+        "event_seq": 6,
+        "legal_ids": [
+          43
+        ],
+        "semantics": [
+          "tsumo"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "two_ankan_choices",
+    "file": "two_ankan_choices.mjai.jsonl",
+    "player_id": 0,
+    "source": "constructed legal event prefix",
+    "expectations": [
+      {
+        "event_seq": 3,
+        "legal_ids": [
+          42
+        ],
+        "kan_choice_ids": [
+          27,
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "name": "kakan",
+    "file": "kakan.mjai.jsonl",
+    "player_id": 0,
+    "source": "constructed legal event prefix",
+    "expectations": [
+      {
+        "event_seq": 13,
+        "legal_ids": [
+          42
+        ],
+        "semantics": [
+          "kakan"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "riichi",
+    "file": "riichi.mjai.jsonl",
+    "player_id": 0,
+    "source": "constructed legal event prefix",
+    "expectations": [
+      {
+        "event_seq": 3,
+        "legal_ids": [
+          37
+        ],
+        "semantics": [
+          "riichi"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "riichi_confirmation",
+    "file": "riichi_confirmation.mjai.jsonl",
+    "player_id": 0,
+    "source": "constructed legal event prefix",
+    "expectations": [
+      {
+        "event_seq": 4,
+        "legal_ids": [
+          30
+        ],
+        "semantics": [
+          "discard"
+        ]
+      },
+      {
+        "event_seq": 13,
+        "exact_legal_ids": [
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "name": "tsumo",
+    "file": "tsumo.mjai.jsonl",
+    "player_id": 0,
+    "source": "constructed legal event prefix",
+    "expectations": [
+      {
+        "event_seq": 3,
+        "legal_ids": [
+          43
+        ],
+        "semantics": [
+          "tsumo"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ron",
+    "file": "ron.mjai.jsonl",
+    "player_id": 0,
+    "source": "constructed legal event prefix",
+    "expectations": [
+      {
+        "event_seq": 8,
+        "legal_ids": [
+          43,
+          45
+        ],
+        "semantics": [
+          "ron",
+          "pass"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "kyushukyuhai",
+    "file": "kyushukyuhai.mjai.jsonl",
+    "player_id": 0,
+    "source": "constructed legal event prefix",
+    "expectations": [
+      {
+        "event_seq": 3,
+        "legal_ids": [
+          44
+        ],
+        "semantics": [
+          "kyushukyuhai"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "majsoul-gold-south-player0",
+    "file": "majsoul-gold-south.mjai.jsonl",
+    "player_id": 0,
+    "source": "mjai-reviewer convlog upstream test export at 2dc5ec5c8b28517cfb45f57eb21536d9a8f67aa9",
+    "expectations": []
+  },
+  {
+    "name": "majsoul-gold-south-player1",
+    "file": "majsoul-gold-south.mjai.jsonl",
+    "player_id": 1,
+    "source": "mjai-reviewer convlog upstream test export at 2dc5ec5c8b28517cfb45f57eb21536d9a8f67aa9",
+    "expectations": []
+  },
+  {
+    "name": "majsoul-gold-south-player2",
+    "file": "majsoul-gold-south.mjai.jsonl",
+    "player_id": 2,
+    "source": "mjai-reviewer convlog upstream test export at 2dc5ec5c8b28517cfb45f57eb21536d9a8f67aa9",
+    "expectations": []
+  },
+  {
+    "name": "majsoul-gold-south-player3",
+    "file": "majsoul-gold-south.mjai.jsonl",
+    "player_id": 3,
+    "source": "mjai-reviewer convlog upstream test export at 2dc5ec5c8b28517cfb45f57eb21536d9a8f67aa9",
+    "expectations": []
+  },
+  {
+    "name": "tenhou-hanchan-player0",
+    "file": "tenhou-hanchan.mjai.jsonl",
+    "player_id": 0,
+    "source": "mjai-reviewer convlog upstream test export at 2dc5ec5c8b28517cfb45f57eb21536d9a8f67aa9",
+    "expectations": []
+  },
+  {
+    "name": "tenhou-hanchan-player1",
+    "file": "tenhou-hanchan.mjai.jsonl",
+    "player_id": 1,
+    "source": "mjai-reviewer convlog upstream test export at 2dc5ec5c8b28517cfb45f57eb21536d9a8f67aa9",
+    "expectations": []
+  },
+  {
+    "name": "tenhou-hanchan-player2",
+    "file": "tenhou-hanchan.mjai.jsonl",
+    "player_id": 2,
+    "source": "mjai-reviewer convlog upstream test export at 2dc5ec5c8b28517cfb45f57eb21536d9a8f67aa9",
+    "expectations": []
+  },
+  {
+    "name": "tenhou-hanchan-player3",
+    "file": "tenhou-hanchan.mjai.jsonl",
+    "player_id": 3,
+    "source": "mjai-reviewer convlog upstream test export at 2dc5ec5c8b28517cfb45f57eb21536d9a8f67aa9",
+    "expectations": []
+  }
+]

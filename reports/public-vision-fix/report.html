@@ -1,0 +1,22 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<title>当前识别网络：数据集回放与修复</title>
+<style>body{font:16px/1.7 system-ui,sans-serif;color:#17242b;background:#f5f7f8;max-width:1050px;margin:40px auto;padding:0 25px}h1{font-size:29px}section{background:white;padding:22px 28px;margin:20px 0;border-radius:10px}table{border-collapse:collapse;width:100%}td,th{text-align:left;border-bottom:1px solid #e3e8eb;padding:10px}p{margin:8px 0}img{max-width:100%}a{color:#006989}small{color:#546675}</style>
+<h1>当前识别网络：数据集回放与修复</h1><p>2026-10-13 · steam-1366x768-pjura-snapshot-draft-16</p>
+<section><h2>单牌网络基线</h2><p>去重后 2,457 张有标签单牌：首选正确 2,453 张，准确率 99.84%。满足当前置信度的 2,122 张中没有错分，335 张被拦住。</p>
+<p>外部来源 cvmaj：519 张，首选正确 518 张（99.81%）。pjura 同作者数据：1,938 张，首选正确 1,935 张，可能与模型训练重合。</p>
+<p>模型权重、输入归一化和 0.90 / 0.04 置信度门槛保持不变。4 张单牌首选错分仍低于门槛：一张模糊四索，三张变形的西风。</p>
+<a href="before/errors-and-rejects.jpg">查看错分和低置信度牌面</a></section>
+<section><h2>人工核对的 35 张牌面回归</h2><table><tr><th>结果</th><th>修改前</th><th>修改后</th></tr><tr><td>正确识别</td><td>2</td><td>31</td></tr><tr><td>错误确认</td><td>1</td><td>0</td></tr><tr><td>保留为未知牌</td><td>2</td><td>4</td></tr><tr><td>漏掉牌面</td><td>1</td><td>0</td></tr><tr><td>截图尺寸未处理</td><td>29</td><td>0</td></tr></table>
+<small>两张截图中的选定牌面；用于定位和固定回归，不代表整个公开截图集的准确率。</small>
+<p>横放四索原来被确认为七索（0.901）；本次第一轮加入方向约束后保留为未知（0.812）。放大原始截图后已纠正此前误记为二索的人工标注。副露赤五索原来被当成背景漏掉，第一轮修复后保留为未知牌。横牌后续修复另见 public-sideways-fix 报告。</p>
+<a href="before/scenes/013-3803049411/overlay.png">修改前带框图</a> · <a href="after/scenes/013-3803049411/overlay.png">修改后带框图</a></section>
+<section><h2>整局截图和实际故障</h2><p>44 张公开牌桌图，能进入识别流程的图片由 17 张增加到 22 张。1280×720 等较小同布局截图现可按参考坐标检测，网络继续读取原始牌面像素。其余 22 张含不同比例或浏览器边框，仍需要单独定位客户区。</p>
+<p>读取副露区域边缘的一圈图像后，白边不再因牌背花纹被截掉而误判为副露；原用户倒计时截图已重新直接返回建议。橙色牌背排除也加入了颜色占比和走廊位置限制。</p>
+<p>立直棒检测现在跳过越界区域，避免小图触发 OpenCV 错误。旧吃碰测试改为合法的“两组副露加八张手牌”，并保留非法手牌数量检查。</p>
+<p>旋转/透视选择的单牌控制实验中，满足牌种置信度的数量由 2,224 张变为 2,223 张，错误确认都为零。一张横放二万因此多保留为未知；这是方向约束的覆盖率代价，详见原始控制实验。</p>
+<p>全部回归测试：343 项通过。不同皮肤、强透视、弹窗覆盖和部分副露牌面仍有未知结果；整局未做完整真值标注。</p>
+<a href="after/scenes/004-ingame02/overlay.png">1280×720 截图回放（29 张已核对牌面均正确）</a></section>
+<section><h2>复现与详细记录</h2><p>在项目根目录运行：</p><pre>python -m scripts.evaluate_public_vision --output reports/public-vision-latest
+python -m scripts.audit_public_tile_views --output reports/public-vision-latest/views
+python -m scripts.compare_public_vision --before reports/public-vision-fix/before --after reports/public-vision-latest</pre>
+<a href="report.json">机器可读对比报告</a> · <a href="after/crops-summary.json">原始网络统计</a> · <a href="after/scenes-summary.json">逐张整局诊断</a> · <a href="final-tests.txt">回归测试记录</a></section></html>

@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "repo": "pjura/mahjong_soul_vision",
+  "revision": "ea01ca0bcb9be0fc10a5fa09ee8356770c25adc5",
+  "license": "Apache-2.0",
+  "source": "https://huggingface.co/pjura/mahjong_soul_vision/tree/ea01ca0bcb9be0fc10a5fa09ee8356770c25adc5",
+  "files": {
+    "config.json": "086fd81a962469a0feed7b117f389062ab88287a0996425ac6af2faa49562543",
+    "preprocessor_config.json": "a34861a24e781942424ad790b82bc99348404a2e64ea882de88c40905851698d",
+    "README.md": "7992d900b83ca83b313c9d17607420f43b5f8f3e3f5fffbf2f95327dd761aeba",
+    "pytorch_model.bin": "a3cc566c8011b4496239a5228de3985e37ba2c2dfceefd52f67bb34c5f7e49c0"
+  },
+  "model": "model.onnx",
+  "model_sha256": "f34e4537a7b9ff41ea12fdb4843cf0ec8a6109def22ca3eabb51045b492fc75c",
+  "id2label": {
+    "0": "1b",
+    "1": "1n",
+    "10": "4n",
+    "11": "4p",
+    "12": "5b",
+    "13": "5n",
+    "14": "5p",
+    "15": "6b",
+    "16": "6n",
+    "17": "6p",
+    "18": "7b",
+    "19": "7n",
+    "2": "1p",
+    "20": "7p",
+    "21": "8b",
+    "22": "8n",
+    "23": "8p",
+    "24": "9b",
+    "25": "9n",
+    "26": "9p",
+    "27": "ew",
+    "28": "gd",
+    "29": "nw",
+    "3": "2b",
+    "30": "rd",
+    "31": "sw",
+    "32": "wd",
+    "33": "ww",
+    "4": "2n",
+    "5": "2p",
+    "6": "3b",
+    "7": "3n",
+    "8": "3p",
+    "9": "4b"
+  },
+  "preprocessor": {
+    "do_normalize": true,
+    "do_rescale": true,
+    "do_resize": true,
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_processor_type": "ViTImageProcessor",
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "resample": 2,
+    "rescale_factor": 0.00392156862745098,
+    "size": {
+      "height": 224,
+      "width": 224
+    }
+  },
+  "export": {
+    "opset": 17,
+    "weights_only": true,
+    "reference_crops": [
+      {
+        "annotation": "data\\replays\\user-251228-train-recording-01\\screenshots\\00001362.annotation.json",
+        "id": "hand-0"
+      },
+      {
+        "annotation": "data\\replays\\user-251228-train-recording-01\\screenshots\\00001362.annotation.json",
+        "id": "hand-1"
+      },
+      {
+        "annotation": "data\\replays\\user-251228-train-recording-01\\screenshots\\00001362.annotation.json",
+        "id": "hand-2"
+      }
+    ],
+    "versions": {
+      "torch": "2.5.1+cpu",
+      "transformers": "4.46.3",
+      "onnx": "1.19.0",
+      "numpy": "2.2.6",
+      "Pillow": "11.3.0"
+    }
+  },
+  "scope": "34 base tile classes only; no red-five, back, text, button or detector classes",
+  "validation": {
+    "status": "passed",
+    "provider": "CUDAExecutionProvider",
+    "reference_sha256": "41c41d251276b524d52d418c08582f0120449a59fd82cb0b6cd48507e185fd41",
+    "preprocessing_max_absolute_error": 0.0,
+    "cases": [
+      {
+        "batch_size": 1,
+        "max_absolute_logit_error": 3.9637088775634766e-06,
+        "same_top1": true
+      },
+      {
+        "batch_size": 3,
+        "max_absolute_logit_error": 3.7848949432373047e-06,
+        "same_top1": true
+      }
+    ],
+    "scope": "export parity on three training crops, not recognition accuracy"
+  }
+}

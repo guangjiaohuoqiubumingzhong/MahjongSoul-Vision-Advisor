@@ -1,0 +1,241 @@
+{
+  "manifest_sha256": "8f04090807535954881bb449e72570a1cb5441257f348c01dfd45912a423fd5d",
+  "scope": "Archived draft-22 output; final visual annotation revision rescored identically for before/after, no rerun or changed inference.",
+  "rows": [
+    {
+      "name": "cvmaj-top-west-added-east-pon",
+      "correct": false,
+      "groups_correct": 0
+    },
+    {
+      "name": "cvmaj-top-dot-chi-eight-pon",
+      "correct": false,
+      "groups_correct": 0
+    },
+    {
+      "name": "steam-right-white-four-pons",
+      "correct": false,
+      "groups_correct": 0
+    },
+    {
+      "name": "steam-right-two-sou-pon",
+      "correct": false,
+      "groups_correct": 1
+    },
+    {
+      "name": "steam-top-white-called-first",
+      "correct": false,
+      "groups_correct": 0
+    },
+    {
+      "name": "steam-top-two-sou-chis",
+      "correct": false,
+      "groups_correct": 0
+    },
+    {
+      "name": "steam-self-nine-dot-chi",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "steam-top-two-man-pon-north-closed",
+      "correct": false,
+      "groups_correct": 0
+    },
+    {
+      "name": "steam-right-two-sou-bird-pons",
+      "correct": true,
+      "groups_correct": 2
+    },
+    {
+      "name": "steam-top-two-dot-called-last",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "steam-right-three-dot-kan-seven-pon",
+      "correct": false,
+      "groups_correct": 0
+    },
+    {
+      "name": "steam-top-sou-chi-bird-pon",
+      "correct": false,
+      "groups_correct": 0
+    },
+    {
+      "name": "steam-top-two-one-three-sou",
+      "correct": false,
+      "groups_correct": 0
+    },
+    {
+      "name": "public-kan-self-P-added",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "public-kan-self-P-added-late",
+      "correct": false,
+      "groups_correct": 1
+    },
+    {
+      "name": "public-kan-left-C-open",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "public-kan-self-9s-open",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "public-kan-self-9s-open-late",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "public-kan-top-E-added",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "public-kan-top-E-added-late",
+      "correct": false,
+      "groups_correct": 0
+    },
+    {
+      "name": "public-kan-left-6p-closed-orange",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "public-kan-top-5p-closed-red",
+      "correct": false,
+      "groups_correct": 0
+    },
+    {
+      "name": "public-kan-right-1p-closed-orange",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "public-kan-right-1p-closed-orange-late",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "public-kan-top-C-pon-negative",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "public-kan-self-P-pon-negative",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "user-250819-2005-self",
+      "correct": true,
+      "groups_correct": 2
+    },
+    {
+      "name": "user-250819-2005-right",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "user-250819-2005-left",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "user-250821-1613-self",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "user-250821-1613-right",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "user-250821-1613-top",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "user-250821-1613-left",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "user-red-chi-293",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "user-red-chi-300",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "user-white-pon-62",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "user-white-pon-58",
+      "correct": true,
+      "groups_correct": 1
+    },
+    {
+      "name": "empty-ingame01-right",
+      "correct": true,
+      "groups_correct": 0
+    },
+    {
+      "name": "empty-ingame01-top",
+      "correct": true,
+      "groups_correct": 0
+    },
+    {
+      "name": "empty-ingame02-right",
+      "correct": true,
+      "groups_correct": 0
+    },
+    {
+      "name": "empty-ingame02-top",
+      "correct": true,
+      "groups_correct": 0
+    },
+    {
+      "name": "empty-3801772233-right",
+      "correct": true,
+      "groups_correct": 0
+    },
+    {
+      "name": "empty-3801772233-top",
+      "correct": true,
+      "groups_correct": 0
+    },
+    {
+      "name": "empty-3805320035-right",
+      "correct": true,
+      "groups_correct": 0
+    },
+    {
+      "name": "empty-3805320035-top",
+      "correct": true,
+      "groups_correct": 0
+    },
+    {
+      "name": "empty-3812161238-right",
+      "correct": false,
+      "groups_correct": 0
+    },
+    {
+      "name": "empty-3812161238-top",
+      "correct": true,
+      "groups_correct": 0
+    }
+  ]
+}

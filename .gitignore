@@ -1,0 +1,17 @@
+.venv/
+.tools/
+dist/
+userdata/
+__pycache__/
+.pytest_cache/
+*.pyd
+*.egg-info/
+third_party/*/target/
+tools/*/target/
+models/*.onnx
+models/**/*.onnx
+models/**/*.bin
+data/screenshots/
+*.pyc
+*.log
+reports/profiles/*.json
