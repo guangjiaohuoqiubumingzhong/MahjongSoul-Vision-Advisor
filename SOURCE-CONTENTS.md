@@ -1,5 +1,7 @@
 # 雀魂视觉出牌助手 · 源码与便携版
 
+最新便携下载为测试版 5（draft-27，2026-10-18），见 [发布页面](https://github.com/guangjiaohuoqiubumingzhong/MahjongSoul-Vision-Advisor/releases/tag/v0.1.0-portable-test5)。其精确对应源码随便携包及对应源码附件提供；本页原有构建记录保留为历史源码基线。
+
 当前发布：`v0.1.0-portable-test4`（2026-10-17），包含传统日麻筒子牌面和按实际像素采集的缩放兼容更新。验证记录见 [便携测试版 4](reports/portable-release-test4/README.md)。
 
 源码仓库包含 `app`、`scripts`、`packaging`、`tests`、`configs`、`docs`、`patches`、`tools`、识别模板、传统分类器、模型来源与校验清单、固定事件测试数据，以及界面验证截图和说明。
